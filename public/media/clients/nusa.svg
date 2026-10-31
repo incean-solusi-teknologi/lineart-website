@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 64" role="img" aria-label="Nusa">
+            <path
+              d="M12 45V19l15 26V19M35 19v26"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="5"
+            />
+            <text
+              x="49"
+              y="44"
+              font-size="33"
+              font-family="Manrope, sans-serif"
+              font-weight="700"
+              fill="currentColor"
+            >
+              nusa
+            </text>
+          </svg>

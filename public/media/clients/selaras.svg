@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 64" role="img" aria-label="Selaras">
+            <path
+              d="M9 24h25M9 32h17M9 40h25"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="4"
+              stroke-linecap="round"
+            />
+            <text
+              x="48"
+              y="42"
+              font-size="28"
+              font-family="DM Sans, sans-serif"
+              font-weight="600"
+              fill="currentColor"
+            >
+              selaras
+            </text>
+          </svg>

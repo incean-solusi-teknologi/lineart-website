@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 64" role="img" aria-label="Tumbuh">
+            <path
+              d="M21 46V30C6 31 7 15 7 15s17 0 14 15c-1-18 16-18 16-18s2 18-16 18"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="3"
+              stroke-linejoin="round"
+            />
+            <text
+              x="46"
+              y="41"
+              font-size="26"
+              font-family="DM Sans, sans-serif"
+              font-weight="600"
+              fill="currentColor"
+            >
+              tumbuh
+            </text>
+          </svg>

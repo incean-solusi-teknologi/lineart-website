@@ -1,0 +1,64 @@
+@import 'tailwindcss';
+@import './catalog.css';
+@import './about.css';
+@import './articles.css';
+@import './faq.css';
+@import './motion.css';
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted-background);
+  --color-muted-foreground: var(--muted);
+  --color-border: var(--line);
+  --color-ring: var(--blue);
+  --font-sans: 'DM Sans', Arial, sans-serif;
+  --font-heading: Manrope, Arial, sans-serif;
+}
+:root {
+  --background: #fff;
+  --foreground: var(--ink);
+  --primary: var(--pink);
+  --primary-foreground: #fff;
+  --secondary: var(--ice);
+  --secondary-foreground: var(--ink);
+  --muted-background: var(--cloud);
+}
+.skip-link {
+  position: fixed;
+  top: 10px;
+  left: 16px;
+  z-index: 100;
+  padding: 10px 16px;
+  background: white;
+  color: var(--blue);
+  transform: translateY(-200%);
+}
+.skip-link:focus {
+  transform: translateY(0);
+}
+.status-page {
+  min-height: 45vh;
+  padding-block: 60px;
+}
+.status-page p {
+  margin-block: 16px;
+}
+.client-logos img {
+  width: 100%;
+  max-width: 190px;
+  height: 64px;
+  object-fit: contain;
+}
+.prototype-note {
+  color: var(--muted);
+  font-size: 12px;
+  margin-top: 14px;
+}
+.faq-answer p {
+  padding-bottom: 20px;
+}
