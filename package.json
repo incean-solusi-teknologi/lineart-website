@@ -3,15 +3,17 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite --host 127.0.0.1",
-    "build": "vite build",
+    "dev": "bun --bun vite --host 127.0.0.1",
+    "build": "bun --bun vite build",
     "start": "bun .output/server/index.mjs",
     "typecheck": "tsc --noEmit",
     "lint": "oxlint",
     "format": "oxfmt --write .",
     "format:check": "oxfmt --check .",
     "prepare": "husky",
-    "test": "bun tests/quote.test.ts"
+    "test": "bun tests/quote.test.ts",
+    "audit": "bun tests/site-audit.ts",
+    "check": "bun run typecheck && bun run lint && bun run format:check && bun run test"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.105.0",

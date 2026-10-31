@@ -1,3 +1,4 @@
+import { articleHead } from '@/features/articles/seo';
 import { createFileRoute, notFound } from '@tanstack/react-router';
 import Articles from '@/features/articles';
 import { getArticle } from '@/data';
@@ -7,6 +8,7 @@ export const Route = createFileRoute('/artikel/$slug')({
     if (!article) throw notFound();
     return article;
   },
+  head: ({ loaderData }) => articleHead(loaderData),
   component: ArticleRoute,
 });
 function ArticleRoute() {

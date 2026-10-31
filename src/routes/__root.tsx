@@ -6,7 +6,17 @@ import { createRootRouteWithContext, HeadContent, Outlet, Scripts } from '@tanst
 const Devtools = import.meta.env.DEV ? lazy(() => import('@/shared/Devtools')) : null;
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
   head: () => ({
-    links: [{ rel: 'stylesheet', href: styles }],
+    links: [
+      { rel: 'stylesheet', href: styles },
+      { rel: 'icon', href: '/media/logo.jpg', type: 'image/jpeg' },
+      {
+        rel: 'preload',
+        href: '/media/manrope-700.ttf',
+        as: 'font',
+        type: 'font/ttf',
+        crossOrigin: 'anonymous',
+      },
+    ],
     meta: [
       { charSet: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

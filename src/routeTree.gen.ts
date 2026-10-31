@@ -10,9 +10,12 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as SplatRouteImport } from './routes/$'
 import { Route as FaqRouteImport } from './routes/faq'
 import { Route as KatalogRouteImport } from './routes/katalog'
 import { Route as KontakRouteImport } from './routes/kontak'
+import { Route as RobotsDottxtRouteImport } from './routes/robots[.]txt'
+import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as TentangKamiRouteImport } from './routes/tentang-kami'
 import { Route as ArtikelIndexRouteImport } from './routes/artikel/index'
 import { Route as ArtikelSlugRouteImport } from './routes/artikel/$slug'
@@ -22,6 +25,11 @@ import { Route as ProdukSlugRouteImport } from './routes/produk/$slug'
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SplatRoute = SplatRouteImport.update({
+  id: '/$',
+  path: '/$',
   getParentRoute: () => rootRouteImport,
 } as any)
 const FaqRoute = FaqRouteImport.update({
@@ -37,6 +45,16 @@ const KatalogRoute = KatalogRouteImport.update({
 const KontakRoute = KontakRouteImport.update({
   id: '/kontak',
   path: '/kontak',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RobotsDottxtRoute = RobotsDottxtRouteImport.update({
+  id: '/robots.txt',
+  path: '/robots.txt',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
+  id: '/sitemap.xml',
+  path: '/sitemap.xml',
   getParentRoute: () => rootRouteImport,
 } as any)
 const TentangKamiRoute = TentangKamiRouteImport.update({
@@ -67,9 +85,12 @@ const ProdukSlugRoute = ProdukSlugRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/$': typeof SplatRoute
   '/faq': typeof FaqRoute
   '/katalog': typeof KatalogRoute
   '/kontak': typeof KontakRoute
+  '/robots.txt': typeof RobotsDottxtRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/tentang-kami': typeof TentangKamiRoute
   '/artikel/$slug': typeof ArtikelSlugRoute
   '/kategori/$slug': typeof KategoriSlugRoute
@@ -78,9 +99,12 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/$': typeof SplatRoute
   '/faq': typeof FaqRoute
   '/katalog': typeof KatalogRoute
   '/kontak': typeof KontakRoute
+  '/robots.txt': typeof RobotsDottxtRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/tentang-kami': typeof TentangKamiRoute
   '/artikel/$slug': typeof ArtikelSlugRoute
   '/kategori/$slug': typeof KategoriSlugRoute
@@ -90,9 +114,12 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/$': typeof SplatRoute
   '/faq': typeof FaqRoute
   '/katalog': typeof KatalogRoute
   '/kontak': typeof KontakRoute
+  '/robots.txt': typeof RobotsDottxtRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/tentang-kami': typeof TentangKamiRoute
   '/artikel/$slug': typeof ArtikelSlugRoute
   '/kategori/$slug': typeof KategoriSlugRoute
@@ -103,9 +130,12 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/$'
     | '/faq'
     | '/katalog'
     | '/kontak'
+    | '/robots.txt'
+    | '/sitemap.xml'
     | '/tentang-kami'
     | '/artikel/$slug'
     | '/kategori/$slug'
@@ -114,9 +144,12 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/$'
     | '/faq'
     | '/katalog'
     | '/kontak'
+    | '/robots.txt'
+    | '/sitemap.xml'
     | '/tentang-kami'
     | '/artikel/$slug'
     | '/kategori/$slug'
@@ -125,9 +158,12 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
+    | '/$'
     | '/faq'
     | '/katalog'
     | '/kontak'
+    | '/robots.txt'
+    | '/sitemap.xml'
     | '/tentang-kami'
     | '/artikel/$slug'
     | '/kategori/$slug'
@@ -137,9 +173,12 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  SplatRoute: typeof SplatRoute
   FaqRoute: typeof FaqRoute
   KatalogRoute: typeof KatalogRoute
   KontakRoute: typeof KontakRoute
+  RobotsDottxtRoute: typeof RobotsDottxtRoute
+  SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   TentangKamiRoute: typeof TentangKamiRoute
   ArtikelSlugRoute: typeof ArtikelSlugRoute
   KategoriSlugRoute: typeof KategoriSlugRoute
@@ -154,6 +193,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$': {
+      id: '/$'
+      path: '/$'
+      fullPath: '/$'
+      preLoaderRoute: typeof SplatRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/faq': {
@@ -175,6 +221,20 @@ declare module '@tanstack/react-router' {
       path: '/kontak'
       fullPath: '/kontak'
       preLoaderRoute: typeof KontakRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/robots.txt': {
+      id: '/robots.txt'
+      path: '/robots.txt'
+      fullPath: '/robots.txt'
+      preLoaderRoute: typeof RobotsDottxtRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sitemap.xml': {
+      id: '/sitemap.xml'
+      path: '/sitemap.xml'
+      fullPath: '/sitemap.xml'
+      preLoaderRoute: typeof SitemapDotxmlRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/tentang-kami': {
@@ -217,9 +277,12 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  SplatRoute: SplatRoute,
   FaqRoute: FaqRoute,
   KatalogRoute: KatalogRoute,
   KontakRoute: KontakRoute,
+  RobotsDottxtRoute: RobotsDottxtRoute,
+  SitemapDotxmlRoute: SitemapDotxmlRoute,
   TentangKamiRoute: TentangKamiRoute,
   ArtikelSlugRoute: ArtikelSlugRoute,
   KategoriSlugRoute: KategoriSlugRoute,

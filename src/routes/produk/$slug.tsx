@@ -1,3 +1,4 @@
+import { productHead } from '@/features/product/seo';
 import { createFileRoute, notFound } from '@tanstack/react-router';
 import { getProduct } from '@/data';
 import ProductDetail from '@/features/product';
@@ -7,6 +8,7 @@ export const Route = createFileRoute('/produk/$slug')({
     if (!product) throw notFound();
     return product;
   },
+  head: ({ loaderData }) => productHead(loaderData),
   component: ProductRoute,
 });
 function ProductRoute() {
