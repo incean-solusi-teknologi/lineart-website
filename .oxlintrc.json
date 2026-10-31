@@ -1,0 +1,15 @@
+{
+  "plugins": ["react", "typescript", "jsx-a11y"],
+  "categories": { "correctness": "error" },
+  "ignorePatterns": [
+    "node_modules/**",
+    ".output/**",
+    ".vercel/**",
+    ".tanstack/**",
+    ".agents/**",
+    "public/**",
+    "scripts/**",
+    "assets/**",
+    "src/routeTree.gen.ts"
+  ]
+}

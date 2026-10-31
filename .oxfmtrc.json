@@ -1,0 +1,17 @@
+{
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "ignorePatterns": [
+    "node_modules/**",
+    ".output/**",
+    ".vercel/**",
+    ".tanstack/**",
+    ".agents/**",
+    "public/**",
+    "scripts/**",
+    "assets/**",
+    "src/routeTree.gen.ts",
+    "bun.lock"
+  ]
+}
