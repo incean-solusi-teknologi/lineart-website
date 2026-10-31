@@ -1,0 +1,15 @@
+const assert = require('node:assert/strict');
+const { calculateQuote } = require('./catalog-config-v5.js');
+const product = { price: 45000, moq: 100, kind: 'packaging' };
+const options = { quantity: 100, size: 'standard', material: 0, finish: 0, insert: 0 };
+assert.deepEqual(calculateQuote(product, options), { valid: true, custom: false, quantity: 100, unit: 45000, total: 4500000 });
+assert.equal(calculateQuote(product, { ...options, quantity: 99 }).valid, false);
+assert.equal(calculateQuote(product, { ...options, quantity: 100.5 }).valid, false);
+assert.equal(calculateQuote(product, { ...options, quantity: 100001 }).valid, false);
+assert.equal(calculateQuote(product, { ...options, size: 'large', finish: 5000 }).total, 6350000);
+assert.equal(calculateQuote(product, { ...options, quantity: 500 }).unit, 38500);
+assert.equal(calculateQuote(product, { ...options, size: 'custom', dimensions: [30, 20, 10] }).custom, true);
+assert.equal(calculateQuote(product, { ...options, size: 'custom', dimensions: [30, '', 10] }).valid, false);
+assert.equal(calculateQuote(product, { ...options, size: 'custom', dimensions: [30, 201, 10] }).valid, false);
+assert.equal(calculateQuote({ ...product, kind: 'calendar' }, { ...options, size: 'custom', dimensions: [21, 15] }).custom, true);
+console.log('Simulasi harga, jumlah minimum, perubahan finishing, tier jumlah, dan ukuran custom valid.');

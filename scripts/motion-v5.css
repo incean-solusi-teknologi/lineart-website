@@ -1,0 +1,41 @@
+/* Motion follows the print workflow: reveal, inspect, choose. */
+:root{--motion-ease:cubic-bezier(.22,1,.36,1)}
+.button{transition:background .2s,box-shadow .25s,transform .25s var(--motion-ease)}
+.button:active{transform:translateY(1px);box-shadow:none}
+.header-nav>a{position:relative;transition:color .2s}
+.header-nav>a:after{content:'';position:absolute;left:0;right:0;bottom:-6px;height:2px;background:var(--pink);transform:scaleX(0);transform-origin:left;transition:transform .25s var(--motion-ease)}
+.header-nav>a:hover:after,.header-nav>a:focus-visible:after,.header-nav>a[aria-current=page]:after{transform:scaleX(1)}
+.catalog-menu[open] .catalog-submenu{animation:menu-arrive .2s var(--motion-ease) both}
+.catalog-submenu a{transition:background .18s,color .18s}
+.hero-calendar img{transition:transform .65s var(--motion-ease)}
+.hero-calendar .calendar-label{transition:background .25s,color .25s}
+.collection,.product-card{transition:box-shadow .35s,transform .35s var(--motion-ease)}
+.collection-photo img,.card-photo img{transition:transform .65s var(--motion-ease)}
+.text-link{transition:color .2s,border-color .2s}
+.text-link:hover{color:var(--blue);border-color:var(--blue)}
+.choice>span{transition:border-color .2s,background .2s,color .2s,box-shadow .2s}
+.choice input:checked+span{box-shadow:0 0 0 1px #df007e12}
+.color-choice span{transition:outline-offset .2s,box-shadow .2s}
+.gallery-thumbs button{transition:border-color .2s,transform .2s var(--motion-ease)}
+.faq-answer summary{transition:color .2s}
+.faq-answer summary:after{content:'+'!important;transition:transform .25s var(--motion-ease);transform-origin:center}
+.faq-answer[open] summary:after{transform:rotate(45deg)}
+.faq-sidebar nav a{transition:background .2s,color .2s}
+.article-card{transition:transform .35s var(--motion-ease)}
+.article-card img{transition:filter .3s}
+@keyframes menu-arrive{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}
+@media(hover:hover) and (pointer:fine){
+  .button:hover{transform:translateY(-2px)}
+  .button:active{transform:translateY(0)}
+  .hero-calendar:hover img{transform:scale(1.035)}
+  .hero-calendar:hover .calendar-label{background:var(--ink);color:white}
+  .product-card:hover{transform:translateY(-3px)}
+  .gallery-thumbs button:hover{transform:translateY(-2px)}
+  .article-card:hover{transform:translateY(-4px)}
+  .article-card:hover img{filter:brightness(1.04)}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*:before,*:after{animation:none!important;transition:none!important}
+  .button:hover,.button:active,.collection:hover,.product-card:hover,.article-card:hover,.gallery-thumbs button:hover,.hero-calendar:hover img{transform:none}
+}
