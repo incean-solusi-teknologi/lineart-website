@@ -1,0 +1,2749 @@
+{
+  "status": {
+    "dummy": true,
+    "businessApproved": false,
+    "pricingApproved": false,
+    "clientsApproved": false
+  },
+  "business": {
+    "name": "LINE · Art media",
+    "description": "Packaging custom dan kebutuhan cetak di Kali Baru, dekat Pasar Senen, Jakarta Pusat.",
+    "primaryKeyword": "packaging Jakarta",
+    "localArea": "Kali Baru, dekat Pasar Senen, Jakarta Pusat",
+    "address": "Jl. Kali Baru Timur VI No.31–35 13, RT.13/RW.2, Utan Panjang, Kec. Kemayoran, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10460",
+    "addressLocality": "Jakarta Pusat",
+    "addressRegion": "DKI Jakarta",
+    "postalCode": "10460",
+    "country": "ID",
+    "whatsapp": "",
+    "mapsUrl": "https://maps.app.goo.gl/hnphKin9KokMtvpm7",
+    "mapsEmbed": "https://maps.google.com/maps?cid=9064736751732826837&output=embed&z=16",
+    "logo": "/media/logo.jpg"
+  },
+  "home": {
+    "heroTitle": "Packaging Jakarta, sesuai karakter brand kamu.",
+    "heroDescription": "Dari box produk sampai hampers. Pilih model, tentukan ukuran, beri sentuhanmu.",
+    "calendarTitle": "Setahun penuh, ada brand kamu.",
+    "calendarDescription": "Kalender custom untuk meja kerja dan hadiah perusahaan.",
+    "steps": [
+      {
+        "title": "Pilih model & spesifikasi",
+        "description": "Buka koleksi, pilih produk, lalu atur ukuran, bahan, dan finishing."
+      },
+      {
+        "title": "Bahas lewat WhatsApp",
+        "description": "Pilihanmu ikut dalam pesan. Tambahkan referensi desain dan kebutuhan produksi."
+      },
+      {
+        "title": "Sepakati sebelum dicetak",
+        "description": "Konfirmasi detail, harga, dan jadwal produksi bersama tim."
+      }
+    ],
+    "clients": [
+      {
+        "name": "nusa",
+        "image": "/media/clients/nusa.svg"
+      },
+      {
+        "name": "RONA",
+        "image": "/media/clients/rona.svg"
+      },
+      {
+        "name": "tumbuh",
+        "image": "/media/clients/tumbuh.svg"
+      },
+      {
+        "name": "selaras",
+        "image": "/media/clients/selaras.svg"
+      },
+      {
+        "name": "ARUNA",
+        "image": "/media/clients/aruna.svg"
+      },
+      {
+        "name": "pijar",
+        "image": "/media/clients/pijar.svg"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "slug": "packaging",
+      "name": "Packaging custom",
+      "description": "Pilih model box, lalu sesuaikan ukuran, bahan, dan finishing untuk brand Anda.",
+      "tone": "ice",
+      "src": "/media/blue.jpg",
+      "alt": ""
+    },
+    {
+      "slug": "gift-box",
+      "name": "Gift Box",
+      "description": "Kemasan untuk produk, souvenir, dan hadiah perusahaan.",
+      "tone": "ice",
+      "src": "/media/blue.jpg",
+      "alt": ""
+    },
+    {
+      "slug": "box-hampers",
+      "name": "Box Hampers",
+      "description": "Ruang untuk bingkisan dengan bentuk dan ukuran pilihan.",
+      "tone": "rose",
+      "src": "/media/red.jpg",
+      "alt": ""
+    },
+    {
+      "slug": "box-perhiasan",
+      "name": "Box Perhiasan",
+      "description": "Box kecil dengan insert untuk perhiasan Anda.",
+      "tone": "grey",
+      "src": "/media/jewel.jpg",
+      "alt": ""
+    },
+    {
+      "slug": "kalender",
+      "name": "Kalender Custom",
+      "description": "Kalender meja dengan desain dan identitas brand Anda.",
+      "tone": "lemon",
+      "src": "/media/calendar-blue.jpg",
+      "alt": ""
+    }
+  ],
+  "products": [
+    {
+      "slug": "gift-box-double-door",
+      "name": "Gift Box Double Door",
+      "price": 45000,
+      "moq": 100,
+      "size": "25 × 20 × 8 cm",
+      "category": "gift-box",
+      "image": "/media/blue.jpg",
+      "kind": "packaging",
+      "description": "Box custom dengan konstruksi kokoh untuk kemasan produk dan hadiah. Sesuaikan ukuran, bahan pelapis, dan sentuhan akhirnya.",
+      "sizes": [
+        {
+          "id": "small",
+          "label": "Kecil · 20 × 16 × 6 cm"
+        },
+        {
+          "id": "standard",
+          "label": "Standar · 25 × 20 × 8 cm"
+        },
+        {
+          "id": "large",
+          "label": "Besar · 30 × 24 × 10 cm"
+        },
+        {
+          "id": "custom",
+          "label": "Custom"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Greyboard 2 mm + art paper",
+          "price": 0
+        },
+        {
+          "label": "Greyboard 2,5 mm + art paper",
+          "price": 3500
+        },
+        {
+          "label": "Greyboard 2 mm + kertas fancy",
+          "price": 6000
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Doff",
+          "price": 0
+        },
+        {
+          "label": "Glossy",
+          "price": 0
+        },
+        {
+          "label": "Hot foil",
+          "price": 5000
+        },
+        {
+          "label": "Emboss",
+          "price": 7000
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Tanpa insert",
+          "price": 0
+        },
+        {
+          "label": "Busa foam",
+          "price": 5000
+        },
+        {
+          "label": "EVA custom",
+          "price": 8000
+        }
+      ],
+      "colors": [
+        {
+          "label": "Navy",
+          "hex": "#172a50"
+        },
+        {
+          "label": "Putih",
+          "hex": "#fff"
+        },
+        {
+          "label": "Hitam",
+          "hex": "#30343c"
+        },
+        {
+          "label": "Pink",
+          "hex": "#e4a9bd"
+        }
+      ],
+      "gallery": ["/media/blue.jpg"]
+    },
+    {
+      "slug": "gift-box-a5",
+      "name": "Gift Box A5",
+      "price": 32000,
+      "moq": 100,
+      "size": "22 × 16 × 6 cm",
+      "category": "gift-box",
+      "image": "/media/blue.jpg",
+      "kind": "packaging",
+      "description": "Box custom dengan konstruksi kokoh untuk kemasan produk dan hadiah. Sesuaikan ukuran, bahan pelapis, dan sentuhan akhirnya.",
+      "sizes": [
+        {
+          "id": "small",
+          "label": "Kecil · 18 × 13 × 5 cm"
+        },
+        {
+          "id": "standard",
+          "label": "Standar · 22 × 16 × 6 cm"
+        },
+        {
+          "id": "large",
+          "label": "Besar · 26 × 19 × 7 cm"
+        },
+        {
+          "id": "custom",
+          "label": "Custom"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Greyboard 2 mm + art paper",
+          "price": 0
+        },
+        {
+          "label": "Greyboard 2,5 mm + art paper",
+          "price": 3500
+        },
+        {
+          "label": "Greyboard 2 mm + kertas fancy",
+          "price": 6000
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Doff",
+          "price": 0
+        },
+        {
+          "label": "Glossy",
+          "price": 0
+        },
+        {
+          "label": "Hot foil",
+          "price": 5000
+        },
+        {
+          "label": "Emboss",
+          "price": 7000
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Tanpa insert",
+          "price": 0
+        },
+        {
+          "label": "Busa foam",
+          "price": 5000
+        },
+        {
+          "label": "EVA custom",
+          "price": 8000
+        }
+      ],
+      "colors": [
+        {
+          "label": "Navy",
+          "hex": "#172a50"
+        },
+        {
+          "label": "Putih",
+          "hex": "#fff"
+        },
+        {
+          "label": "Hitam",
+          "hex": "#30343c"
+        },
+        {
+          "label": "Pink",
+          "hex": "#e4a9bd"
+        }
+      ],
+      "gallery": ["/media/blue.jpg"]
+    },
+    {
+      "slug": "gift-box-a4",
+      "name": "Gift Box A4",
+      "price": 58000,
+      "moq": 100,
+      "size": "32 × 24 × 8 cm",
+      "category": "gift-box",
+      "image": "/media/blue.jpg",
+      "kind": "packaging",
+      "description": "Box custom dengan konstruksi kokoh untuk kemasan produk dan hadiah. Sesuaikan ukuran, bahan pelapis, dan sentuhan akhirnya.",
+      "sizes": [
+        {
+          "id": "small",
+          "label": "Kecil · 26 × 19 × 6 cm"
+        },
+        {
+          "id": "standard",
+          "label": "Standar · 32 × 24 × 8 cm"
+        },
+        {
+          "id": "large",
+          "label": "Besar · 38 × 29 × 10 cm"
+        },
+        {
+          "id": "custom",
+          "label": "Custom"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Greyboard 2 mm + art paper",
+          "price": 0
+        },
+        {
+          "label": "Greyboard 2,5 mm + art paper",
+          "price": 3500
+        },
+        {
+          "label": "Greyboard 2 mm + kertas fancy",
+          "price": 6000
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Doff",
+          "price": 0
+        },
+        {
+          "label": "Glossy",
+          "price": 0
+        },
+        {
+          "label": "Hot foil",
+          "price": 5000
+        },
+        {
+          "label": "Emboss",
+          "price": 7000
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Tanpa insert",
+          "price": 0
+        },
+        {
+          "label": "Busa foam",
+          "price": 5000
+        },
+        {
+          "label": "EVA custom",
+          "price": 8000
+        }
+      ],
+      "colors": [
+        {
+          "label": "Navy",
+          "hex": "#172a50"
+        },
+        {
+          "label": "Putih",
+          "hex": "#fff"
+        },
+        {
+          "label": "Hitam",
+          "hex": "#30343c"
+        },
+        {
+          "label": "Pink",
+          "hex": "#e4a9bd"
+        }
+      ],
+      "gallery": ["/media/blue.jpg"]
+    },
+    {
+      "slug": "gift-box-welcome-kit",
+      "name": "Gift Box Welcome Kit",
+      "price": 68000,
+      "moq": 150,
+      "size": "30 × 25 × 10 cm",
+      "category": "gift-box",
+      "image": "/media/blue.jpg",
+      "kind": "packaging",
+      "description": "Box custom dengan konstruksi kokoh untuk kemasan produk dan hadiah. Sesuaikan ukuran, bahan pelapis, dan sentuhan akhirnya.",
+      "sizes": [
+        {
+          "id": "small",
+          "label": "Kecil · 24 × 20 × 8 cm"
+        },
+        {
+          "id": "standard",
+          "label": "Standar · 30 × 25 × 10 cm"
+        },
+        {
+          "id": "large",
+          "label": "Besar · 36 × 30 × 12 cm"
+        },
+        {
+          "id": "custom",
+          "label": "Custom"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Greyboard 2 mm + art paper",
+          "price": 0
+        },
+        {
+          "label": "Greyboard 2,5 mm + art paper",
+          "price": 3500
+        },
+        {
+          "label": "Greyboard 2 mm + kertas fancy",
+          "price": 6000
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Doff",
+          "price": 0
+        },
+        {
+          "label": "Glossy",
+          "price": 0
+        },
+        {
+          "label": "Hot foil",
+          "price": 5000
+        },
+        {
+          "label": "Emboss",
+          "price": 7000
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Tanpa insert",
+          "price": 0
+        },
+        {
+          "label": "Busa foam",
+          "price": 5000
+        },
+        {
+          "label": "EVA custom",
+          "price": 8000
+        }
+      ],
+      "colors": [
+        {
+          "label": "Navy",
+          "hex": "#172a50"
+        },
+        {
+          "label": "Putih",
+          "hex": "#fff"
+        },
+        {
+          "label": "Hitam",
+          "hex": "#30343c"
+        },
+        {
+          "label": "Pink",
+          "hex": "#e4a9bd"
+        }
+      ],
+      "gallery": ["/media/blue.jpg"]
+    },
+    {
+      "slug": "gift-box-parfum",
+      "name": "Gift Box Parfum",
+      "price": 28000,
+      "moq": 200,
+      "size": "15 × 12 × 6 cm",
+      "category": "gift-box",
+      "image": "/media/blue.jpg",
+      "kind": "packaging",
+      "description": "Box custom dengan konstruksi kokoh untuk kemasan produk dan hadiah. Sesuaikan ukuran, bahan pelapis, dan sentuhan akhirnya.",
+      "sizes": [
+        {
+          "id": "small",
+          "label": "Kecil · 12 × 10 × 5 cm"
+        },
+        {
+          "id": "standard",
+          "label": "Standar · 15 × 12 × 6 cm"
+        },
+        {
+          "id": "large",
+          "label": "Besar · 18 × 14 × 7 cm"
+        },
+        {
+          "id": "custom",
+          "label": "Custom"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Greyboard 2 mm + art paper",
+          "price": 0
+        },
+        {
+          "label": "Greyboard 2,5 mm + art paper",
+          "price": 3500
+        },
+        {
+          "label": "Greyboard 2 mm + kertas fancy",
+          "price": 6000
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Doff",
+          "price": 0
+        },
+        {
+          "label": "Glossy",
+          "price": 0
+        },
+        {
+          "label": "Hot foil",
+          "price": 5000
+        },
+        {
+          "label": "Emboss",
+          "price": 7000
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Tanpa insert",
+          "price": 0
+        },
+        {
+          "label": "Busa foam",
+          "price": 5000
+        },
+        {
+          "label": "EVA custom",
+          "price": 8000
+        }
+      ],
+      "colors": [
+        {
+          "label": "Navy",
+          "hex": "#172a50"
+        },
+        {
+          "label": "Putih",
+          "hex": "#fff"
+        },
+        {
+          "label": "Hitam",
+          "hex": "#30343c"
+        },
+        {
+          "label": "Pink",
+          "hex": "#e4a9bd"
+        }
+      ],
+      "gallery": ["/media/blue.jpg"]
+    },
+    {
+      "slug": "gift-box-souvenir",
+      "name": "Gift Box Souvenir",
+      "price": 38000,
+      "moq": 100,
+      "size": "20 × 18 × 7 cm",
+      "category": "gift-box",
+      "image": "/media/blue.jpg",
+      "kind": "packaging",
+      "description": "Box custom dengan konstruksi kokoh untuk kemasan produk dan hadiah. Sesuaikan ukuran, bahan pelapis, dan sentuhan akhirnya.",
+      "sizes": [
+        {
+          "id": "small",
+          "label": "Kecil · 16 × 14 × 6 cm"
+        },
+        {
+          "id": "standard",
+          "label": "Standar · 20 × 18 × 7 cm"
+        },
+        {
+          "id": "large",
+          "label": "Besar · 24 × 22 × 8 cm"
+        },
+        {
+          "id": "custom",
+          "label": "Custom"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Greyboard 2 mm + art paper",
+          "price": 0
+        },
+        {
+          "label": "Greyboard 2,5 mm + art paper",
+          "price": 3500
+        },
+        {
+          "label": "Greyboard 2 mm + kertas fancy",
+          "price": 6000
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Doff",
+          "price": 0
+        },
+        {
+          "label": "Glossy",
+          "price": 0
+        },
+        {
+          "label": "Hot foil",
+          "price": 5000
+        },
+        {
+          "label": "Emboss",
+          "price": 7000
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Tanpa insert",
+          "price": 0
+        },
+        {
+          "label": "Busa foam",
+          "price": 5000
+        },
+        {
+          "label": "EVA custom",
+          "price": 8000
+        }
+      ],
+      "colors": [
+        {
+          "label": "Navy",
+          "hex": "#172a50"
+        },
+        {
+          "label": "Putih",
+          "hex": "#fff"
+        },
+        {
+          "label": "Hitam",
+          "hex": "#30343c"
+        },
+        {
+          "label": "Pink",
+          "hex": "#e4a9bd"
+        }
+      ],
+      "gallery": ["/media/blue.jpg"]
+    },
+    {
+      "slug": "box-perhiasan-custom",
+      "name": "Box Perhiasan Custom",
+      "price": 18000,
+      "moq": 100,
+      "size": "8 × 8 × 5 cm",
+      "category": "box-perhiasan",
+      "image": "/media/jewel.jpg",
+      "kind": "packaging",
+      "description": "Box custom dengan konstruksi kokoh untuk kemasan produk dan hadiah. Sesuaikan ukuran, bahan pelapis, dan sentuhan akhirnya.",
+      "sizes": [
+        {
+          "id": "small",
+          "label": "Kecil · 6 × 6 × 4 cm"
+        },
+        {
+          "id": "standard",
+          "label": "Standar · 8 × 8 × 5 cm"
+        },
+        {
+          "id": "large",
+          "label": "Besar · 10 × 10 × 6 cm"
+        },
+        {
+          "id": "custom",
+          "label": "Custom"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Greyboard 2 mm + art paper",
+          "price": 0
+        },
+        {
+          "label": "Greyboard 2,5 mm + art paper",
+          "price": 3500
+        },
+        {
+          "label": "Greyboard 2 mm + kertas fancy",
+          "price": 6000
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Doff",
+          "price": 0
+        },
+        {
+          "label": "Glossy",
+          "price": 0
+        },
+        {
+          "label": "Hot foil",
+          "price": 5000
+        },
+        {
+          "label": "Emboss",
+          "price": 7000
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Tanpa insert",
+          "price": 0
+        },
+        {
+          "label": "Busa foam",
+          "price": 5000
+        },
+        {
+          "label": "EVA custom",
+          "price": 8000
+        }
+      ],
+      "colors": [
+        {
+          "label": "Navy",
+          "hex": "#172a50"
+        },
+        {
+          "label": "Putih",
+          "hex": "#fff"
+        },
+        {
+          "label": "Hitam",
+          "hex": "#30343c"
+        },
+        {
+          "label": "Pink",
+          "hex": "#e4a9bd"
+        }
+      ],
+      "gallery": ["/media/jewel.jpg", "/media/jewel-closed.jpg"]
+    },
+    {
+      "slug": "box-cincin-single",
+      "name": "Box Cincin Single",
+      "price": 15000,
+      "moq": 200,
+      "size": "6 × 6 × 5 cm",
+      "category": "box-perhiasan",
+      "image": "/media/jewel.jpg",
+      "kind": "packaging",
+      "description": "Box custom dengan konstruksi kokoh untuk kemasan produk dan hadiah. Sesuaikan ukuran, bahan pelapis, dan sentuhan akhirnya.",
+      "sizes": [
+        {
+          "id": "small",
+          "label": "Kecil · 5 × 5 × 4 cm"
+        },
+        {
+          "id": "standard",
+          "label": "Standar · 6 × 6 × 5 cm"
+        },
+        {
+          "id": "large",
+          "label": "Besar · 7 × 7 × 6 cm"
+        },
+        {
+          "id": "custom",
+          "label": "Custom"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Greyboard 2 mm + art paper",
+          "price": 0
+        },
+        {
+          "label": "Greyboard 2,5 mm + art paper",
+          "price": 3500
+        },
+        {
+          "label": "Greyboard 2 mm + kertas fancy",
+          "price": 6000
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Doff",
+          "price": 0
+        },
+        {
+          "label": "Glossy",
+          "price": 0
+        },
+        {
+          "label": "Hot foil",
+          "price": 5000
+        },
+        {
+          "label": "Emboss",
+          "price": 7000
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Tanpa insert",
+          "price": 0
+        },
+        {
+          "label": "Busa foam",
+          "price": 5000
+        },
+        {
+          "label": "EVA custom",
+          "price": 8000
+        }
+      ],
+      "colors": [
+        {
+          "label": "Navy",
+          "hex": "#172a50"
+        },
+        {
+          "label": "Putih",
+          "hex": "#fff"
+        },
+        {
+          "label": "Hitam",
+          "hex": "#30343c"
+        },
+        {
+          "label": "Pink",
+          "hex": "#e4a9bd"
+        }
+      ],
+      "gallery": ["/media/jewel.jpg", "/media/jewel-closed.jpg"]
+    },
+    {
+      "slug": "box-cincin-couple",
+      "name": "Box Cincin Couple",
+      "price": 22000,
+      "moq": 100,
+      "size": "10 × 8 × 5 cm",
+      "category": "box-perhiasan",
+      "image": "/media/jewel.jpg",
+      "kind": "packaging",
+      "description": "Box custom dengan konstruksi kokoh untuk kemasan produk dan hadiah. Sesuaikan ukuran, bahan pelapis, dan sentuhan akhirnya.",
+      "sizes": [
+        {
+          "id": "small",
+          "label": "Kecil · 8 × 6 × 4 cm"
+        },
+        {
+          "id": "standard",
+          "label": "Standar · 10 × 8 × 5 cm"
+        },
+        {
+          "id": "large",
+          "label": "Besar · 12 × 10 × 6 cm"
+        },
+        {
+          "id": "custom",
+          "label": "Custom"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Greyboard 2 mm + art paper",
+          "price": 0
+        },
+        {
+          "label": "Greyboard 2,5 mm + art paper",
+          "price": 3500
+        },
+        {
+          "label": "Greyboard 2 mm + kertas fancy",
+          "price": 6000
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Doff",
+          "price": 0
+        },
+        {
+          "label": "Glossy",
+          "price": 0
+        },
+        {
+          "label": "Hot foil",
+          "price": 5000
+        },
+        {
+          "label": "Emboss",
+          "price": 7000
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Tanpa insert",
+          "price": 0
+        },
+        {
+          "label": "Busa foam",
+          "price": 5000
+        },
+        {
+          "label": "EVA custom",
+          "price": 8000
+        }
+      ],
+      "colors": [
+        {
+          "label": "Navy",
+          "hex": "#172a50"
+        },
+        {
+          "label": "Putih",
+          "hex": "#fff"
+        },
+        {
+          "label": "Hitam",
+          "hex": "#30343c"
+        },
+        {
+          "label": "Pink",
+          "hex": "#e4a9bd"
+        }
+      ],
+      "gallery": ["/media/jewel.jpg", "/media/jewel-closed.jpg"]
+    },
+    {
+      "slug": "box-anting",
+      "name": "Box Anting",
+      "price": 17000,
+      "moq": 150,
+      "size": "8 × 8 × 4 cm",
+      "category": "box-perhiasan",
+      "image": "/media/jewel.jpg",
+      "kind": "packaging",
+      "description": "Box custom dengan konstruksi kokoh untuk kemasan produk dan hadiah. Sesuaikan ukuran, bahan pelapis, dan sentuhan akhirnya.",
+      "sizes": [
+        {
+          "id": "small",
+          "label": "Kecil · 6 × 6 × 3 cm"
+        },
+        {
+          "id": "standard",
+          "label": "Standar · 8 × 8 × 4 cm"
+        },
+        {
+          "id": "large",
+          "label": "Besar · 10 × 10 × 5 cm"
+        },
+        {
+          "id": "custom",
+          "label": "Custom"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Greyboard 2 mm + art paper",
+          "price": 0
+        },
+        {
+          "label": "Greyboard 2,5 mm + art paper",
+          "price": 3500
+        },
+        {
+          "label": "Greyboard 2 mm + kertas fancy",
+          "price": 6000
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Doff",
+          "price": 0
+        },
+        {
+          "label": "Glossy",
+          "price": 0
+        },
+        {
+          "label": "Hot foil",
+          "price": 5000
+        },
+        {
+          "label": "Emboss",
+          "price": 7000
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Tanpa insert",
+          "price": 0
+        },
+        {
+          "label": "Busa foam",
+          "price": 5000
+        },
+        {
+          "label": "EVA custom",
+          "price": 8000
+        }
+      ],
+      "colors": [
+        {
+          "label": "Navy",
+          "hex": "#172a50"
+        },
+        {
+          "label": "Putih",
+          "hex": "#fff"
+        },
+        {
+          "label": "Hitam",
+          "hex": "#30343c"
+        },
+        {
+          "label": "Pink",
+          "hex": "#e4a9bd"
+        }
+      ],
+      "gallery": ["/media/jewel.jpg", "/media/jewel-closed.jpg"]
+    },
+    {
+      "slug": "box-liontin",
+      "name": "Box Liontin",
+      "price": 24000,
+      "moq": 100,
+      "size": "10 × 10 × 5 cm",
+      "category": "box-perhiasan",
+      "image": "/media/jewel.jpg",
+      "kind": "packaging",
+      "description": "Box custom dengan konstruksi kokoh untuk kemasan produk dan hadiah. Sesuaikan ukuran, bahan pelapis, dan sentuhan akhirnya.",
+      "sizes": [
+        {
+          "id": "small",
+          "label": "Kecil · 8 × 8 × 4 cm"
+        },
+        {
+          "id": "standard",
+          "label": "Standar · 10 × 10 × 5 cm"
+        },
+        {
+          "id": "large",
+          "label": "Besar · 12 × 12 × 6 cm"
+        },
+        {
+          "id": "custom",
+          "label": "Custom"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Greyboard 2 mm + art paper",
+          "price": 0
+        },
+        {
+          "label": "Greyboard 2,5 mm + art paper",
+          "price": 3500
+        },
+        {
+          "label": "Greyboard 2 mm + kertas fancy",
+          "price": 6000
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Doff",
+          "price": 0
+        },
+        {
+          "label": "Glossy",
+          "price": 0
+        },
+        {
+          "label": "Hot foil",
+          "price": 5000
+        },
+        {
+          "label": "Emboss",
+          "price": 7000
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Tanpa insert",
+          "price": 0
+        },
+        {
+          "label": "Busa foam",
+          "price": 5000
+        },
+        {
+          "label": "EVA custom",
+          "price": 8000
+        }
+      ],
+      "colors": [
+        {
+          "label": "Navy",
+          "hex": "#172a50"
+        },
+        {
+          "label": "Putih",
+          "hex": "#fff"
+        },
+        {
+          "label": "Hitam",
+          "hex": "#30343c"
+        },
+        {
+          "label": "Pink",
+          "hex": "#e4a9bd"
+        }
+      ],
+      "gallery": ["/media/jewel.jpg", "/media/jewel-closed.jpg"]
+    },
+    {
+      "slug": "box-perhiasan-gift-set",
+      "name": "Box Perhiasan Gift Set",
+      "price": 42000,
+      "moq": 100,
+      "size": "18 × 15 × 6 cm",
+      "category": "box-perhiasan",
+      "image": "/media/jewel.jpg",
+      "kind": "packaging",
+      "description": "Box custom dengan konstruksi kokoh untuk kemasan produk dan hadiah. Sesuaikan ukuran, bahan pelapis, dan sentuhan akhirnya.",
+      "sizes": [
+        {
+          "id": "small",
+          "label": "Kecil · 14 × 12 × 5 cm"
+        },
+        {
+          "id": "standard",
+          "label": "Standar · 18 × 15 × 6 cm"
+        },
+        {
+          "id": "large",
+          "label": "Besar · 22 × 18 × 7 cm"
+        },
+        {
+          "id": "custom",
+          "label": "Custom"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Greyboard 2 mm + art paper",
+          "price": 0
+        },
+        {
+          "label": "Greyboard 2,5 mm + art paper",
+          "price": 3500
+        },
+        {
+          "label": "Greyboard 2 mm + kertas fancy",
+          "price": 6000
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Doff",
+          "price": 0
+        },
+        {
+          "label": "Glossy",
+          "price": 0
+        },
+        {
+          "label": "Hot foil",
+          "price": 5000
+        },
+        {
+          "label": "Emboss",
+          "price": 7000
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Tanpa insert",
+          "price": 0
+        },
+        {
+          "label": "Busa foam",
+          "price": 5000
+        },
+        {
+          "label": "EVA custom",
+          "price": 8000
+        }
+      ],
+      "colors": [
+        {
+          "label": "Navy",
+          "hex": "#172a50"
+        },
+        {
+          "label": "Putih",
+          "hex": "#fff"
+        },
+        {
+          "label": "Hitam",
+          "hex": "#30343c"
+        },
+        {
+          "label": "Pink",
+          "hex": "#e4a9bd"
+        }
+      ],
+      "gallery": ["/media/jewel.jpg", "/media/jewel-closed.jpg"]
+    },
+    {
+      "slug": "box-hampers-premium",
+      "name": "Box Hampers Premium",
+      "price": 55000,
+      "moq": 100,
+      "size": "30 × 25 × 10 cm",
+      "category": "box-hampers",
+      "image": "/media/red.jpg",
+      "kind": "packaging",
+      "description": "Box custom dengan konstruksi kokoh untuk kemasan produk dan hadiah. Sesuaikan ukuran, bahan pelapis, dan sentuhan akhirnya.",
+      "sizes": [
+        {
+          "id": "small",
+          "label": "Kecil · 24 × 20 × 8 cm"
+        },
+        {
+          "id": "standard",
+          "label": "Standar · 30 × 25 × 10 cm"
+        },
+        {
+          "id": "large",
+          "label": "Besar · 36 × 30 × 12 cm"
+        },
+        {
+          "id": "custom",
+          "label": "Custom"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Greyboard 2 mm + art paper",
+          "price": 0
+        },
+        {
+          "label": "Greyboard 2,5 mm + art paper",
+          "price": 3500
+        },
+        {
+          "label": "Greyboard 2 mm + kertas fancy",
+          "price": 6000
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Doff",
+          "price": 0
+        },
+        {
+          "label": "Glossy",
+          "price": 0
+        },
+        {
+          "label": "Hot foil",
+          "price": 5000
+        },
+        {
+          "label": "Emboss",
+          "price": 7000
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Tanpa insert",
+          "price": 0
+        },
+        {
+          "label": "Busa foam",
+          "price": 5000
+        },
+        {
+          "label": "EVA custom",
+          "price": 8000
+        }
+      ],
+      "colors": [
+        {
+          "label": "Navy",
+          "hex": "#172a50"
+        },
+        {
+          "label": "Putih",
+          "hex": "#fff"
+        },
+        {
+          "label": "Hitam",
+          "hex": "#30343c"
+        },
+        {
+          "label": "Pink",
+          "hex": "#e4a9bd"
+        }
+      ],
+      "gallery": ["/media/red.jpg"]
+    },
+    {
+      "slug": "box-hampers-mini",
+      "name": "Box Hampers Mini",
+      "price": 35000,
+      "moq": 100,
+      "size": "20 × 20 × 8 cm",
+      "category": "box-hampers",
+      "image": "/media/red.jpg",
+      "kind": "packaging",
+      "description": "Box custom dengan konstruksi kokoh untuk kemasan produk dan hadiah. Sesuaikan ukuran, bahan pelapis, dan sentuhan akhirnya.",
+      "sizes": [
+        {
+          "id": "small",
+          "label": "Kecil · 16 × 16 × 6 cm"
+        },
+        {
+          "id": "standard",
+          "label": "Standar · 20 × 20 × 8 cm"
+        },
+        {
+          "id": "large",
+          "label": "Besar · 24 × 24 × 10 cm"
+        },
+        {
+          "id": "custom",
+          "label": "Custom"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Greyboard 2 mm + art paper",
+          "price": 0
+        },
+        {
+          "label": "Greyboard 2,5 mm + art paper",
+          "price": 3500
+        },
+        {
+          "label": "Greyboard 2 mm + kertas fancy",
+          "price": 6000
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Doff",
+          "price": 0
+        },
+        {
+          "label": "Glossy",
+          "price": 0
+        },
+        {
+          "label": "Hot foil",
+          "price": 5000
+        },
+        {
+          "label": "Emboss",
+          "price": 7000
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Tanpa insert",
+          "price": 0
+        },
+        {
+          "label": "Busa foam",
+          "price": 5000
+        },
+        {
+          "label": "EVA custom",
+          "price": 8000
+        }
+      ],
+      "colors": [
+        {
+          "label": "Navy",
+          "hex": "#172a50"
+        },
+        {
+          "label": "Putih",
+          "hex": "#fff"
+        },
+        {
+          "label": "Hitam",
+          "hex": "#30343c"
+        },
+        {
+          "label": "Pink",
+          "hex": "#e4a9bd"
+        }
+      ],
+      "gallery": ["/media/red.jpg"]
+    },
+    {
+      "slug": "box-hampers-medium",
+      "name": "Box Hampers Medium",
+      "price": 48000,
+      "moq": 100,
+      "size": "25 × 25 × 10 cm",
+      "category": "box-hampers",
+      "image": "/media/red.jpg",
+      "kind": "packaging",
+      "description": "Box custom dengan konstruksi kokoh untuk kemasan produk dan hadiah. Sesuaikan ukuran, bahan pelapis, dan sentuhan akhirnya.",
+      "sizes": [
+        {
+          "id": "small",
+          "label": "Kecil · 20 × 20 × 8 cm"
+        },
+        {
+          "id": "standard",
+          "label": "Standar · 25 × 25 × 10 cm"
+        },
+        {
+          "id": "large",
+          "label": "Besar · 30 × 30 × 12 cm"
+        },
+        {
+          "id": "custom",
+          "label": "Custom"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Greyboard 2 mm + art paper",
+          "price": 0
+        },
+        {
+          "label": "Greyboard 2,5 mm + art paper",
+          "price": 3500
+        },
+        {
+          "label": "Greyboard 2 mm + kertas fancy",
+          "price": 6000
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Doff",
+          "price": 0
+        },
+        {
+          "label": "Glossy",
+          "price": 0
+        },
+        {
+          "label": "Hot foil",
+          "price": 5000
+        },
+        {
+          "label": "Emboss",
+          "price": 7000
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Tanpa insert",
+          "price": 0
+        },
+        {
+          "label": "Busa foam",
+          "price": 5000
+        },
+        {
+          "label": "EVA custom",
+          "price": 8000
+        }
+      ],
+      "colors": [
+        {
+          "label": "Navy",
+          "hex": "#172a50"
+        },
+        {
+          "label": "Putih",
+          "hex": "#fff"
+        },
+        {
+          "label": "Hitam",
+          "hex": "#30343c"
+        },
+        {
+          "label": "Pink",
+          "hex": "#e4a9bd"
+        }
+      ],
+      "gallery": ["/media/red.jpg"]
+    },
+    {
+      "slug": "box-hampers-large",
+      "name": "Box Hampers Large",
+      "price": 75000,
+      "moq": 100,
+      "size": "35 × 30 × 12 cm",
+      "category": "box-hampers",
+      "image": "/media/red.jpg",
+      "kind": "packaging",
+      "description": "Box custom dengan konstruksi kokoh untuk kemasan produk dan hadiah. Sesuaikan ukuran, bahan pelapis, dan sentuhan akhirnya.",
+      "sizes": [
+        {
+          "id": "small",
+          "label": "Kecil · 28 × 24 × 10 cm"
+        },
+        {
+          "id": "standard",
+          "label": "Standar · 35 × 30 × 12 cm"
+        },
+        {
+          "id": "large",
+          "label": "Besar · 42 × 36 × 14 cm"
+        },
+        {
+          "id": "custom",
+          "label": "Custom"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Greyboard 2 mm + art paper",
+          "price": 0
+        },
+        {
+          "label": "Greyboard 2,5 mm + art paper",
+          "price": 3500
+        },
+        {
+          "label": "Greyboard 2 mm + kertas fancy",
+          "price": 6000
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Doff",
+          "price": 0
+        },
+        {
+          "label": "Glossy",
+          "price": 0
+        },
+        {
+          "label": "Hot foil",
+          "price": 5000
+        },
+        {
+          "label": "Emboss",
+          "price": 7000
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Tanpa insert",
+          "price": 0
+        },
+        {
+          "label": "Busa foam",
+          "price": 5000
+        },
+        {
+          "label": "EVA custom",
+          "price": 8000
+        }
+      ],
+      "colors": [
+        {
+          "label": "Navy",
+          "hex": "#172a50"
+        },
+        {
+          "label": "Putih",
+          "hex": "#fff"
+        },
+        {
+          "label": "Hitam",
+          "hex": "#30343c"
+        },
+        {
+          "label": "Pink",
+          "hex": "#e4a9bd"
+        }
+      ],
+      "gallery": ["/media/red.jpg"]
+    },
+    {
+      "slug": "box-hampers-korporat",
+      "name": "Box Hampers Korporat",
+      "price": 85000,
+      "moq": 200,
+      "size": "40 × 30 × 12 cm",
+      "category": "box-hampers",
+      "image": "/media/red.jpg",
+      "kind": "packaging",
+      "description": "Box custom dengan konstruksi kokoh untuk kemasan produk dan hadiah. Sesuaikan ukuran, bahan pelapis, dan sentuhan akhirnya.",
+      "sizes": [
+        {
+          "id": "small",
+          "label": "Kecil · 32 × 24 × 10 cm"
+        },
+        {
+          "id": "standard",
+          "label": "Standar · 40 × 30 × 12 cm"
+        },
+        {
+          "id": "large",
+          "label": "Besar · 48 × 36 × 14 cm"
+        },
+        {
+          "id": "custom",
+          "label": "Custom"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Greyboard 2 mm + art paper",
+          "price": 0
+        },
+        {
+          "label": "Greyboard 2,5 mm + art paper",
+          "price": 3500
+        },
+        {
+          "label": "Greyboard 2 mm + kertas fancy",
+          "price": 6000
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Doff",
+          "price": 0
+        },
+        {
+          "label": "Glossy",
+          "price": 0
+        },
+        {
+          "label": "Hot foil",
+          "price": 5000
+        },
+        {
+          "label": "Emboss",
+          "price": 7000
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Tanpa insert",
+          "price": 0
+        },
+        {
+          "label": "Busa foam",
+          "price": 5000
+        },
+        {
+          "label": "EVA custom",
+          "price": 8000
+        }
+      ],
+      "colors": [
+        {
+          "label": "Navy",
+          "hex": "#172a50"
+        },
+        {
+          "label": "Putih",
+          "hex": "#fff"
+        },
+        {
+          "label": "Hitam",
+          "hex": "#30343c"
+        },
+        {
+          "label": "Pink",
+          "hex": "#e4a9bd"
+        }
+      ],
+      "gallery": ["/media/red.jpg"]
+    },
+    {
+      "slug": "box-hampers-lebaran",
+      "name": "Box Hampers Lebaran",
+      "price": 65000,
+      "moq": 150,
+      "size": "32 × 28 × 10 cm",
+      "category": "box-hampers",
+      "image": "/media/red.jpg",
+      "kind": "packaging",
+      "description": "Box custom dengan konstruksi kokoh untuk kemasan produk dan hadiah. Sesuaikan ukuran, bahan pelapis, dan sentuhan akhirnya.",
+      "sizes": [
+        {
+          "id": "small",
+          "label": "Kecil · 26 × 22 × 8 cm"
+        },
+        {
+          "id": "standard",
+          "label": "Standar · 32 × 28 × 10 cm"
+        },
+        {
+          "id": "large",
+          "label": "Besar · 38 × 34 × 12 cm"
+        },
+        {
+          "id": "custom",
+          "label": "Custom"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Greyboard 2 mm + art paper",
+          "price": 0
+        },
+        {
+          "label": "Greyboard 2,5 mm + art paper",
+          "price": 3500
+        },
+        {
+          "label": "Greyboard 2 mm + kertas fancy",
+          "price": 6000
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Doff",
+          "price": 0
+        },
+        {
+          "label": "Glossy",
+          "price": 0
+        },
+        {
+          "label": "Hot foil",
+          "price": 5000
+        },
+        {
+          "label": "Emboss",
+          "price": 7000
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Tanpa insert",
+          "price": 0
+        },
+        {
+          "label": "Busa foam",
+          "price": 5000
+        },
+        {
+          "label": "EVA custom",
+          "price": 8000
+        }
+      ],
+      "colors": [
+        {
+          "label": "Navy",
+          "hex": "#172a50"
+        },
+        {
+          "label": "Putih",
+          "hex": "#fff"
+        },
+        {
+          "label": "Hitam",
+          "hex": "#30343c"
+        },
+        {
+          "label": "Pink",
+          "hex": "#e4a9bd"
+        }
+      ],
+      "gallery": ["/media/red.jpg"]
+    },
+    {
+      "slug": "kalender-meja-spiral",
+      "name": "Kalender Meja Spiral",
+      "price": 28000,
+      "moq": 100,
+      "size": "21 × 15 cm",
+      "category": "kalender",
+      "image": "/media/calendar-blue.jpg",
+      "kind": "calendar",
+      "description": "Kalender meja dengan desain, warna, dan logo brand Anda. Pilih ukuran, bahan kertas, serta jumlah halaman.",
+      "sizes": [
+        {
+          "id": "small",
+          "label": "Kecil · 17 × 12 cm"
+        },
+        {
+          "id": "standard",
+          "label": "Standar · 21 × 15 cm"
+        },
+        {
+          "id": "large",
+          "label": "Besar · 25 × 18 cm"
+        },
+        {
+          "id": "custom",
+          "label": "Custom"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Art carton 260 gsm + dudukan hardboard",
+          "price": 0
+        },
+        {
+          "label": "Art carton 310 gsm + dudukan hardboard",
+          "price": 2000
+        },
+        {
+          "label": "Kertas fancy 250 gsm + dudukan hardboard",
+          "price": 5000
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Tanpa laminasi",
+          "price": 0
+        },
+        {
+          "label": "Doff",
+          "price": 2500
+        },
+        {
+          "label": "Glossy",
+          "price": 2500
+        }
+      ],
+      "inserts": [
+        {
+          "label": "7 lembar",
+          "price": 0
+        },
+        {
+          "label": "13 lembar",
+          "price": 6000
+        }
+      ],
+      "colors": [
+        {
+          "label": "Navy",
+          "hex": "#172a50"
+        },
+        {
+          "label": "Putih",
+          "hex": "#fff"
+        },
+        {
+          "label": "Hitam",
+          "hex": "#30343c"
+        },
+        {
+          "label": "Pink",
+          "hex": "#e4a9bd"
+        }
+      ],
+      "gallery": ["/media/calendar-blue.jpg"]
+    },
+    {
+      "slug": "kalender-meja-notes",
+      "name": "Kalender Meja + Notes",
+      "price": 38000,
+      "moq": 100,
+      "size": "25 × 17 cm",
+      "category": "kalender",
+      "image": "/media/calendar-yellow.jpg",
+      "kind": "calendar",
+      "description": "Kalender meja dengan desain, warna, dan logo brand Anda. Pilih ukuran, bahan kertas, serta jumlah halaman.",
+      "sizes": [
+        {
+          "id": "small",
+          "label": "Kecil · 20 × 14 cm"
+        },
+        {
+          "id": "standard",
+          "label": "Standar · 25 × 17 cm"
+        },
+        {
+          "id": "large",
+          "label": "Besar · 30 × 20 cm"
+        },
+        {
+          "id": "custom",
+          "label": "Custom"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Art carton 260 gsm + dudukan hardboard",
+          "price": 0
+        },
+        {
+          "label": "Art carton 310 gsm + dudukan hardboard",
+          "price": 2000
+        },
+        {
+          "label": "Kertas fancy 250 gsm + dudukan hardboard",
+          "price": 5000
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Tanpa laminasi",
+          "price": 0
+        },
+        {
+          "label": "Doff",
+          "price": 2500
+        },
+        {
+          "label": "Glossy",
+          "price": 2500
+        }
+      ],
+      "inserts": [
+        {
+          "label": "7 lembar",
+          "price": 0
+        },
+        {
+          "label": "13 lembar",
+          "price": 6000
+        }
+      ],
+      "colors": [
+        {
+          "label": "Navy",
+          "hex": "#172a50"
+        },
+        {
+          "label": "Putih",
+          "hex": "#fff"
+        },
+        {
+          "label": "Hitam",
+          "hex": "#30343c"
+        },
+        {
+          "label": "Pink",
+          "hex": "#e4a9bd"
+        }
+      ],
+      "gallery": ["/media/calendar-yellow.jpg"]
+    },
+    {
+      "slug": "kalender-meja-ring",
+      "name": "Kalender Meja Ring",
+      "price": 42000,
+      "moq": 100,
+      "size": "21 × 25 cm",
+      "category": "kalender",
+      "image": "/media/calendar-blue.jpg",
+      "kind": "calendar",
+      "description": "Kalender meja dengan desain, warna, dan logo brand Anda. Pilih ukuran, bahan kertas, serta jumlah halaman.",
+      "sizes": [
+        {
+          "id": "small",
+          "label": "Kecil · 17 × 20 cm"
+        },
+        {
+          "id": "standard",
+          "label": "Standar · 21 × 25 cm"
+        },
+        {
+          "id": "large",
+          "label": "Besar · 25 × 30 cm"
+        },
+        {
+          "id": "custom",
+          "label": "Custom"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Art carton 260 gsm + dudukan hardboard",
+          "price": 0
+        },
+        {
+          "label": "Art carton 310 gsm + dudukan hardboard",
+          "price": 2000
+        },
+        {
+          "label": "Kertas fancy 250 gsm + dudukan hardboard",
+          "price": 5000
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Tanpa laminasi",
+          "price": 0
+        },
+        {
+          "label": "Doff",
+          "price": 2500
+        },
+        {
+          "label": "Glossy",
+          "price": 2500
+        }
+      ],
+      "inserts": [
+        {
+          "label": "7 lembar",
+          "price": 0
+        },
+        {
+          "label": "13 lembar",
+          "price": 6000
+        }
+      ],
+      "colors": [
+        {
+          "label": "Navy",
+          "hex": "#172a50"
+        },
+        {
+          "label": "Putih",
+          "hex": "#fff"
+        },
+        {
+          "label": "Hitam",
+          "hex": "#30343c"
+        },
+        {
+          "label": "Pink",
+          "hex": "#e4a9bd"
+        }
+      ],
+      "gallery": ["/media/calendar-blue.jpg"]
+    },
+    {
+      "slug": "kalender-meja-mini",
+      "name": "Kalender Meja Mini",
+      "price": 22000,
+      "moq": 200,
+      "size": "15 × 10 cm",
+      "category": "kalender",
+      "image": "/media/calendar-yellow.jpg",
+      "kind": "calendar",
+      "description": "Kalender meja dengan desain, warna, dan logo brand Anda. Pilih ukuran, bahan kertas, serta jumlah halaman.",
+      "sizes": [
+        {
+          "id": "small",
+          "label": "Kecil · 12 × 8 cm"
+        },
+        {
+          "id": "standard",
+          "label": "Standar · 15 × 10 cm"
+        },
+        {
+          "id": "large",
+          "label": "Besar · 18 × 12 cm"
+        },
+        {
+          "id": "custom",
+          "label": "Custom"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Art carton 260 gsm + dudukan hardboard",
+          "price": 0
+        },
+        {
+          "label": "Art carton 310 gsm + dudukan hardboard",
+          "price": 2000
+        },
+        {
+          "label": "Kertas fancy 250 gsm + dudukan hardboard",
+          "price": 5000
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Tanpa laminasi",
+          "price": 0
+        },
+        {
+          "label": "Doff",
+          "price": 2500
+        },
+        {
+          "label": "Glossy",
+          "price": 2500
+        }
+      ],
+      "inserts": [
+        {
+          "label": "7 lembar",
+          "price": 0
+        },
+        {
+          "label": "13 lembar",
+          "price": 6000
+        }
+      ],
+      "colors": [
+        {
+          "label": "Navy",
+          "hex": "#172a50"
+        },
+        {
+          "label": "Putih",
+          "hex": "#fff"
+        },
+        {
+          "label": "Hitam",
+          "hex": "#30343c"
+        },
+        {
+          "label": "Pink",
+          "hex": "#e4a9bd"
+        }
+      ],
+      "gallery": ["/media/calendar-yellow.jpg"]
+    },
+    {
+      "slug": "kalender-meja-landscape",
+      "name": "Kalender Meja Landscape",
+      "price": 35000,
+      "moq": 100,
+      "size": "25 × 15 cm",
+      "category": "kalender",
+      "image": "/media/calendar-blue.jpg",
+      "kind": "calendar",
+      "description": "Kalender meja dengan desain, warna, dan logo brand Anda. Pilih ukuran, bahan kertas, serta jumlah halaman.",
+      "sizes": [
+        {
+          "id": "small",
+          "label": "Kecil · 20 × 12 cm"
+        },
+        {
+          "id": "standard",
+          "label": "Standar · 25 × 15 cm"
+        },
+        {
+          "id": "large",
+          "label": "Besar · 30 × 18 cm"
+        },
+        {
+          "id": "custom",
+          "label": "Custom"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Art carton 260 gsm + dudukan hardboard",
+          "price": 0
+        },
+        {
+          "label": "Art carton 310 gsm + dudukan hardboard",
+          "price": 2000
+        },
+        {
+          "label": "Kertas fancy 250 gsm + dudukan hardboard",
+          "price": 5000
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Tanpa laminasi",
+          "price": 0
+        },
+        {
+          "label": "Doff",
+          "price": 2500
+        },
+        {
+          "label": "Glossy",
+          "price": 2500
+        }
+      ],
+      "inserts": [
+        {
+          "label": "7 lembar",
+          "price": 0
+        },
+        {
+          "label": "13 lembar",
+          "price": 6000
+        }
+      ],
+      "colors": [
+        {
+          "label": "Navy",
+          "hex": "#172a50"
+        },
+        {
+          "label": "Putih",
+          "hex": "#fff"
+        },
+        {
+          "label": "Hitam",
+          "hex": "#30343c"
+        },
+        {
+          "label": "Pink",
+          "hex": "#e4a9bd"
+        }
+      ],
+      "gallery": ["/media/calendar-blue.jpg"]
+    },
+    {
+      "slug": "kalender-meja-premium",
+      "name": "Kalender Meja Premium",
+      "price": 48000,
+      "moq": 100,
+      "size": "25 × 20 cm",
+      "category": "kalender",
+      "image": "/media/calendar-yellow.jpg",
+      "kind": "calendar",
+      "description": "Kalender meja dengan desain, warna, dan logo brand Anda. Pilih ukuran, bahan kertas, serta jumlah halaman.",
+      "sizes": [
+        {
+          "id": "small",
+          "label": "Kecil · 20 × 16 cm"
+        },
+        {
+          "id": "standard",
+          "label": "Standar · 25 × 20 cm"
+        },
+        {
+          "id": "large",
+          "label": "Besar · 30 × 24 cm"
+        },
+        {
+          "id": "custom",
+          "label": "Custom"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Art carton 260 gsm + dudukan hardboard",
+          "price": 0
+        },
+        {
+          "label": "Art carton 310 gsm + dudukan hardboard",
+          "price": 2000
+        },
+        {
+          "label": "Kertas fancy 250 gsm + dudukan hardboard",
+          "price": 5000
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Tanpa laminasi",
+          "price": 0
+        },
+        {
+          "label": "Doff",
+          "price": 2500
+        },
+        {
+          "label": "Glossy",
+          "price": 2500
+        }
+      ],
+      "inserts": [
+        {
+          "label": "7 lembar",
+          "price": 0
+        },
+        {
+          "label": "13 lembar",
+          "price": 6000
+        }
+      ],
+      "colors": [
+        {
+          "label": "Navy",
+          "hex": "#172a50"
+        },
+        {
+          "label": "Putih",
+          "hex": "#fff"
+        },
+        {
+          "label": "Hitam",
+          "hex": "#30343c"
+        },
+        {
+          "label": "Pink",
+          "hex": "#e4a9bd"
+        }
+      ],
+      "gallery": ["/media/calendar-yellow.jpg"]
+    }
+  ],
+  "articles": [
+    {
+      "slug": "bahan-box-packaging",
+      "title": "Mengenal bahan box packaging: greyboard, art carton, dan kertas pelapis",
+      "excerpt": "Bahan memengaruhi bentuk, ketebalan, dan tampilan akhir kemasan. Pilih berdasarkan isi dan fungsi box, bukan hanya warna atau teksturnya.",
+      "src": "/media/jewel-closed.jpg",
+      "alt": "Box perhiasan berwarna kraft dalam keadaan tertutup",
+      "sections": [
+        {
+          "title": "Greyboard untuk box yang kaku",
+          "paragraphs": [
+            "Greyboard adalah papan berbahan kertas yang digunakan sebagai struktur box kaku. Permukaannya dapat dilapisi kertas cetak atau kertas bertekstur. Ketebalan dan konstruksi yang tepat bergantung pada dimensi box serta berat isinya."
+          ]
+        },
+        {
+          "title": "Art carton untuk kemasan lipat",
+          "paragraphs": [
+            "Art carton merupakan kertas berlapis dengan permukaan halus yang umum digunakan untuk kemasan cetak. Bentuk lipat dapat menghemat ruang penyimpanan sebelum dirakit. Ketebalan dan desain lipatan perlu disesuaikan dengan produk yang akan dikemas."
+          ]
+        },
+        {
+          "title": "Kertas pelapis menentukan sentuhan akhir",
+          "paragraphs": [
+            "Art paper memberi permukaan yang cocok untuk desain cetak, sedangkan kertas fancy menawarkan pilihan tekstur dan warna. Hasil cetak dapat berbeda pada setiap permukaan; minta sampel bahan atau proof sebelum produksi jika warna dan tekstur menjadi prioritas."
+          ]
+        },
+        {
+          "title": "Cek kebutuhan sebelum memilih",
+          "paragraphs": [
+            "Pertimbangkan berat isi, cara penyimpanan, distribusi, dan jumlah pesanan. Untuk makanan yang bersentuhan langsung dengan kemasan, sampaikan kebutuhan tersebut agar bahan dan lapisan yang sesuai dapat diperiksa terlebih dahulu."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "digital-printing-offset-dan-finishing",
+      "title": "Digital printing, offset, dan finishing: mengenal proses percetakan",
+      "excerpt": "Cetak hanyalah satu tahap dalam produksi. Setelah desain diperiksa dan dicetak, material masih dapat melalui pemotongan, pelipatan, atau proses finishing lain sesuai produk.",
+      "src": "/media/mesin-lipat.jpg",
+      "alt": "Mesin lipat untuk proses finishing hasil cetak",
+      "sections": [
+        {
+          "title": "Digital printing untuk kebutuhan yang fleksibel",
+          "paragraphs": [
+            "Digital printing sering dipilih untuk jumlah lebih kecil atau desain yang perlu variasi. Kecocokannya tetap bergantung pada jenis mesin, ukuran, bahan, dan hasil yang diinginkan. Diskusikan spesifikasi sebelum menentukan metode."
+          ]
+        },
+        {
+          "title": "Offset untuk produksi dalam jumlah lebih besar",
+          "paragraphs": [
+            "Offset memakai pelat cetak dan membutuhkan persiapan produksi. Metode ini sering dipertimbangkan untuk jumlah menengah hingga besar, tetapi titik ekonomisnya berbeda untuk setiap pekerjaan. Bandingkan penawaran berdasarkan jumlah dan spesifikasi yang sama."
+          ]
+        },
+        {
+          "title": "Apa peran mesin lipat dan cutting?",
+          "paragraphs": [
+            "Mesin lipat membantu melipat lembaran cetak sesuai pola pekerjaan, misalnya untuk brosur atau dokumen. Cutting plotter digunakan untuk memotong mengikuti bentuk tertentu. Kebutuhan alat bergantung pada produk; tidak setiap box dibuat dengan proses yang sama."
+          ]
+        },
+        {
+          "title": "Dari file sampai hasil akhir",
+          "paragraphs": [
+            "Alur biasanya dimulai dari pemeriksaan file dan proof, kemudian cetak, potong, finishing, dan perakitan bila diperlukan. Jadwal dipengaruhi oleh kerumitan, ketersediaan bahan, dan antrean produksi. Sepakati detail serta waktu sebelum pekerjaan dimulai."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "finishing-box-packaging",
+      "title": "Finishing box packaging: doff, glossy, hot foil, dan emboss",
+      "excerpt": "Finishing memberi sentuhan pada permukaan dan detail desain. Setiap pilihan punya karakter berbeda, jadi tentukan bagian mana yang ingin ditonjolkan.",
+      "src": "/media/red.jpg",
+      "alt": "Box hampers merah dengan cetakan logo",
+      "sections": [
+        {
+          "title": "Doff dan glossy",
+          "paragraphs": [
+            "Laminasi doff memberi tampilan lebih lembut dan mengurangi pantulan cahaya. Glossy memberi permukaan mengilap yang membuat warna terlihat lebih menonjol. Keduanya digunakan sebagai lapisan pada hasil cetak; diskusikan kecocokannya dengan bahan dan penggunaan box."
+          ]
+        },
+        {
+          "title": "Hot foil untuk aksen",
+          "paragraphs": [
+            "Hot foil menambahkan lapisan foil pada area tertentu, misalnya logo atau teks. Warna foil dan ukuran detail memengaruhi hasil. Hindari detail yang terlalu kecil tanpa berkonsultasi terlebih dahulu, terutama pada desain dengan garis tipis."
+          ]
+        },
+        {
+          "title": "Emboss untuk tekstur",
+          "paragraphs": [
+            "Emboss membentuk bagian desain agar terasa timbul. Efeknya bergantung pada bahan, bentuk, dan ketebalan kertas. Teknik ini bisa dipakai sendiri atau dikombinasikan dengan cetak dan foil sesuai kebutuhan."
+          ]
+        },
+        {
+          "title": "Tentukan prioritas desain",
+          "paragraphs": [
+            "Tidak semua detail perlu diberi efek. Pilih satu elemen utama, lalu minta contoh hasil atau proof untuk melihat kombinasi bahan dan finishing. Jumlah pesanan, area finishing, dan proses tambahan juga memengaruhi penawaran."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "memilih-box-packaging-custom",
+      "title": "Cara memilih box packaging custom untuk produk dan hadiah",
+      "excerpt": "Box yang tepat melindungi isi sekaligus membuat produk terasa siap diberikan. Mulai dari ukuran dan berat produk, lalu pilih bentuk yang sesuai dengan cara box akan digunakan.",
+      "src": "/media/blue.jpg",
+      "alt": "Gift box biru dengan bukaan dua pintu",
+      "sections": [
+        {
+          "title": "Mulai dari isi box",
+          "paragraphs": [
+            "Ukur panjang, lebar, dan tinggi produk beserta bagian yang menonjol. Sisakan ruang untuk bahan pelindung atau insert; box yang terlalu pas bisa menyulitkan saat produk dimasukkan, sementara ruang terlalu longgar membuat isi mudah bergeser."
+          ]
+        },
+        {
+          "title": "Pilih bentuk sesuai pengalaman membuka",
+          "paragraphs": [
+            "Gift box dengan bukaan dua pintu cocok untuk hadiah yang ingin ditampilkan saat dibuka. Box dengan tutup terpisah lebih sederhana untuk disusun dan dikemas. Untuk hampers berisi beberapa barang, pertimbangkan ruang dan susunan setiap produk terlebih dahulu."
+          ]
+        },
+        {
+          "title": "Pertimbangkan insert dan pengiriman",
+          "paragraphs": [
+            "Insert membantu menahan posisi produk, terutama untuk barang kecil atau rapuh. Bentuknya perlu disesuaikan dengan isi. Jika box akan dikirim, diskusikan juga kemasan luar dan pelindung tambahan; box presentasi saja belum tentu cukup untuk perjalanan."
+          ]
+        },
+        {
+          "title": "Siapkan detail sebelum meminta penawaran",
+          "paragraphs": [
+            "Bawa ukuran produk, jumlah yang dibutuhkan, referensi bentuk, desain logo, dan target waktu. Dengan informasi ini, pilihan bahan dan konstruksi dapat dibahas sesuai kebutuhan dan anggaran."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "menyiapkan-desain-packaging-siap-cetak",
+      "title": "Cara menyiapkan desain packaging agar siap cetak",
+      "excerpt": "File yang rapi membantu tim cetak memeriksa desain dan mengurangi revisi. Sebelum mengirim, pastikan ukuran, garis potong, dan elemen penting sudah sesuai dengan bentuk box.",
+      "src": "/media/cutting-plotter.jpg",
+      "alt": "Mesin cutting plotter untuk proses pemotongan",
+      "sections": [
+        {
+          "title": "Gunakan pola box yang disepakati",
+          "paragraphs": [
+            "Minta pola atau dieline sesuai ukuran dan konstruksi box. Dieline menunjukkan area potong dan lipat. Letakkan garisnya terpisah dari artwork agar tim produksi dapat membedakan bagian yang dicetak dan panduan pemotongan."
+          ]
+        },
+        {
+          "title": "Sisakan bleed dan ruang aman",
+          "paragraphs": [
+            "Bleed adalah perpanjangan gambar atau warna melewati garis potong agar tidak muncul celah putih saat dipotong. Jauhkan logo dan teks penting dari tepi dan lipatan. Tanyakan ukuran bleed dan ruang aman yang dibutuhkan untuk pola box Anda."
+          ]
+        },
+        {
+          "title": "Periksa gambar, warna, dan huruf",
+          "paragraphs": [
+            "Gunakan gambar dengan resolusi yang memadai pada ukuran cetak dan pastikan file gambar tersertakan. Diskusikan pengaturan warna dengan percetakan; tampilan layar dapat berbeda dari hasil di bahan cetak. Pastikan font tersedia atau sudah diubah sesuai kebutuhan file produksi."
+          ]
+        },
+        {
+          "title": "Kirim file dan periksa proof",
+          "paragraphs": [
+            "Simpan file sesuai format yang disepakati, misalnya PDF atau AI, lalu sertakan catatan ukuran, bahan, dan finishing. Periksa ejaan, posisi logo, warna, dan arah lipatan pada proof sebelum memberi persetujuan cetak."
+          ]
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "id": "pemesanan",
+      "title": "Mulai memesan",
+      "items": [
+        {
+          "question": "Bagaimana cara memesan?",
+          "answer": "Pilih kategori di Katalog, buka produk, lalu sesuaikan ukuran, bahan, finishing, dan jumlah. Gunakan tombol konsultasi untuk membahas spesifikasi, penawaran, dan jadwal bersama tim."
+        },
+        {
+          "question": "Apa saja yang perlu disiapkan sebelum konsultasi?",
+          "answer": "Siapkan jenis produk, ukuran, jumlah pesanan, desain atau referensi, serta tanggal kebutuhan. Jika belum punya spesifikasi lengkap, mulai dari foto produk dan perkiraan kebutuhan Anda."
+        },
+        {
+          "question": "Apakah bisa memesan untuk perusahaan maupun perorangan?",
+          "answer": "Bisa. Kebutuhan brand, hadiah perusahaan, acara, dan pesanan perorangan dapat dibahas sesuai spesifikasi dan minimum pemesanan produk."
+        },
+        {
+          "question": "Apakah harus datang langsung ke tempat percetakan?",
+          "answer": "Konsultasi dapat dilakukan lewat WhatsApp. Detail desain, spesifikasi, dan pengiriman bisa dibahas tanpa datang langsung. Jika perlu melihat bahan atau membahas sampel secara langsung, atur kunjungan bersama tim terlebih dahulu."
+        },
+        {
+          "question": "Bagaimana jika belum tahu produk yang cocok?",
+          "answer": "Ceritakan isi kemasan, kegunaan, perkiraan jumlah, dan anggaran. Tim dapat membantu membahas model, bahan, dan finishing yang sesuai sebelum Anda memutuskan."
+        }
+      ]
+    },
+    {
+      "id": "packaging",
+      "title": "Box packaging & kalender",
+      "items": [
+        {
+          "question": "Apakah ukuran box bisa dibuat custom?",
+          "answer": "Bisa. Pilih ukuran Custom pada halaman produk dan isi panjang, lebar, serta tinggi. Sebutkan apakah ukuran tersebut merupakan ukuran produk, bagian dalam box, atau bagian luar box agar kebutuhan ruangnya jelas."
+        },
+        {
+          "question": "Bagaimana cara menentukan ukuran box?",
+          "answer": "Ukur produk beserta bagian yang menonjol, lalu pertimbangkan ruang untuk insert atau pelindung. Untuk hampers, susun seluruh isi terlebih dahulu. Konfirmasikan ukuran akhir dan toleransinya sebelum produksi."
+        },
+        {
+          "question": "Apa perbedaan gift box, box hampers, dan box perhiasan?",
+          "answer": "Gift box umumnya digunakan untuk produk atau hadiah. Box hampers menampung rangkaian bingkisan, sedangkan box perhiasan disesuaikan untuk isi yang kecil dan sering memerlukan penahan. Pilih berdasarkan isi, dimensi, dan cara membuka yang Anda inginkan."
+        },
+        {
+          "question": "Apakah bisa menambahkan insert di dalam box?",
+          "answer": "Pilihan insert tersedia pada produk tertentu. Bentuk dan bahannya perlu disesuaikan dengan ukuran, berat, dan posisi isi. Sertakan foto atau ukuran produk saat konsultasi agar kecocokannya dapat diperiksa."
+        },
+        {
+          "question": "Apakah box bisa menggunakan logo dan warna brand sendiri?",
+          "answer": "Bisa dibahas sesuai model, bahan, dan proses cetaknya. Kirim file logo serta referensi warna. Periksa proof dan, bila diperlukan, sampel fisik sebelum menyepakati hasil akhir."
+        },
+        {
+          "question": "Apakah kalender juga bisa menggunakan desain sendiri?",
+          "answer": "Bisa. Pada halaman kalender, pilih ukuran, bahan, isi, dan jumlah yang tersedia. Desain, logo, susunan halaman, serta kebutuhan tanggal khusus dapat dibahas saat konsultasi."
+        }
+      ]
+    },
+    {
+      "id": "desain",
+      "title": "Desain & file cetak",
+      "items": [
+        {
+          "question": "Format file apa yang perlu dikirim?",
+          "answer": "Halaman produk mencantumkan PDF atau AI siap cetak. Pastikan ukuran desain benar dan gambar tersertakan. Jika hanya memiliki JPG, PNG, atau file dari aplikasi desain lain, kirim untuk diperiksa terlebih dahulu."
+        },
+        {
+          "question": "Belum punya desain, apakah bisa konsultasi?",
+          "answer": "Bisa. Siapkan logo, teks, foto, dan referensi yang Anda sukai. Konsultasi desain tersedia; kebutuhan pengerjaan desain serta biayanya dibahas berdasarkan lingkup pekerjaan."
+        },
+        {
+          "question": "Apa itu proof dan mengapa perlu diperiksa?",
+          "answer": "Proof adalah bahan pemeriksaan sebelum cetak, misalnya pratinjau desain atau sampel yang disepakati. Periksa ejaan, nomor kontak, posisi logo, ukuran, dan arah lipatan. Konfirmasikan juga bahan serta finishing sebelum memberi persetujuan."
+        },
+        {
+          "question": "Apakah warna cetak pasti sama dengan layar?",
+          "answer": "Tampilan layar dan hasil cetak dapat berbeda karena pengaturan layar, bahan, tinta, dan proses produksi. Jika warna brand menjadi prioritas, sertakan referensinya dan bahas pemeriksaan warna yang diperlukan."
+        },
+        {
+          "question": "Apakah desain bisa direvisi setelah disetujui?",
+          "answer": "Segera hubungi tim. Kemungkinan revisi bergantung pada tahap pekerjaan. Jika bahan atau proses produksi sudah berjalan, perubahan dapat memengaruhi biaya dan jadwal; rinciannya perlu dikonfirmasi sebelum dilanjutkan."
+        }
+      ]
+    },
+    {
+      "id": "harga",
+      "title": "Harga & jumlah pesanan",
+      "items": [
+        {
+          "question": "Apa arti harga “mulai dari” di katalog?",
+          "answer": "Harga tersebut mengikuti spesifikasi standar produk. Ukuran, bahan, finishing, insert, jumlah, dan detail desain dapat mengubah perhitungan. Penawaran akhir dikonfirmasi setelah spesifikasi lengkap."
+        },
+        {
+          "question": "Berapa minimum pemesanannya?",
+          "answer": "Minimum pemesanan tercantum pada setiap produk dan dapat berbeda antarproduk. Sebutkan jumlah yang Anda butuhkan saat konsultasi, terutama jika membutuhkan bentuk atau spesifikasi khusus."
+        },
+        {
+          "question": "Mengapa harga per pcs bisa berbeda untuk jumlah yang berbeda?",
+          "answer": "Produksi memiliki kebutuhan persiapan, bahan, dan proses pengerjaan. Ketika jumlah berubah, pembagian biaya per pcs juga bisa berubah. Bandingkan harga dengan ukuran, bahan, dan finishing yang sama."
+        },
+        {
+          "question": "Apakah harga sudah termasuk desain, pajak, dan pengiriman?",
+          "answer": "Minta rincian penawaran sebelum menyepakati pesanan. Kebutuhan desain, proses tambahan, pajak bila berlaku, dan ongkos kirim perlu dipastikan secara terpisah agar totalnya jelas."
+        },
+        {
+          "question": "Bagaimana ketentuan pembayarannya?",
+          "answer": "Metode dan tahapan pembayaran dikonfirmasi bersama penawaran. Pastikan nama penerima, nominal, spesifikasi, serta jadwal tertulis pada konfirmasi pesanan sebelum melakukan pembayaran."
+        }
+      ]
+    },
+    {
+      "id": "produksi",
+      "title": "Produksi & hasil akhir",
+      "items": [
+        {
+          "question": "Berapa lama waktu produksi?",
+          "answer": "Waktu pengerjaan mengikuti spesifikasi, jumlah, ketersediaan bahan, persetujuan desain, dan antrean produksi. Beri tahu tanggal kebutuhan sejak awal, lalu konfirmasikan tanggal penyelesaian bersama tim."
+        },
+        {
+          "question": "Apakah bisa memesan untuk kebutuhan mendesak?",
+          "answer": "Sampaikan tenggat dan detail pesanan terlebih dahulu. Tim perlu memeriksa bahan serta kapasitas pengerjaan sebelum memastikan apakah jadwal tersebut memungkinkan."
+        },
+        {
+          "question": "Apakah bisa meminta sampel sebelum produksi banyak?",
+          "answer": "Diskusikan jenis sampel yang dibutuhkan, seperti contoh bahan, referensi hasil, atau sampel dengan desain khusus. Ketersediaan, biaya, dan waktu pengerjaan sampel dikonfirmasi sesuai kebutuhan."
+        },
+        {
+          "question": "Apa perbedaan finishing doff, glossy, hot foil, dan emboss?",
+          "answer": "Doff memberi tampilan yang lebih lembut, sedangkan glossy lebih mengilap. Hot foil menambahkan aksen foil pada area desain dan emboss membentuk efek timbul. Kecocokannya bergantung pada bahan serta detail desain."
+        },
+        {
+          "question": "Bisakah memesan ulang desain yang sama?",
+          "answer": "Kirim referensi pesanan sebelumnya dan sebutkan apakah ada perubahan. Bahan, spesifikasi, harga, serta jadwal tetap perlu dikonfirmasi kembali untuk pesanan baru."
+        }
+      ]
+    },
+    {
+      "id": "pengiriman",
+      "title": "Pengiriman & penerimaan",
+      "items": [
+        {
+          "question": "Apakah bisa dikirim ke luar Jakarta?",
+          "answer": "Sampaikan alamat atau wilayah tujuan saat konsultasi agar pilihan pengiriman dan ongkosnya dapat diperiksa. Waktu perjalanan diperhitungkan terpisah dari waktu produksi."
+        },
+        {
+          "question": "Bagaimana biaya pengiriman dihitung?",
+          "answer": "Biaya mengikuti tujuan, layanan pengiriman, serta berat dan dimensi paket. Box berukuran besar dapat membutuhkan ruang kirim lebih banyak, jadi pastikan ongkosnya setelah bentuk dan jumlah disepakati."
+        },
+        {
+          "question": "Apakah box hadiah sudah cukup aman untuk dikirim?",
+          "answer": "Box presentasi dan kemasan pengiriman memiliki fungsi berbeda. Produk rapuh atau pengiriman jarak jauh mungkin memerlukan pelindung dan karton luar. Bahas jenis isi serta cara pengirimannya sebelum menentukan kemasan."
+        },
+        {
+          "question": "Bisa mengambil pesanan sendiri?",
+          "answer": "Koordinasikan waktu dan tempat pengambilan bersama tim setelah pesanan dikonfirmasi siap. Pastikan jumlah serta dimensi paket sesuai dengan kendaraan yang akan digunakan."
+        },
+        {
+          "question": "Apa yang perlu diperiksa saat pesanan diterima?",
+          "answer": "Periksa kondisi paket, jumlah, dan kesesuaian produk dengan spesifikasi pesanan. Simpan dokumentasi saat membuka paket. Jika ada kendala, kirim foto, rincian masalah, dan referensi pesanan agar tim dapat menindaklanjuti."
+        }
+      ]
+    }
+  ],
+  "about": {
+    "intro": "Kami bergerak di bidang percetakan dan alat tulis kantor sejak 2015. Dari Kemayoran, Jakarta Pusat, kami melayani kebutuhan perusahaan dan perorangan melalui digital printing dan cetak offset.",
+    "storyTitle": "Berawal pada 2015.",
+    "story": [
+      "LINE · Art media hadir untuk membantu kebutuhan cetak, dari skala kecil hingga besar. Kami mendampingi pelanggan sejak menentukan desain, proof desain, bahan, dan ukuran, sampai memilih finishing.",
+      "Konsultasi kami berikan gratis. Kamu bisa membahas pesanan dari mana pun, lalu hasil cetak dikirim ke tujuan tanpa harus datang langsung ke tempat kami."
+    ],
+    "vision": "Memenuhi kebutuhan konsumen dari layanan hingga produksi, dengan pelayanan yang unggul, sumber daya manusia profesional, dan kualitas kerja yang baik.",
+    "missions": [
+      {
+        "title": "Untuk pelanggan",
+        "items": [
+          "Memberikan pelayanan prima kepada pelanggan.",
+          "Membantu pelanggan memilih produk yang terbaik.",
+          "Mengutamakan kenyamanan konsumen."
+        ]
+      },
+      {
+        "title": "Dalam pekerjaan",
+        "items": [
+          "Terus meningkatkan kualitas sumber daya manusia.",
+          "Mengembangkan daya kreasi yang inovatif.",
+          "Mengontrol hasil kerja secara efektif pada setiap divisi."
+        ]
+      },
+      {
+        "title": "Melalui kerja sama",
+        "items": [
+          "Memperluas jaringan kerja sama dengan perusahaan yang membutuhkan jasa promosi dan layanan pengolahan dokumen."
+        ]
+      }
+    ],
+    "production": [
+      {
+        "title": "Desain & bahan",
+        "description": "Konsultasi desain, proof, ukuran, dan pilihan bahan baku."
+      },
+      {
+        "title": "Proses cetak",
+        "description": "Digital printing dan offset untuk kebutuhan operasional maupun promosi."
+      },
+      {
+        "title": "Hasil akhir",
+        "description": "Pilihan finishing dan pengiriman sesuai kebutuhan pesanan."
+      }
+    ],
+    "principles": [
+      {
+        "title": "Ketepatan waktu",
+        "description": "Berusaha menyelesaikan pekerjaan sesuai tenggat yang disepakati."
+      },
+      {
+        "title": "Kualitas cetak",
+        "description": "Didukung peralatan dan tenaga kerja terlatih, dari cetak hingga finishing."
+      },
+      {
+        "title": "Harga kompetitif",
+        "description": "Membahas pilihan pengerjaan dan bahan dengan tetap menjaga kualitas."
+      },
+      {
+        "title": "Pelayanan yang baik",
+        "description": "Membantu pelanggan memahami pilihan dan detail kebutuhan cetaknya."
+      }
+    ],
+    "services": [
+      {
+        "title": "Packaging & cetak offset",
+        "description": "Box packaging, paper bag, shopping bag, company profile, majalah, buku, tabloid, hang tag, brosur, leaflet, flyer, dan poster."
+      },
+      {
+        "title": "Digital printing & promosi",
+        "description": "Spanduk, banner, roll banner, X banner, tripod sign, stiker, cutting sticker, neon box, ID card, member card, RFID card, dan acrylic signage."
+      },
+      {
+        "title": "Kebutuhan kantor",
+        "description": "Kalender, agenda, map, kop surat, kartu nama, dan alat tulis kantor."
+      }
+    ]
+  },
+  "quoteRules": {
+    "maxQuantity": 100000,
+    "maxDimensionCm": 200,
+    "rounding": 500,
+    "sizeFactors": {
+      "small": 0.8,
+      "standard": 1,
+      "large": 1.3
+    },
+    "discounts": [
+      {
+        "minimum": 500,
+        "factor": 0.85
+      },
+      {
+        "minimum": 250,
+        "factor": 0.92
+      }
+    ]
+  }
+}
