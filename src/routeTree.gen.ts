@@ -10,14 +10,23 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as FaqRouteImport } from './routes/faq'
 import { Route as KatalogRouteImport } from './routes/katalog'
 import { Route as KontakRouteImport } from './routes/kontak'
+import { Route as TentangKamiRouteImport } from './routes/tentang-kami'
+import { Route as ArtikelIndexRouteImport } from './routes/artikel/index'
+import { Route as ArtikelSlugRouteImport } from './routes/artikel/$slug'
 import { Route as KategoriSlugRouteImport } from './routes/kategori/$slug'
 import { Route as ProdukSlugRouteImport } from './routes/produk/$slug'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FaqRoute = FaqRouteImport.update({
+  id: '/faq',
+  path: '/faq',
   getParentRoute: () => rootRouteImport,
 } as any)
 const KatalogRoute = KatalogRouteImport.update({
@@ -28,6 +37,21 @@ const KatalogRoute = KatalogRouteImport.update({
 const KontakRoute = KontakRouteImport.update({
   id: '/kontak',
   path: '/kontak',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TentangKamiRoute = TentangKamiRouteImport.update({
+  id: '/tentang-kami',
+  path: '/tentang-kami',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ArtikelIndexRoute = ArtikelIndexRouteImport.update({
+  id: '/artikel/',
+  path: '/artikel/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ArtikelSlugRoute = ArtikelSlugRouteImport.update({
+  id: '/artikel/$slug',
+  path: '/artikel/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
 const KategoriSlugRoute = KategoriSlugRouteImport.update({
@@ -43,46 +67,84 @@ const ProdukSlugRoute = ProdukSlugRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/faq': typeof FaqRoute
   '/katalog': typeof KatalogRoute
   '/kontak': typeof KontakRoute
+  '/tentang-kami': typeof TentangKamiRoute
+  '/artikel/$slug': typeof ArtikelSlugRoute
   '/kategori/$slug': typeof KategoriSlugRoute
   '/produk/$slug': typeof ProdukSlugRoute
+  '/artikel/': typeof ArtikelIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/faq': typeof FaqRoute
   '/katalog': typeof KatalogRoute
   '/kontak': typeof KontakRoute
+  '/tentang-kami': typeof TentangKamiRoute
+  '/artikel/$slug': typeof ArtikelSlugRoute
   '/kategori/$slug': typeof KategoriSlugRoute
   '/produk/$slug': typeof ProdukSlugRoute
+  '/artikel': typeof ArtikelIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/faq': typeof FaqRoute
   '/katalog': typeof KatalogRoute
   '/kontak': typeof KontakRoute
+  '/tentang-kami': typeof TentangKamiRoute
+  '/artikel/$slug': typeof ArtikelSlugRoute
   '/kategori/$slug': typeof KategoriSlugRoute
   '/produk/$slug': typeof ProdukSlugRoute
+  '/artikel/': typeof ArtikelIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/katalog' | '/kontak' | '/kategori/$slug' | '/produk/$slug'
+  fullPaths:
+    | '/'
+    | '/faq'
+    | '/katalog'
+    | '/kontak'
+    | '/tentang-kami'
+    | '/artikel/$slug'
+    | '/kategori/$slug'
+    | '/produk/$slug'
+    | '/artikel/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/katalog' | '/kontak' | '/kategori/$slug' | '/produk/$slug'
+  to:
+    | '/'
+    | '/faq'
+    | '/katalog'
+    | '/kontak'
+    | '/tentang-kami'
+    | '/artikel/$slug'
+    | '/kategori/$slug'
+    | '/produk/$slug'
+    | '/artikel'
   id:
     | '__root__'
     | '/'
+    | '/faq'
     | '/katalog'
     | '/kontak'
+    | '/tentang-kami'
+    | '/artikel/$slug'
     | '/kategori/$slug'
     | '/produk/$slug'
+    | '/artikel/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  FaqRoute: typeof FaqRoute
   KatalogRoute: typeof KatalogRoute
   KontakRoute: typeof KontakRoute
+  TentangKamiRoute: typeof TentangKamiRoute
+  ArtikelSlugRoute: typeof ArtikelSlugRoute
   KategoriSlugRoute: typeof KategoriSlugRoute
   ProdukSlugRoute: typeof ProdukSlugRoute
+  ArtikelIndexRoute: typeof ArtikelIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -92,6 +154,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/faq': {
+      id: '/faq'
+      path: '/faq'
+      fullPath: '/faq'
+      preLoaderRoute: typeof FaqRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/katalog': {
@@ -106,6 +175,27 @@ declare module '@tanstack/react-router' {
       path: '/kontak'
       fullPath: '/kontak'
       preLoaderRoute: typeof KontakRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/tentang-kami': {
+      id: '/tentang-kami'
+      path: '/tentang-kami'
+      fullPath: '/tentang-kami'
+      preLoaderRoute: typeof TentangKamiRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/artikel/': {
+      id: '/artikel/'
+      path: '/artikel'
+      fullPath: '/artikel/'
+      preLoaderRoute: typeof ArtikelIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/artikel/$slug': {
+      id: '/artikel/$slug'
+      path: '/artikel/$slug'
+      fullPath: '/artikel/$slug'
+      preLoaderRoute: typeof ArtikelSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/kategori/$slug': {
@@ -127,10 +217,14 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  FaqRoute: FaqRoute,
   KatalogRoute: KatalogRoute,
   KontakRoute: KontakRoute,
+  TentangKamiRoute: TentangKamiRoute,
+  ArtikelSlugRoute: ArtikelSlugRoute,
   KategoriSlugRoute: KategoriSlugRoute,
   ProdukSlugRoute: ProdukSlugRoute,
+  ArtikelIndexRoute: ArtikelIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
