@@ -11,7 +11,9 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as KatalogRouteImport } from './routes/katalog'
+import { Route as KontakRouteImport } from './routes/kontak'
 import { Route as KategoriSlugRouteImport } from './routes/kategori/$slug'
+import { Route as ProdukSlugRouteImport } from './routes/produk/$slug'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -23,40 +25,64 @@ const KatalogRoute = KatalogRouteImport.update({
   path: '/katalog',
   getParentRoute: () => rootRouteImport,
 } as any)
+const KontakRoute = KontakRouteImport.update({
+  id: '/kontak',
+  path: '/kontak',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const KategoriSlugRoute = KategoriSlugRouteImport.update({
   id: '/kategori/$slug',
   path: '/kategori/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ProdukSlugRoute = ProdukSlugRouteImport.update({
+  id: '/produk/$slug',
+  path: '/produk/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/katalog': typeof KatalogRoute
+  '/kontak': typeof KontakRoute
   '/kategori/$slug': typeof KategoriSlugRoute
+  '/produk/$slug': typeof ProdukSlugRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/katalog': typeof KatalogRoute
+  '/kontak': typeof KontakRoute
   '/kategori/$slug': typeof KategoriSlugRoute
+  '/produk/$slug': typeof ProdukSlugRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/katalog': typeof KatalogRoute
+  '/kontak': typeof KontakRoute
   '/kategori/$slug': typeof KategoriSlugRoute
+  '/produk/$slug': typeof ProdukSlugRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/katalog' | '/kategori/$slug'
+  fullPaths: '/' | '/katalog' | '/kontak' | '/kategori/$slug' | '/produk/$slug'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/katalog' | '/kategori/$slug'
-  id: '__root__' | '/' | '/katalog' | '/kategori/$slug'
+  to: '/' | '/katalog' | '/kontak' | '/kategori/$slug' | '/produk/$slug'
+  id:
+    | '__root__'
+    | '/'
+    | '/katalog'
+    | '/kontak'
+    | '/kategori/$slug'
+    | '/produk/$slug'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   KatalogRoute: typeof KatalogRoute
+  KontakRoute: typeof KontakRoute
   KategoriSlugRoute: typeof KategoriSlugRoute
+  ProdukSlugRoute: typeof ProdukSlugRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -75,11 +101,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof KatalogRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/kontak': {
+      id: '/kontak'
+      path: '/kontak'
+      fullPath: '/kontak'
+      preLoaderRoute: typeof KontakRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/kategori/$slug': {
       id: '/kategori/$slug'
       path: '/kategori/$slug'
       fullPath: '/kategori/$slug'
       preLoaderRoute: typeof KategoriSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/produk/$slug': {
+      id: '/produk/$slug'
+      path: '/produk/$slug'
+      fullPath: '/produk/$slug'
+      preLoaderRoute: typeof ProdukSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
   }
@@ -88,7 +128,9 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   KatalogRoute: KatalogRoute,
+  KontakRoute: KontakRoute,
   KategoriSlugRoute: KategoriSlugRoute,
+  ProdukSlugRoute: ProdukSlugRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

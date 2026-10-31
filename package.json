@@ -10,7 +10,8 @@
     "lint": "oxlint",
     "format": "oxfmt --write .",
     "format:check": "oxfmt --check .",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test": "bun tests/quote.test.ts"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.105.0",
@@ -19,7 +20,6 @@
     "@tanstack/react-router-devtools": "^1.167.2",
     "@tanstack/react-router-ssr-query": "^1.167.3",
     "@tanstack/react-start": "^1.169.4",
-    "nitro": "3.0.261029-rc",
     "ofetch": "^1.5.1",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
