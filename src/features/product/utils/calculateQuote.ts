@@ -14,7 +14,10 @@ export function calculateQuote(product: Product, options: QuoteOptions): Quote {
   const rules = masterData.quoteRules;
   const { quantity } = options;
   if (!Number.isInteger(quantity) || quantity < product.moq || quantity > rules.maxQuantity)
-    return { valid: false, error: `Minimum ${product.moq} pcs, maksimum 100.000 pcs.` };
+    return {
+      valid: false,
+      error: `Minimum ${product.moq} pcs, maksimum ${rules.maxQuantity.toLocaleString('id-ID')} pcs.`,
+    };
   const adjustments = [
     product.materials[options.material],
     product.finishes[options.finish],
@@ -32,11 +35,15 @@ export function calculateQuote(product: Product, options: QuoteOptions): Quote {
         (value) => !Number.isFinite(value) || value < 1 || value > rules.maxDimensionCm,
       )
     )
-      return { valid: false, error: 'Isi setiap ukuran custom antara 1–200 cm.' };
+      return {
+        valid: false,
+        error: `Isi setiap ukuran custom antara 1–${rules.maxDimensionCm} cm.`,
+      };
     return { valid: true, custom: true, quantity, unit: null, total: null };
   }
   const factor = rules.sizeFactors[options.size as keyof typeof rules.sizeFactors];
-  if (factor === undefined) return { valid: false, error: 'Pilih ukuran yang tersedia.' };
+  if (typeof factor !== 'number' || !Number.isFinite(factor))
+    return { valid: false, error: 'Pilih ukuran yang tersedia.' };
   const discount = rules.discounts.find((tier) => quantity >= tier.minimum)?.factor ?? 1;
   const unit =
     Math.round(

@@ -23,8 +23,7 @@ export default function About() {
           />
           <figcaption>
             <span>
-              Di balik setiap
-              <br />
+              Di balik setiap <br />
               hasil cetak.
             </span>
             <p>Mesin lipat kertas Horizon PF40L</p>

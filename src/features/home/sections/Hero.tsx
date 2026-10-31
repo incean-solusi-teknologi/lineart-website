@@ -5,12 +5,10 @@ export function Hero() {
       <div className="hero-main">
         <div className="hero-copy">
           <h1>
-            Packaging Jakarta,
-            <br />
+            {masterData.home.heroTitle.lead} <br />
             <span>
-              sesuai karakter
-              <br />
-              brand kamu.
+              {masterData.home.heroTitle.lines[0]} <br />
+              {masterData.home.heroTitle.lines[1]}
             </span>
           </h1>
           <p>{masterData.home.heroDescription}</p>
@@ -34,9 +32,9 @@ export function Hero() {
       <a className="hero-calendar" href="/kategori/kalender">
         <div className="copy">
           <h2>
-            Setahun penuh,
+            {masterData.home.calendarTitle[0]}
             <br />
-            ada brand kamu.
+            {masterData.home.calendarTitle[1]}
           </h2>
           <p>{masterData.home.calendarDescription}</p>
         </div>

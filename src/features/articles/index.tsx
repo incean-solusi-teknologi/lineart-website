@@ -22,8 +22,8 @@ export default function Articles({ article }: { article?: Article }) {
               <img
                 src={article.src}
                 alt={article.alt}
-                width="1200"
-                height="900"
+                width={article.width}
+                height={article.height}
                 fetchPriority="high"
               />
             </figure>

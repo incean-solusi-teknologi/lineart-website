@@ -21,9 +21,12 @@
     "logo": "/media/logo.jpg"
   },
   "home": {
-    "heroTitle": "Packaging Jakarta, sesuai karakter brand kamu.",
+    "heroTitle": {
+      "lead": "Packaging Jakarta,",
+      "lines": ["sesuai karakter", "brand kamu."]
+    },
     "heroDescription": "Dari box produk sampai hampers. Pilih model, tentukan ukuran, beri sentuhanmu.",
-    "calendarTitle": "Setahun penuh, ada brand kamu.",
+    "calendarTitle": ["Setahun penuh,", "ada brand kamu."],
     "calendarDescription": "Kalender custom untuk meja kerja dan hadiah perusahaan.",
     "steps": [
       {
@@ -2350,7 +2353,9 @@
             "Pertimbangkan berat isi, cara penyimpanan, distribusi, dan jumlah pesanan. Untuk makanan yang bersentuhan langsung dengan kemasan, sampaikan kebutuhan tersebut agar bahan dan lapisan yang sesuai dapat diperiksa terlebih dahulu."
           ]
         }
-      ]
+      ],
+      "width": 1024,
+      "height": 1024
     },
     {
       "slug": "digital-printing-offset-dan-finishing",
@@ -2383,7 +2388,9 @@
             "Alur biasanya dimulai dari pemeriksaan file dan proof, kemudian cetak, potong, finishing, dan perakitan bila diperlukan. Jadwal dipengaruhi oleh kerumitan, ketersediaan bahan, dan antrean produksi. Sepakati detail serta waktu sebelum pekerjaan dimulai."
           ]
         }
-      ]
+      ],
+      "width": 1600,
+      "height": 1200
     },
     {
       "slug": "finishing-box-packaging",
@@ -2416,7 +2423,9 @@
             "Tidak semua detail perlu diberi efek. Pilih satu elemen utama, lalu minta contoh hasil atau proof untuk melihat kombinasi bahan dan finishing. Jumlah pesanan, area finishing, dan proses tambahan juga memengaruhi penawaran."
           ]
         }
-      ]
+      ],
+      "width": 1024,
+      "height": 1024
     },
     {
       "slug": "memilih-box-packaging-custom",
@@ -2449,7 +2458,9 @@
             "Bawa ukuran produk, jumlah yang dibutuhkan, referensi bentuk, desain logo, dan target waktu. Dengan informasi ini, pilihan bahan dan konstruksi dapat dibahas sesuai kebutuhan dan anggaran."
           ]
         }
-      ]
+      ],
+      "width": 1024,
+      "height": 1024
     },
     {
       "slug": "menyiapkan-desain-packaging-siap-cetak",
@@ -2482,7 +2493,9 @@
             "Simpan file sesuai format yang disepakati, misalnya PDF atau AI, lalu sertakan catatan ukuran, bahan, dan finishing. Periksa ejaan, posisi logo, warna, dan arah lipatan pada proof sebelum memberi persetujuan cetak."
           ]
         }
-      ]
+      ],
+      "width": 600,
+      "height": 600
     }
   ],
   "faq": [

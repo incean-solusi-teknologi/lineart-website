@@ -1,5 +1,5 @@
 import type { CSSProperties } from 'react';
-import type { Product } from '@/data';
+import { masterData, type Product } from '@/data';
 import { WhatsAppIcon } from '@/shared/Icons';
 import { formatPrice } from '@/utils/format';
 import { useProductConfiguration } from '../hooks/useProductConfiguration';
@@ -40,7 +40,7 @@ export function ProductConfiguration({ product }: { product: Product }) {
                 <input
                   type="number"
                   min="1"
-                  max="200"
+                  max={masterData.quoteRules.maxDimensionCm}
                   step="0.1"
                   disabled={options.size !== 'custom'}
                   value={Number.isFinite(dimension) ? dimension : ''}
@@ -134,7 +134,7 @@ export function ProductConfiguration({ product }: { product: Product }) {
               id="quantity"
               type="number"
               min={product.moq}
-              max="100000"
+              max={masterData.quoteRules.maxQuantity}
               step="1"
               value={Number.isFinite(options.quantity) ? options.quantity : ''}
               onChange={(event) => update('quantity', event.target.valueAsNumber)}

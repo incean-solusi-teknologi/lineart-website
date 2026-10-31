@@ -21,7 +21,8 @@ for (const quantity of [99, 100.5, 100001, NaN])
   assert.equal(calculateQuote(product, { ...options, quantity }).valid, false);
 assert.equal(calculateQuote(product, { ...options, material: 999 }).valid, false);
 assert.equal(calculateQuote(product, { ...options, finish: 0.5 }).valid, false);
-assert.equal(calculateQuote(product, { ...options, size: 'invalid' }).valid, false);
+for (const size of ['invalid', 'toString', 'constructor', '__proto__'])
+  assert.equal(calculateQuote(product, { ...options, size }).valid, false);
 assert.deepEqual(calculateQuote(product, { ...options, size: 'large', finish: 2 }), {
   valid: true,
   custom: false,
