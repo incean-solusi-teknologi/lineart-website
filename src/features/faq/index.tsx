@@ -1,5 +1,10 @@
 import { faq } from '@/data';
 import { Breadcrumbs } from '@/shared/Breadcrumbs';
+const categoryLinks: Record<string, { label: string; href: string }> = {
+  packaging: { label: 'Lihat pilihan box packaging', href: '/kategori/hard-box' },
+  kalender: { label: 'Lihat pilihan kalender', href: '/kategori/kalender' },
+  digital: { label: 'Lihat banner, spanduk, dan backdrop', href: '/kategori/digital' },
+};
 export default function Faq() {
   return (
     <main className="container">
@@ -8,8 +13,8 @@ export default function Faq() {
         <h1>Pertanyaan umum.</h1>
         <div>
           <p>
-            Dari memilih box sampai menerima pesanan. Temukan hal yang perlu diketahui sebelum mulai
-            cetak.
+            Panduan pemesanan box packaging, kalender, banner, dan spanduk. Temukan informasi
+            tentang pilihan produk, desain, penawaran, produksi, dan pengiriman.
           </p>
           <a className="text-link" href="/kontak">
             Tanyakan langsung ke tim kami
@@ -29,7 +34,7 @@ export default function Faq() {
             <h2>Butuh bahas yang lebih spesifik?</h2>
             <p>Siapkan ukuran, jumlah, dan referensi. Kita bahas pilihannya bersama.</p>
             <a className="button blue" href="/kontak">
-              Konsultasi via WhatsApp
+              Bahas kebutuhan pesanan
             </a>
           </div>
         </aside>
@@ -48,6 +53,11 @@ export default function Faq() {
                   <p>{item.answer}</p>
                 </details>
               ))}
+              {categoryLinks[group.id] && (
+                <a className="text-link faq-category-link" href={categoryLinks[group.id].href}>
+                  {categoryLinks[group.id].label}
+                </a>
+              )}
             </section>
           ))}
         </div>

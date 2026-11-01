@@ -1,9 +1,9 @@
-import { business, masterData } from '@/data';
+import { masterData } from '@/data';
 export function OrderSteps() {
   return (
     <div className="home-order">
-      <section id="cara-pesan">
-        <h2>Dari ide, jadi pesanan.</h2>
+      <section id="cara-pesan" aria-labelledby="order-steps-title">
+        <h2 id="order-steps-title">Cara pesan box custom</h2>
         <div className="steps">
           {masterData.home.steps.map((step, index) => (
             <div className="step" key={step.title}>
@@ -15,9 +15,6 @@ export function OrderSteps() {
             </div>
           ))}
         </div>
-        <p className="prototype-note">
-          Cari packaging Jakarta? Bahas kebutuhan custom box di {business.localArea}.
-        </p>
       </section>
     </div>
   );

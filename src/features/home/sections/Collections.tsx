@@ -1,49 +1,44 @@
 import { categories, productsInCategory } from '@/data';
-import { formatPrice } from '@/utils/format';
 export function Collections() {
   return (
-    <section className="section" id="katalog">
+    <section className="section other-printing-services" id="katalog">
       <div className="section-head">
         <div>
-          <h2>Mau cetak apa?</h2>
-          <p>Mulai dari packaging. Lengkapi dengan kebutuhan cetak lainnya.</p>
+          <h2>Layanan cetak lainnya</h2>
+          <p>Lengkapi kebutuhan usaha dan acaramu dengan cetak digital serta kalender custom.</p>
         </div>
-        <a className="text-link" href="/kategori/packaging">
-          Semua packaging
+        <a className="text-link" href="/katalog">
+          Semua produk
         </a>
       </div>
       <div className="category-grid">
-        {['gift-box', 'box-hampers', 'box-perhiasan', 'kalender'].map((slug) => {
-          const category = categories.find((item) => item.slug === slug)!;
-          const collection = productsInCategory(slug);
-          return (
-            <a key={slug} className={`collection ${category.tone}`} href={`/kategori/${slug}`}>
-              <div className="collection-photo">
-                <img
-                  src={category.src}
-                  alt={category.name}
-                  width="400"
-                  height="340"
-                  loading="lazy"
-                />
-                <span className="count">{collection.length} pilihan model</span>
-              </div>
-              <div className="collection-info">
-                <h3>{category.name}</h3>
-                <p>{category.description}</p>
-                <div className="collection-price">
-                  Mulai{' '}
-                  <b>{formatPrice(Math.min(...collection.map((product) => product.price)))}</b> /
-                  pcs
+        {categories
+          .filter((category) => category.slug !== 'hard-box')
+          .map((category) => {
+            const slug = category.slug;
+            const collection = productsInCategory(slug);
+            return (
+              <a key={slug} className={`collection ${category.tone}`} href={`/kategori/${slug}`}>
+                <div className="collection-photo">
+                  <img
+                    src={category.src}
+                    alt={category.name}
+                    width="400"
+                    height="340"
+                    loading="lazy"
+                  />
+                  <span className="count">{collection.length} pilihan produk</span>
                 </div>
-                <div className="collection-bottom">
-                  <span>Lihat koleksi</span>
-                  <span>Min. {Math.min(...collection.map((product) => product.moq))} pcs</span>
+                <div className="collection-info">
+                  <h3>{category.name}</h3>
+                  <p>{category.description}</p>
+                  <div className="collection-bottom">
+                    <span>Lihat koleksi</span>
+                  </div>
                 </div>
-              </div>
-            </a>
-          );
-        })}
+              </a>
+            );
+          })}
       </div>
     </section>
   );

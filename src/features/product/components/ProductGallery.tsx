@@ -58,10 +58,6 @@ export function ProductGallery({ product }: { product: Product }) {
           <i />
           Custom desain &amp; logo
         </span>
-        <span>
-          <i />
-          Minimum {product.moq} pcs
-        </span>
       </div>
     </section>
   );

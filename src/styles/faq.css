@@ -79,6 +79,10 @@
   line-height: 1.3;
   margin: 0 0 15px;
 }
+.faq-category-link {
+  display: inline-flex;
+  margin-top: 18px;
+}
 .faq-group .faq-answer {
   border-bottom: 1px solid var(--line);
 }

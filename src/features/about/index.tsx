@@ -120,7 +120,7 @@ export default function About() {
             <br />
             dekat Pasar Senen.
           </h2>
-          <p>Temui LINE · Art media di kawasan Kali Baru, Kemayoran.</p>
+          <p>Temui LINE · Art media di kawasan Kalibaru Timur V, Bungur, Senen.</p>
           <address>{business.address}</address>
           <a
             className="button secondary"
@@ -133,7 +133,7 @@ export default function About() {
         </div>
         <iframe
           src={business.mapsEmbed}
-          title="Peta lokasi LINE · Art media di Kali Baru, Kemayoran"
+          title="Peta lokasi LINE · Art media di Kalibaru Timur V, Bungur, Senen"
           width="800"
           height="420"
           loading="lazy"

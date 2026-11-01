@@ -9,22 +9,19 @@ export default function Catalog({
   category?: Category;
   initialQuery?: string;
 }) {
-  const { query, setQuery, sort, setSort, visibleProducts } = useCatalog(
-    category?.slug,
-    initialQuery,
-  );
+  const { query, setQuery, visibleProducts } = useCatalog(category?.slug, initialQuery);
   return (
     <main className="container">
       <Breadcrumbs items={[{ label: category?.name ?? 'Semua produk' }]} />
       <section className={`category-banner ${category?.tone ?? 'ice'}`}>
         <div>
-          <h1>{category?.name ?? 'Semua produk'}</h1>
+          <h1>{category?.heading ?? 'Katalog layanan percetakan'}</h1>
           <p>
             {category?.description ??
-              'Packaging custom di Jakarta, dilengkapi kalender untuk kebutuhan brand Anda.'}
+              'Temukan box packaging custom, cetak banner dan spanduk, serta kalender untuk kebutuhan usaha dan acara di Jakarta Pusat.'}
           </p>
         </div>
-        <img src={category?.src ?? '/media/blue.jpg'} alt="" width="145" height="112" />
+        <img src={category?.src ?? categories[0].src} alt="" width="145" height="112" />
       </section>
       <div className="catalog-layout">
         <aside className="catalog-sidebar">
@@ -58,17 +55,6 @@ export default function Catalog({
               onChange={(event) => setQuery(event.target.value)}
               placeholder="Cari di katalog ini"
             />
-            <label className="sr-only" htmlFor="catalog-sort">
-              Urutkan produk
-            </label>
-            <select
-              id="catalog-sort"
-              value={sort}
-              onChange={(event) => setSort(event.target.value)}
-            >
-              <option value="default">Urutan katalog</option>
-              <option value="price">Harga terendah</option>
-            </select>
           </div>
           <div className="catalog-grid">
             {visibleProducts.map((product) => (
@@ -79,7 +65,7 @@ export default function Catalog({
             <p>Tidak ada produk yang cocok. Coba kata lain atau pilih kategori lain.</p>
           )}
           <p className="prototype-note">
-            Harga dan minimum pesanan masih data contoh. Konfirmasi penawaran final bersama tim.
+            Hubungi tim untuk informasi produk dan penawaran sesuai kebutuhan Anda.
           </p>
         </section>
       </div>
