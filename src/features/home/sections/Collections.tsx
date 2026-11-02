@@ -1,5 +1,4 @@
 import { categories, productsInCategory } from '@/data';
-import { formatPrice } from '@/utils/format';
 export function Collections() {
   return (
     <section className="section" id="katalog">
@@ -31,11 +30,6 @@ export function Collections() {
               <div className="collection-info">
                 <h3>{category.name}</h3>
                 <p>{category.description}</p>
-                <div className="collection-price">
-                  Mulai{' '}
-                  <b>{formatPrice(Math.min(...collection.map((product) => product.price)))}</b> /
-                  pcs
-                </div>
                 <div className="collection-bottom">
                   <span>Lihat koleksi</span>
                   <span>Min. {Math.min(...collection.map((product) => product.moq))} pcs</span>

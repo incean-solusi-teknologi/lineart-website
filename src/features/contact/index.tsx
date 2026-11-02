@@ -26,7 +26,10 @@ export default function Contact({ message, returnSlug }: { message: string; retu
       <Breadcrumbs items={[{ label: 'Konsultasi pesanan' }]} />
       <section className="preview-contact">
         <h1>Pesananmu sudah dirangkum.</h1>
-        <p>Ukuran, bahan, finishing, dan jumlah yang dipilih akan ikut dalam pesan WhatsApp.</p>
+        <p>
+          Produk dan warna pilihanmu ikut dalam pesan WhatsApp. Detail pesanan dan harga dibahas
+          bersama tim.
+        </p>
         <label className="sr-only" htmlFor="wa-message">
           Pesan untuk WhatsApp
         </label>

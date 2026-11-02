@@ -11,7 +11,7 @@ export const Route = createFileRoute('/kontak')({
     seoHead({
       title: 'Konsultasi Packaging Custom Jakarta',
       description:
-        'Siapkan ukuran, jumlah, dan referensi desain untuk berkonsultasi bersama LINE · Art media.',
+        'Konsultasikan produk, warna pilihan, dan negosiasi harga bersama LINE · Art media.',
       path: '/kontak',
       noindex: true,
     }),

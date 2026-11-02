@@ -25,13 +25,13 @@
       "lead": "Packaging Jakarta,",
       "lines": ["sesuai karakter", "brand kamu."]
     },
-    "heroDescription": "Dari box produk sampai hampers. Pilih model, tentukan ukuran, beri sentuhanmu.",
+    "heroDescription": "Dari box produk sampai hampers. Pilih model dan warna, lalu konsultasikan kebutuhanmu.",
     "calendarTitle": ["Setahun penuh,", "ada brand kamu."],
     "calendarDescription": "Kalender custom untuk meja kerja dan hadiah perusahaan.",
     "steps": [
       {
-        "title": "Pilih model & spesifikasi",
-        "description": "Buka koleksi, pilih produk, lalu atur ukuran, bahan, dan finishing."
+        "title": "Pilih model & warna",
+        "description": "Buka koleksi, pilih produk dan warna yang kamu suka."
       },
       {
         "title": "Bahas lewat WhatsApp",
@@ -73,7 +73,7 @@
     {
       "slug": "packaging",
       "name": "Packaging custom",
-      "description": "Pilih model box, lalu sesuaikan ukuran, bahan, dan finishing untuk brand Anda.",
+      "description": "Pilih model box dan warna yang sesuai untuk brand Anda.",
       "tone": "ice",
       "src": "/media/blue.jpg",
       "alt": ""
@@ -1813,7 +1813,7 @@
       "category": "kalender",
       "image": "/media/calendar-blue.jpg",
       "kind": "calendar",
-      "description": "Kalender meja dengan desain, warna, dan logo brand Anda. Pilih ukuran, bahan kertas, serta jumlah halaman.",
+      "description": "Kalender meja dengan desain, warna, dan logo brand Anda. Pilih warna, lalu konsultasikan kebutuhan Anda.",
       "sizes": [
         {
           "id": "small",
@@ -1899,7 +1899,7 @@
       "category": "kalender",
       "image": "/media/calendar-yellow.jpg",
       "kind": "calendar",
-      "description": "Kalender meja dengan desain, warna, dan logo brand Anda. Pilih ukuran, bahan kertas, serta jumlah halaman.",
+      "description": "Kalender meja dengan desain, warna, dan logo brand Anda. Pilih warna, lalu konsultasikan kebutuhan Anda.",
       "sizes": [
         {
           "id": "small",
@@ -1985,7 +1985,7 @@
       "category": "kalender",
       "image": "/media/calendar-blue.jpg",
       "kind": "calendar",
-      "description": "Kalender meja dengan desain, warna, dan logo brand Anda. Pilih ukuran, bahan kertas, serta jumlah halaman.",
+      "description": "Kalender meja dengan desain, warna, dan logo brand Anda. Pilih warna, lalu konsultasikan kebutuhan Anda.",
       "sizes": [
         {
           "id": "small",
@@ -2071,7 +2071,7 @@
       "category": "kalender",
       "image": "/media/calendar-yellow.jpg",
       "kind": "calendar",
-      "description": "Kalender meja dengan desain, warna, dan logo brand Anda. Pilih ukuran, bahan kertas, serta jumlah halaman.",
+      "description": "Kalender meja dengan desain, warna, dan logo brand Anda. Pilih warna, lalu konsultasikan kebutuhan Anda.",
       "sizes": [
         {
           "id": "small",
@@ -2157,7 +2157,7 @@
       "category": "kalender",
       "image": "/media/calendar-blue.jpg",
       "kind": "calendar",
-      "description": "Kalender meja dengan desain, warna, dan logo brand Anda. Pilih ukuran, bahan kertas, serta jumlah halaman.",
+      "description": "Kalender meja dengan desain, warna, dan logo brand Anda. Pilih warna, lalu konsultasikan kebutuhan Anda.",
       "sizes": [
         {
           "id": "small",
@@ -2243,7 +2243,7 @@
       "category": "kalender",
       "image": "/media/calendar-yellow.jpg",
       "kind": "calendar",
-      "description": "Kalender meja dengan desain, warna, dan logo brand Anda. Pilih ukuran, bahan kertas, serta jumlah halaman.",
+      "description": "Kalender meja dengan desain, warna, dan logo brand Anda. Pilih warna, lalu konsultasikan kebutuhan Anda.",
       "sizes": [
         {
           "id": "small",
@@ -2505,7 +2505,7 @@
       "items": [
         {
           "question": "Bagaimana cara memesan?",
-          "answer": "Pilih kategori di Katalog, buka produk, lalu sesuaikan ukuran, bahan, finishing, dan jumlah. Gunakan tombol konsultasi untuk membahas spesifikasi, penawaran, dan jadwal bersama tim."
+          "answer": "Pilih kategori di Katalog, buka produk, lalu pilih warna. Gunakan tombol konsultasi untuk membahas detail pesanan, negosiasi harga, dan jadwal bersama tim."
         },
         {
           "question": "Apa saja yang perlu disiapkan sebelum konsultasi?",
@@ -2531,7 +2531,7 @@
       "items": [
         {
           "question": "Apakah ukuran box bisa dibuat custom?",
-          "answer": "Bisa. Pilih ukuran Custom pada halaman produk dan isi panjang, lebar, serta tinggi. Sebutkan apakah ukuran tersebut merupakan ukuran produk, bagian dalam box, atau bagian luar box agar kebutuhan ruangnya jelas."
+          "answer": "Bisa. Sampaikan ukuran yang dibutuhkan saat konsultasi. Tim akan membantu menentukan ukuran yang sesuai dengan isi produk Anda."
         },
         {
           "question": "Bagaimana cara menentukan ukuran box?",
@@ -2543,7 +2543,7 @@
         },
         {
           "question": "Apakah bisa menambahkan insert di dalam box?",
-          "answer": "Pilihan insert tersedia pada produk tertentu. Bentuk dan bahannya perlu disesuaikan dengan ukuran, berat, dan posisi isi. Sertakan foto atau ukuran produk saat konsultasi agar kecocokannya dapat diperiksa."
+          "answer": "Kebutuhan insert dapat dibahas saat konsultasi. Sertakan foto atau ukuran produk agar bentuk dan bahannya dapat disesuaikan dengan isi."
         },
         {
           "question": "Apakah box bisa menggunakan logo dan warna brand sendiri?",
@@ -2551,7 +2551,7 @@
         },
         {
           "question": "Apakah kalender juga bisa menggunakan desain sendiri?",
-          "answer": "Bisa. Pada halaman kalender, pilih ukuran, bahan, isi, dan jumlah yang tersedia. Desain, logo, susunan halaman, serta kebutuhan tanggal khusus dapat dibahas saat konsultasi."
+          "answer": "Bisa. Pada halaman kalender, pilih warna yang Anda suka. Desain, logo, susunan halaman, jumlah, serta kebutuhan tanggal khusus dapat dibahas saat konsultasi."
         }
       ]
     },
@@ -2586,8 +2586,8 @@
       "title": "Harga & jumlah pesanan",
       "items": [
         {
-          "question": "Apa arti harga “mulai dari” di katalog?",
-          "answer": "Harga tersebut mengikuti spesifikasi standar produk. Ukuran, bahan, finishing, insert, jumlah, dan detail desain dapat mengubah perhitungan. Penawaran akhir dikonfirmasi setelah spesifikasi lengkap."
+          "question": "Bagaimana cara mengetahui harga produk?",
+          "answer": "Harga dinegosiasikan saat konsultasi sesuai kebutuhan pesanan. Pilih produk dan warna, lalu hubungi tim untuk membahas detail serta penawarannya."
         },
         {
           "question": "Berapa minimum pemesanannya?",

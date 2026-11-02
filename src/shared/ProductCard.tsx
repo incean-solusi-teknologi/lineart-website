@@ -1,5 +1,4 @@
 import type { Product } from '@/data';
-import { formatPrice } from '@/utils/format';
 export function ProductCard({ product }: { product: Product }) {
   const href = `/produk/${product.slug}`;
   return (
@@ -14,16 +13,9 @@ export function ProductCard({ product }: { product: Product }) {
           <a href={href}>{product.name}</a>
         </h3>
         <p className="card-size">{product.size} · Custom logo</p>
-        <div className="card-price">
-          Mulai dari
-          <strong>
-            {formatPrice(product.price)}
-            <small> / pcs</small>
-          </strong>
-        </div>
         <p className="card-moq">Minimum {product.moq} pcs</p>
         <a className="button secondary wide" href={href}>
-          Pilih spesifikasi
+          Pilih warna
         </a>
       </div>
     </article>

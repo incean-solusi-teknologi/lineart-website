@@ -27,16 +27,6 @@ export function productHead(product?: Product) {
         image: absoluteUrl(product.image),
         url: absoluteUrl(path),
         brand: { '@type': 'Brand', name: masterData.business.name },
-        ...(masterData.status.pricingApproved && !masterData.status.dummy
-          ? {
-              offers: {
-                '@type': 'Offer',
-                price: product.price,
-                priceCurrency: 'IDR',
-                url: absoluteUrl(path),
-              },
-            }
-          : {}),
       },
     ],
   });

@@ -9,10 +9,7 @@ export default function Catalog({
   category?: Category;
   initialQuery?: string;
 }) {
-  const { query, setQuery, sort, setSort, visibleProducts } = useCatalog(
-    category?.slug,
-    initialQuery,
-  );
+  const { query, setQuery, visibleProducts } = useCatalog(category?.slug, initialQuery);
   return (
     <main className="container">
       <Breadcrumbs items={[{ label: category?.name ?? 'Semua produk' }]} />
@@ -58,17 +55,6 @@ export default function Catalog({
               onChange={(event) => setQuery(event.target.value)}
               placeholder="Cari di katalog ini"
             />
-            <label className="sr-only" htmlFor="catalog-sort">
-              Urutkan produk
-            </label>
-            <select
-              id="catalog-sort"
-              value={sort}
-              onChange={(event) => setSort(event.target.value)}
-            >
-              <option value="default">Urutan katalog</option>
-              <option value="price">Harga terendah</option>
-            </select>
           </div>
           <div className="catalog-grid">
             {visibleProducts.map((product) => (
@@ -79,7 +65,7 @@ export default function Catalog({
             <p>Tidak ada produk yang cocok. Coba kata lain atau pilih kategori lain.</p>
           )}
           <p className="prototype-note">
-            Harga dan minimum pesanan masih data contoh. Konfirmasi penawaran final bersama tim.
+            Harga dinegosiasikan bersama tim sesuai kebutuhan pesanan.
           </p>
         </section>
       </div>
