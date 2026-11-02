@@ -14,7 +14,7 @@ export function seoHead({
   title,
   description,
   path,
-  image = '/media/blue.jpg',
+  image = masterData.categories[0].src,
   noindex = false,
   type = 'website',
   schemas = [],
@@ -90,7 +90,7 @@ export function businessSchema(): Schema {
             postalCode: business.postalCode,
             addressCountry: business.country,
           },
-          areaServed: business.addressLocality,
+          areaServed: business.serviceAreas,
           hasMap: business.mapsUrl,
         }
       : {}),

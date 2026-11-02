@@ -4,6 +4,7 @@
 @import './articles.css';
 @import './faq.css';
 @import './motion.css';
+@import './home.css';
 
 @theme inline {
   --color-background: var(--background);
@@ -53,6 +54,55 @@
   max-width: 190px;
   height: 64px;
   object-fit: contain;
+}
+.clients-marquee {
+  overflow: hidden;
+  mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+}
+.clients-track {
+  display: flex;
+  width: max-content;
+  animation: clients-scroll 32s linear infinite;
+}
+.clients-track .client-logos {
+  display: flex;
+  flex: none;
+  gap: 36px;
+  padding-right: 36px;
+}
+.clients-track .client-logos img {
+  width: 190px;
+  flex: none;
+}
+.clients-marquee:hover .clients-track {
+  animation-play-state: paused;
+}
+@keyframes clients-scroll {
+  to {
+    transform: translateX(-50%);
+  }
+}
+@media (max-width: 760px) {
+  .clients-track .client-logos {
+    gap: 24px;
+    padding-right: 24px;
+  }
+  .clients-track .client-logos img {
+    width: 150px;
+    height: 56px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .clients-marquee {
+    overflow-x: auto;
+    mask-image: none;
+  }
+  .clients-track {
+    animation: none;
+  }
+  .clients-track .client-logos[aria-hidden='true'] {
+    display: none;
+  }
 }
 .prototype-note {
   color: var(--muted);

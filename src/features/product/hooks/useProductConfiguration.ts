@@ -4,12 +4,12 @@ import { type Product } from '@/data';
 export function useProductConfiguration(product: Product) {
   const navigate = useNavigate();
   const hydrated = useHydrated();
-  const [color, setColor] = useState(product.colors[0].label);
+  const [color, setColor] = useState(product.colors[0]?.label ?? '');
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const message = [
       `Halo LINE · Art media, saya ingin konsultasi ${product.name}.`,
-      `Warna: ${color}`,
+      ...(color ? [`Warna: ${color}`] : []),
       '',
       'Saya ingin membahas kebutuhan pesanan, negosiasi harga, dan jadwal produksi.',
     ].join('\n');

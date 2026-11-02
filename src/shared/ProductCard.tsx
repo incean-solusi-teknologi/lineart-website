@@ -12,10 +12,10 @@ export function ProductCard({ product }: { product: Product }) {
         <h3>
           <a href={href}>{product.name}</a>
         </h3>
-        <p className="card-size">{product.size} · Custom logo</p>
-        <p className="card-moq">Minimum {product.moq} pcs</p>
+        {product.generatedIllustration && <p className="prototype-note">Ilustrasi konsep</p>}
+        <p className="card-size">{product.useCase || product.size}</p>
         <a className="button secondary wide" href={href}>
-          Pilih warna
+          Lihat detail
         </a>
       </div>
     </article>

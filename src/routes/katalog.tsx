@@ -11,9 +11,9 @@ export const Route = createFileRoute('/katalog')({
     seoHead({
       title: loaderData?.q
         ? `Hasil pencarian ${loaderData.q}`
-        : 'Katalog Packaging dan Kalender Custom Jakarta',
+        : 'Katalog Box Packaging, Cetak Digital & Kalender Jakarta',
       description:
-        'Jelajahi gift box, box hampers, box perhiasan, dan kalender custom LINE · Art media di Jakarta.',
+        'Jelajahi box packaging custom, banner, spanduk, backdrop, serta kalender meja dan dinding dari Line Art Media di Jakarta Pusat.',
       path: '/katalog',
       noindex: Boolean(loaderData?.q),
     }),

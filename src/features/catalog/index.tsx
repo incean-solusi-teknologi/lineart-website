@@ -15,13 +15,13 @@ export default function Catalog({
       <Breadcrumbs items={[{ label: category?.name ?? 'Semua produk' }]} />
       <section className={`category-banner ${category?.tone ?? 'ice'}`}>
         <div>
-          <h1>{category?.name ?? 'Semua produk'}</h1>
+          <h1>{category?.heading ?? 'Katalog layanan percetakan'}</h1>
           <p>
             {category?.description ??
-              'Packaging custom di Jakarta, dilengkapi kalender untuk kebutuhan brand Anda.'}
+              'Temukan box packaging custom, cetak banner dan spanduk, serta kalender untuk kebutuhan usaha dan acara di Jakarta Pusat.'}
           </p>
         </div>
-        <img src={category?.src ?? '/media/blue.jpg'} alt="" width="145" height="112" />
+        <img src={category?.src ?? categories[0].src} alt="" width="145" height="112" />
       </section>
       <div className="catalog-layout">
         <aside className="catalog-sidebar">

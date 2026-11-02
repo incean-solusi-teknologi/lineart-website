@@ -42,7 +42,7 @@ export default function Articles({ article }: { article?: Article }) {
                   Siapkan ukuran, jumlah, dan referensi desain agar tim kami dapat membantu memilih
                   spesifikasi.
                 </p>
-                <a className="button" href="/kategori/packaging">
+                <a className="button" href="/kategori/hard-box">
                   Lihat packaging custom
                 </a>
               </div>

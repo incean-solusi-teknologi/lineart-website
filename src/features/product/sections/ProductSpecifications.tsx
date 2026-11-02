@@ -7,8 +7,9 @@ export function ProductSpecifications({ product }: { product: Product }) {
           <h2>Detail produk</h2>
           <dl className="facts">
             {[
-              ['Model', product.name],
-              ['Ukuran standar', product.size],
+              ['Referensi model', product.modelLabel],
+              ...(product.useCase ? [['Cocok untuk', product.useCase]] : []),
+              ['Ukuran', product.size],
               ['Kustomisasi', 'Desain, logo, ukuran & warna'],
               ['File desain', 'PDF / AI siap cetak'],
             ].map(([label, value]) => (

@@ -9,8 +9,8 @@ export function categoryHead(category?: Category) {
     });
   const path = `/kategori/${category.slug}`;
   return seoHead({
-    title: `Katalog ${category.name}${/custom/i.test(category.name) ? '' : ' Custom'} Jakarta`,
-    description: category.description,
+    title: category.seoTitle,
+    description: category.seoDescription,
     path,
     image: category.src,
     schemas: [breadcrumbSchema([{ label: category.name, path }])],

@@ -9,8 +9,5 @@ export const getProduct = (slug: string) => products.find((product) => product.s
 export const getCategory = (slug: string) => categories.find((category) => category.slug === slug);
 export const getArticle = (slug: string) => articles.find((article) => article.slug === slug);
 export function productsInCategory(slug?: string) {
-  return products.filter(
-    (product) =>
-      !slug || (slug === 'packaging' ? product.kind === 'packaging' : product.category === slug),
-  );
+  return products.filter((product) => !slug || product.category === slug);
 }

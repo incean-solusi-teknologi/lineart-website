@@ -1,0 +1,37 @@
+.box-guide-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+.box-guide-card {
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--cloud);
+}
+.box-guide-card h3 {
+  margin-bottom: 14px;
+  font-size: 21px;
+}
+.box-guide-card p {
+  color: var(--muted);
+  line-height: 1.8;
+}
+.box-guide-link {
+  display: inline-block;
+  margin-top: 24px;
+}
+.box-questions .faq-group {
+  margin-bottom: 0;
+}
+@media (max-width: 1000px) {
+  .box-guide-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+}
+@media (max-width: 760px) {
+  .box-guide-card {
+    padding: 24px;
+  }
+}

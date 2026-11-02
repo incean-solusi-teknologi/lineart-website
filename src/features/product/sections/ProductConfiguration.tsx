@@ -1,13 +1,22 @@
-import type { CSSProperties } from 'react';
+import { useState, type CSSProperties } from 'react';
+import { Link } from '@tanstack/react-router';
 import type { Product } from '@/data';
 import { WhatsAppIcon } from '@/shared/Icons';
-import { useProductConfiguration } from '../hooks/useProductConfiguration';
 export function ProductConfiguration({ product }: { product: Product }) {
-  const { color, setColor, submit, hydrated } = useProductConfiguration(product);
+  const [color, setColor] = useState(product.colors[0]?.label ?? '');
+  const isCalendar = product.kind === 'calendar';
+  const isBox = product.kind === 'packaging';
+  const message = [
+    'Halo LINE Art media, saya ingin konsultasi ' + product.name + '.',
+    ...(isBox && color ? ['Warna: ' + color] : []),
+    'Saya ingin membahas kebutuhan pesanan, negosiasi harga, dan jadwal produksi.',
+  ].join('\n');
   return (
     <div className="configuration">
-      <h2>Sesuaikan pesananmu</h2>
-      <form onSubmit={submit}>
+      <h2>{isBox ? 'Warna untuk box kamu' : isCalendar ? 'Tentang kalender' : 'Tentang produk'}</h2>
+      {!isBox ? (
+        <p className="product-description">{product.description}</p>
+      ) : (
         <fieldset className="option-group">
           <legend>Warna</legend>
           <div className="color-choices">
@@ -21,7 +30,7 @@ export function ProductConfiguration({ product }: { product: Product }) {
                   type="radio"
                   name="color"
                   value={item.label}
-                  aria-label={`Warna ${item.label}`}
+                  aria-label={'Warna ' + item.label}
                   checked={color === item.label}
                   onChange={() => setColor(item.label)}
                 />
@@ -31,20 +40,12 @@ export function ProductConfiguration({ product }: { product: Product }) {
             <span className="color-name">{color}</span>
           </div>
         </fieldset>
-        <section className="quote-summary" aria-label="Konsultasi pesanan">
-          <button className="button wide" type="submit" disabled={!hydrated}>
-            <WhatsAppIcon />
-            Konsultasi pesanan via WhatsApp
-          </button>
-          <p className="quote-notice">Harga dinegosiasikan bersama tim sesuai kebutuhan pesanan.</p>
-        </section>
-      </form>
-      <noscript>
-        <p>
-          Aktifkan JavaScript untuk konfigurator, atau <a href="/kontak">buka halaman konsultasi</a>
-          .
-        </p>
-      </noscript>
+      )}
+      <Link className="button wide" to="/kontak" search={{ pesan: message, kembali: product.slug }}>
+        <WhatsAppIcon />
+        Konsultasi produk via WhatsApp
+      </Link>
+      <p className="quote-notice">Harga dinegosiasikan bersama tim sesuai kebutuhan pesanan.</p>
     </div>
   );
 }

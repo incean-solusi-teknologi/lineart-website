@@ -1,7 +1,7 @@
-import { masterData } from '@/data';
+import { masterData, getProduct } from '@/data';
 export function Hero() {
   return (
-    <section className="hero" aria-label="Koleksi utama">
+    <section className="hero hero-box" aria-label="Box packaging custom">
       <div className="hero-main">
         <div className="hero-copy">
           <h1>
@@ -12,35 +12,23 @@ export function Hero() {
             </span>
           </h1>
           <p>{masterData.home.heroDescription}</p>
-          <a className="button" href="#katalog">
-            Lihat pilihan box
+          <a className="button" href="#box-custom">
+            Temukan box untukmu
           </a>
         </div>
         <figure className="hero-photo" style={{ margin: 0 }}>
-          <a href="/kategori/gift-box">
+          <a href="/kategori/hard-box">
             <img
-              src="/media/blue.jpg"
-              alt="Gift box navy dengan bukaan dua pintu"
+              src={getProduct('box-hadiah-perusahaan')!.image}
+              alt="Ilustrasi box hadiah perusahaan berisi tumbler, notebook, dan pena"
               width="500"
               height="600"
               fetchPriority="high"
             />
-            <figcaption>Gift box · Custom logo &amp; ukuran</figcaption>
+            <figcaption>Inspirasi hadiah perusahaan (ilustrasi konsep)</figcaption>
           </a>
         </figure>
       </div>
-      <a className="hero-calendar" href="/kategori/kalender">
-        <div className="copy">
-          <h2>
-            {masterData.home.calendarTitle[0]}
-            <br />
-            {masterData.home.calendarTitle[1]}
-          </h2>
-          <p>{masterData.home.calendarDescription}</p>
-        </div>
-        <img src="/media/calendar-yellow.jpg" alt="Kalender meja custom" width="400" height="400" />
-        <span className="calendar-label">Lihat kalender</span>
-      </a>
     </section>
   );
 }

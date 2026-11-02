@@ -11,8 +11,8 @@ export function productHead(product?: Product) {
   const path = `/produk/${product.slug}`;
   const category = getCategory(product.category)!;
   return seoHead({
-    title: `${product.name}${/custom/i.test(product.name) ? '' : ' Custom'} Jakarta`,
-    description: product.description,
+    title: product.seoTitle,
+    description: product.seoDescription,
     path,
     image: product.image,
     schemas: [
