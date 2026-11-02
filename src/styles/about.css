@@ -42,7 +42,7 @@
 .company-cover {
   margin: 0;
   position: relative;
-  background: #24272b;
+  background: #fff;
   isolation: isolate;
   overflow: hidden;
   height: 440px;
@@ -54,7 +54,6 @@
   width: 83%;
   height: 130%;
   object-fit: contain;
-  mix-blend-mode: screen;
 }
 .company-cover figcaption {
   position: relative;
@@ -71,13 +70,13 @@
   font:
     700 36px/1.2 Manrope,
     sans-serif;
-  color: white;
+  color: #25282e;
   max-width: 280px;
 }
 .company-cover figcaption > p {
   font-size: 14px;
   line-height: 1.6;
-  color: #e1e3e7;
+  color: #565b63;
   max-width: 185px;
 }
 .company-story {
@@ -164,7 +163,7 @@
   padding: 85px 0 65px;
 }
 .company-production figure {
-  background: #24272b;
+  background: #fff;
   margin: 0;
   position: relative;
   min-width: 0;
@@ -173,12 +172,11 @@
   width: 100%;
   aspect-ratio: 1;
   object-fit: contain;
-  mix-blend-mode: screen;
   padding: 28px;
 }
 .company-production figcaption {
   font-size: 14px;
-  color: #e1e3e7;
+  color: #565b63;
   padding: 0 27px 22px;
 }
 .production-copy h2 {

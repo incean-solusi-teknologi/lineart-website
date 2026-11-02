@@ -15,7 +15,7 @@ export default function About() {
         </div>
         <figure className="company-cover">
           <img
-            src="/media/mesin-lipat.jpg"
+            src="/media/mesin-lipat-transparan.png"
             alt="Mesin lipat kertas Horizon PF40L untuk finishing hasil cetak"
             width="1600"
             height="1200"
@@ -63,7 +63,7 @@ export default function About() {
       <section className="company-production" aria-labelledby="production-title">
         <figure>
           <img
-            src="/media/cutting-plotter.jpg"
+            src="/media/cutting-plotter-transparan.png"
             alt="Cutting plotter untuk memotong pola dan stiker"
             width="600"
             height="600"
