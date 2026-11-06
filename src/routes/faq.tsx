@@ -4,9 +4,9 @@ import Faq from '@/features/faq';
 export const Route = createFileRoute('/faq')({
   head: () =>
     seoHead({
-      title: 'FAQ Pemesanan Box, Kalender & Cetak Digital',
+      title: 'FAQ Pemesanan Percetakan & Packaging',
       description:
-        'Panduan pemesanan box packaging, kalender, banner, dan spanduk. Informasi desain, harga, jumlah pesanan, produksi, serta pengiriman di Jabodetabek.',
+        'Panduan pemesanan cetak digital, kalender, banner, dan packaging. Informasi desain, harga, produksi, serta pengiriman di Jabodetabek.',
       path: '/faq',
       schemas: [breadcrumbSchema([{ label: 'FAQ', path: '/faq' }])],
     }),

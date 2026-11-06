@@ -1,0 +1,80 @@
+import { business, categories } from '@/data';
+import { WhatsAppIcon } from './Icons';
+
+export function HomeHeader() {
+  return (
+    <header className="site-header print-header">
+      <div className="container print-header-inner">
+        <a className="brand" href="/" aria-label={`${business.name}, beranda`}>
+          <img src={business.logo} alt={business.name} width="172" height="84" />
+        </a>
+        <nav className="print-desktop-nav" aria-label="Navigasi utama">
+          <a href="/" aria-current="page">
+            Beranda
+          </a>
+          <details className="print-catalog-menu">
+            <summary>Kategori Produk</summary>
+            <div>
+              {categories.map((category) => (
+                <a key={category.slug} href={`/kategori/${category.slug}`}>
+                  {category.name}
+                </a>
+              ))}
+              <a href="/katalog">Semua produk</a>
+            </div>
+          </details>
+          <a href="#layanan">Layanan</a>
+          <a href="/tentang-kami">Tentang Kami</a>
+          <a href="/artikel">Artikel</a>
+        </nav>
+        <a className="print-search" href="/katalog" aria-label="Cari produk">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            aria-hidden="true"
+          >
+            <circle cx="10" cy="10" r="6" />
+            <path d="m15 15 5 5" />
+          </svg>
+        </a>
+        <a className="button print-outline-blue print-quote" href="/kontak">
+          Minta Penawaran
+        </a>
+        <a className="button print-whatsapp" href="/kontak">
+          <WhatsAppIcon />
+          <span>Konsultasi via WhatsApp</span>
+        </a>
+        <details className="print-mobile-menu">
+          <summary aria-label="Buka menu navigasi">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              aria-hidden="true"
+            >
+              <path d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </summary>
+          <nav aria-label="Navigasi utama seluler">
+            <a href="/" aria-current="page">
+              Beranda
+            </a>
+            {categories.map((category) => (
+              <a key={category.slug} href={`/kategori/${category.slug}`}>
+                {category.name}
+              </a>
+            ))}
+            <a href="/katalog">Semua produk</a>
+            <a href="/tentang-kami">Tentang Kami</a>
+            <a href="/artikel">Artikel</a>
+            <a href="/faq">Panduan Pemesanan</a>
+            <a href="/kontak">Konsultasi via WhatsApp</a>
+          </nav>
+        </details>
+      </div>
+    </header>
+  );
+}

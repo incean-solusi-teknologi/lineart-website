@@ -9,9 +9,9 @@ const searchSchema = z.object({
 export const Route = createFileRoute('/kontak')({
   head: () =>
     seoHead({
-      title: 'Konsultasi Packaging Custom Jakarta',
+      title: 'Konsultasi Percetakan Jakarta Pusat',
       description:
-        'Siapkan ukuran, jumlah, dan referensi desain untuk berkonsultasi bersama LINE · Art media.',
+        'Konsultasikan kebutuhan cetak, desain, jumlah, dan harga bersama LINE · Art media di Jakarta Pusat.',
       path: '/kontak',
       noindex: true,
     }),

@@ -1,15 +1,14 @@
 import { seoHead, businessSchema } from '@/lib/seo';
-import { getProduct } from '@/data';
 import { createFileRoute } from '@tanstack/react-router';
 import Home from '@/features/home';
 export const Route = createFileRoute('/')({
   head: () =>
     seoHead({
-      title: 'Box Packaging Custom untuk Produk dan Hadiah',
+      title: 'Percetakan Umum di Jakarta Pusat',
       description:
-        'Box packaging custom untuk produk, hampers, dan hadiah perusahaan di Jakarta, Bogor, Depok, Tangerang, dan Bekasi. Berlokasi di Senen, Jakarta Pusat.',
+        'Percetakan di Jakarta Pusat untuk cetak digital, offset, banner, kalender, buku, dan packaging custom. Konsultasikan kebutuhan Anda bersama LINE · Art media.',
       path: '/',
-      image: getProduct('box-hadiah-perusahaan')!.image,
+      image: '/media/home-reference/hero.jpg',
       schemas: [businessSchema()],
     }),
   component: Home,

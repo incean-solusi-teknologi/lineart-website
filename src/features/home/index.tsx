@@ -1,20 +1,17 @@
 import { Hero } from './sections/Hero';
-import { BoxNeeds } from './sections/BoxNeeds';
-import { BoxGuide } from './sections/BoxGuide';
+import { PrintingOverview } from './sections/PrintingOverview';
 import { BoxQuestions } from './sections/BoxQuestions';
-import { Collections } from './sections/Collections';
 import { BrandDetails } from './sections/BrandDetails';
-import { OrderSteps } from './sections/OrderSteps';
+
 export default function Home() {
   return (
-    <main className="container">
+    <main className="print-home">
       <Hero />
-      <BoxNeeds />
-      <BoxGuide />
-      <BrandDetails />
-      <OrderSteps />
-      <BoxQuestions />
-      <Collections />
+      <PrintingOverview />
+      <div className="container print-home-bottom">
+        <BoxQuestions />
+        <BrandDetails />
+      </div>
     </main>
   );
 }

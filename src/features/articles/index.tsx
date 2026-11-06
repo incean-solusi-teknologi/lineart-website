@@ -42,8 +42,8 @@ export default function Articles({ article }: { article?: Article }) {
                   Siapkan ukuran, jumlah, dan referensi desain agar tim kami dapat membantu memilih
                   spesifikasi.
                 </p>
-                <a className="button" href="/kategori/hard-box">
-                  Lihat packaging custom
+                <a className="button" href="/katalog">
+                  Lihat katalog cetak
                 </a>
               </div>
             </div>
@@ -64,7 +64,7 @@ export default function Articles({ article }: { article?: Article }) {
         <>
           <section className="articles-intro">
             <h1>Artikel &amp; panduan cetak</h1>
-            <p>Ide dan panduan untuk menyiapkan packaging serta kebutuhan cetak Anda.</p>
+            <p>Ide dan panduan untuk menyiapkan kebutuhan cetak dan packaging Anda.</p>
           </section>
           <div className="article-grid">
             {articles.map((item) => (

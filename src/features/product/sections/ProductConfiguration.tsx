@@ -9,11 +9,7 @@ export function ProductConfiguration({ product }: { product: Product }) {
   const message = [
     'Halo LINE Art media, saya ingin konsultasi ' + product.name + '.',
     ...(isBox && color ? ['Warna: ' + color] : []),
-    isBox
-      ? 'Saya ingin membahas ukuran, desain, bagian dalam, jumlah, dan penawarannya.'
-      : isCalendar
-        ? 'Saya ingin membahas tahun kalender, ukuran, desain halaman, jumlah, dan penawarannya.'
-        : 'Saya ingin membahas ukuran cetak, desain, bahan, kelengkapan penyangga, jumlah, dan penawarannya.',
+    'Saya ingin membahas kebutuhan pesanan, negosiasi harga, dan jadwal produksi.',
   ].join('\n');
   return (
     <div className="configuration">
@@ -32,7 +28,7 @@ export function ProductConfiguration({ product }: { product: Product }) {
         </p>
       ) : (
         <fieldset className="option-group">
-          <legend>Warna kemasan</legend>
+          <legend>Warna</legend>
           <div className="color-choices">
             {product.colors.map((item) => (
               <label
@@ -59,6 +55,7 @@ export function ProductConfiguration({ product }: { product: Product }) {
         <WhatsAppIcon />
         Konsultasi produk via WhatsApp
       </Link>
+      <p className="quote-notice">Harga dinegosiasikan bersama tim sesuai kebutuhan pesanan.</p>
     </div>
   );
 }

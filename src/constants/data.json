@@ -7,8 +7,8 @@
   },
   "business": {
     "name": "LINE · Art media",
-    "description": "Box packaging custom dan layanan percetakan dari Bungur, Senen, Jakarta Pusat untuk kebutuhan pelanggan di Jabodetabek. Kemasan produk, hampers, hadiah perusahaan, cetak digital, dan kalender.",
-    "primaryKeyword": "packaging Jakarta",
+    "description": "Percetakan di Bungur, Senen, Jakarta Pusat untuk kebutuhan cetak digital, offset, buku, kalender, banner, dan packaging custom di Jabodetabek.",
+    "primaryKeyword": "percetakan Jakarta Pusat",
     "localArea": "Kali Baru, dekat Pasar Senen, Jakarta Pusat",
     "serviceAreaLabel": "Jabodetabek",
     "serviceAreas": ["Jakarta", "Bogor", "Depok", "Tangerang", "Bekasi"],
@@ -24,10 +24,10 @@
   },
   "home": {
     "heroTitle": {
-      "lead": "Box Packaging",
-      "lines": ["Custom untuk", "Produk dan Hadiah"]
+      "lead": "Percetakan Umum",
+      "lines": ["dengan Berbagai", "Pilihan Produk"]
     },
-    "heroDescription": "Berlokasi di Senen, Jakarta Pusat. Melayani kebutuhan box untuk Jakarta, Bogor, Depok, Tangerang, dan Bekasi.",
+    "heroDescription": "Solusi cetak lengkap untuk kebutuhan bisnis, promosi, kemasan, dan media komunikasi perusahaan Anda.",
     "boxGuide": [
       {
         "title": "Mulai dari ukuran isi",
@@ -44,20 +44,20 @@
     ],
     "boxQuestions": [
       {
-        "question": "Apakah melayani pemesanan box di seluruh Jabodetabek?",
-        "answer": "Kami melayani kebutuhan box custom untuk Jakarta, Bogor, Depok, Tangerang, dan Bekasi dari lokasi usaha di Bungur, Senen, Jakarta Pusat. Sampaikan alamat tujuan saat konsultasi agar pilihan pengiriman, biaya, dan waktunya dapat dikonfirmasi sesuai pesanan."
+        "question": "Apakah melayani pemesanan di Jabodetabek?",
+        "answer": "Kami melayani kebutuhan cetak di Jakarta, Bogor, Depok, Tangerang, dan Bekasi dari Bungur, Senen, Jakarta Pusat. Sampaikan alamat tujuan untuk membahas pilihan dan biaya pengiriman."
       },
       {
-        "question": "Apa yang menentukan harga box custom?",
-        "answer": "Ukuran, bahan, model, finishing, bagian dalam, dan jumlah pesanan memengaruhi penawaran. Sertakan ukuran atau foto isi, referensi desain, dan jumlah yang dibutuhkan agar perhitungannya sesuai kebutuhanmu."
+        "question": "Apa yang menentukan harga cetak?",
+        "answer": "Jenis produk, ukuran, bahan, finishing, dan jumlah pesanan memengaruhi penawaran. Sampaikan detail dan referensi desain saat konsultasi."
       },
       {
-        "question": "Berapa minimum pemesanan box?",
-        "answer": "Sampaikan jumlah yang kamu butuhkan saat konsultasi. Minimum pemesanan perlu dikonfirmasi sesuai model, bahan, dan detail pengerjaan sebelum pesanan disepakati."
+        "question": "Berapa minimum pemesanan?",
+        "answer": "Sampaikan jumlah yang kamu butuhkan saat konsultasi. Minimum pemesanan dikonfirmasi sesuai produk dan detail pengerjaan."
       },
       {
-        "question": "Berapa lama pengerjaan box custom?",
-        "answer": "Jadwal mengikuti spesifikasi, jumlah, ketersediaan bahan, persetujuan desain, dan antrean produksi. Beri tahu tanggal kebutuhan sejak awal, termasuk tujuan pengiriman, agar jadwal penyelesaian dapat dibahas bersama tim."
+        "question": "Berapa lama pengerjaan pesanan?",
+        "answer": "Jadwal mengikuti jenis produk, jumlah, bahan, persetujuan desain, dan antrean produksi. Beri tahu tanggal kebutuhanmu sejak awal."
       }
     ],
     "calendarTitle": ["Setahun penuh,", "ada brand kamu."],
@@ -101,7 +101,72 @@
         "name": "pijar",
         "image": "/media/clients/pijar.svg"
       }
-    ]
+    ],
+    "printing": {
+      "eyebrow": "Layanan percetakan profesional",
+      "benefits": [
+        {
+          "title": "Produk Lengkap",
+          "description": "Beragam jenis cetakan",
+          "icon": "print"
+        },
+        {
+          "title": "Kualitas Terjamin",
+          "description": "Detail hasil cetak dibahas bersama",
+          "icon": "quality"
+        },
+        {
+          "title": "Jadwal Produksi",
+          "description": "Sesuai kesepakatan pesanan",
+          "icon": "clock"
+        },
+        {
+          "title": "Layanan Konsultasi",
+          "description": "Bahas kebutuhan bersama tim",
+          "icon": "consult"
+        }
+      ],
+      "serviceTitle": "Layanan Percetakan Kami",
+      "serviceDescription": "Kami melayani cetak digital, cetak offset, kalender, dan packaging custom. Bahas spesifikasi serta jumlah pesanan bersama tim.",
+      "services": [
+        "Packaging & Hardbox Custom",
+        "Cetak Digital (Banner, Spanduk, Backdrop)",
+        "Kalender Perusahaan"
+      ],
+      "consultDescription": "Ceritakan jenis cetakan, jumlah, dan tanggal kebutuhanmu. Bahas desain serta detail pesanan bersama tim.",
+      "categories": [
+        {
+          "name": "Box Packaging",
+          "image": "/media/home-reference/packaging.jpg",
+          "href": "/kategori/hard-box"
+        },
+        {
+          "name": "Cetak Digital",
+          "image": "/media/home-reference/digital.jpg",
+          "href": "/kategori/digital"
+        },
+        {
+          "name": "Kalender",
+          "image": "/media/home-reference/calendar.jpg",
+          "href": "/kategori/kalender"
+        },
+        {
+          "name": "Buku & Majalah",
+          "image": "/media/home-reference/books.jpg",
+          "href": "/kontak?pesan=Saya%20ingin%20konsultasi%20cetak%20buku%20dan%20majalah."
+        },
+        {
+          "name": "Merchandise",
+          "image": "/media/home-reference/merchandise.jpg",
+          "href": "/kontak?pesan=Saya%20ingin%20konsultasi%20merchandise."
+        },
+        {
+          "name": "Stationery",
+          "image": "/media/home-reference/stationery.jpg",
+          "href": "/kontak?pesan=Saya%20ingin%20konsultasi%20stationery."
+        }
+      ]
+    }
   },
   "categories": [
     {
@@ -1671,7 +1736,7 @@
       "items": [
         {
           "question": "Bagaimana cara mendapatkan harga pesanan?",
-          "answer": "Sampaikan produk, ukuran, jumlah, desain, dan tanggal kebutuhan saat konsultasi. Untuk box, sertakan kebutuhan bagian dalam dan finishing; untuk kalender, model dan susunan halaman; untuk banner atau spanduk, ukuran cetak dan kelengkapannya. Harga akhir mengikuti spesifikasi yang disepakati dalam penawaran."
+          "answer": "Sampaikan produk, ukuran, jumlah, desain, dan tanggal kebutuhan saat konsultasi. Untuk box, sertakan kebutuhan bagian dalam dan finishing; untuk kalender, model dan susunan halaman; untuk banner atau spanduk, ukuran cetak dan kelengkapannya. Harga dinegosiasikan bersama tim sesuai spesifikasi yang disepakati."
         },
         {
           "question": "Berapa minimum pemesanannya?",
@@ -1745,81 +1810,35 @@
     }
   ],
   "about": {
-    "intro": "Kami bergerak di bidang percetakan dan alat tulis kantor sejak 2015. Dari Bungur, Senen, Jakarta Pusat, kami melayani kebutuhan perusahaan dan perorangan melalui digital printing dan cetak offset.",
+    "intro": "Sejak 2015, LINE · Art media melayani kebutuhan percetakan, packaging, dan alat tulis kantor dari Bungur, Senen, Jakarta Pusat.",
     "storyTitle": "Berawal pada 2015.",
-    "story": [
-      "LINE · Art media hadir untuk membantu kebutuhan cetak, dari skala kecil hingga besar. Kami mendampingi pelanggan sejak menentukan desain, proof desain, bahan, dan ukuran, sampai memilih finishing.",
-      "Konsultasi kami berikan gratis. Kamu bisa membahas pesanan dari mana pun, lalu hasil cetak dikirim ke tujuan tanpa harus datang langsung ke tempat kami."
-    ],
-    "vision": "Memenuhi kebutuhan konsumen dari layanan hingga produksi, dengan pelayanan yang unggul, sumber daya manusia profesional, dan kualitas kerja yang baik.",
+    "vision": "Memenuhi kebutuhan cetak dengan pelayanan unggul, tim profesional, dan hasil yang berkualitas.",
     "missions": [
       {
-        "title": "Untuk pelanggan",
-        "items": [
-          "Memberikan pelayanan prima kepada pelanggan.",
-          "Membantu pelanggan memilih produk yang terbaik.",
-          "Mengutamakan kenyamanan konsumen."
-        ]
+        "title": "Memahami kebutuhanmu",
+        "description": "Membantu memilih produk yang tepat dengan pelayanan yang nyaman."
       },
       {
-        "title": "Dalam pekerjaan",
-        "items": [
-          "Terus meningkatkan kualitas sumber daya manusia.",
-          "Mengembangkan daya kreasi yang inovatif.",
-          "Mengontrol hasil kerja secara efektif pada setiap divisi."
-        ]
+        "title": "Menjaga kualitas",
+        "description": "Mengembangkan kreativitas dan ketelitian tim di setiap pekerjaan."
       },
       {
-        "title": "Melalui kerja sama",
-        "items": [
-          "Memperluas jaringan kerja sama dengan perusahaan yang membutuhkan jasa promosi dan layanan pengolahan dokumen."
-        ]
-      }
-    ],
-    "production": [
-      {
-        "title": "Desain & bahan",
-        "description": "Konsultasi desain, proof, ukuran, dan pilihan bahan baku."
-      },
-      {
-        "title": "Proses cetak",
-        "description": "Digital printing dan offset untuk kebutuhan operasional maupun promosi."
-      },
-      {
-        "title": "Hasil akhir",
-        "description": "Pilihan finishing dan pengiriman sesuai kebutuhan pesanan."
-      }
-    ],
-    "principles": [
-      {
-        "title": "Ketepatan waktu",
-        "description": "Berusaha menyelesaikan pekerjaan sesuai tenggat yang disepakati."
-      },
-      {
-        "title": "Kualitas cetak",
-        "description": "Didukung peralatan dan tenaga kerja terlatih, dari cetak hingga finishing."
-      },
-      {
-        "title": "Harga kompetitif",
-        "description": "Membahas pilihan pengerjaan dan bahan dengan tetap menjaga kualitas."
-      },
-      {
-        "title": "Pelayanan yang baik",
-        "description": "Membantu pelanggan memahami pilihan dan detail kebutuhan cetaknya."
+        "title": "Tumbuh bersama",
+        "description": "Membangun kerja sama untuk kebutuhan cetak dan promosi."
       }
     ],
     "services": [
       {
         "title": "Packaging & cetak offset",
-        "description": "Box packaging, paper bag, shopping bag, company profile, majalah, buku, tabloid, hang tag, brosur, leaflet, flyer, dan poster."
+        "description": "Box custom, paper bag, buku, company profile, dan brosur."
       },
       {
         "title": "Digital printing & promosi",
-        "description": "Spanduk, banner, roll banner, X banner, tripod sign, stiker, cutting sticker, neon box, ID card, member card, RFID card, dan acrylic signage."
+        "description": "Banner, stiker, signage, dan kebutuhan promosi lainnya."
       },
       {
         "title": "Kebutuhan kantor",
-        "description": "Kalender, agenda, map, kop surat, kartu nama, dan alat tulis kantor."
+        "description": "Kalender, agenda, kartu nama, kop surat, dan alat tulis kantor."
       }
     ]
   },
