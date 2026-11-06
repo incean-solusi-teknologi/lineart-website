@@ -18,7 +18,7 @@ export default function Catalog({
           <h1>{category?.heading ?? 'Katalog layanan percetakan'}</h1>
           <p>
             {category?.description ??
-              'Temukan box packaging custom, cetak banner dan spanduk, serta kalender untuk kebutuhan usaha dan acara di Jakarta Pusat.'}
+              'Temukan cetak banner, spanduk, kalender, dan box custom untuk kebutuhan usaha dan acara di Jakarta Pusat.'}
           </p>
         </div>
         <img src={category?.src ?? categories[0].src} alt="" width="145" height="112" />

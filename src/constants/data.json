@@ -7,8 +7,8 @@
   },
   "business": {
     "name": "LINE · Art media",
-    "description": "Box packaging custom dan layanan percetakan dari Bungur, Senen, Jakarta Pusat untuk kebutuhan pelanggan di Jabodetabek. Kemasan produk, hampers, hadiah perusahaan, cetak digital, dan kalender.",
-    "primaryKeyword": "packaging Jakarta",
+    "description": "Percetakan di Bungur, Senen, Jakarta Pusat untuk kebutuhan cetak digital, offset, buku, kalender, banner, dan packaging custom di Jabodetabek.",
+    "primaryKeyword": "percetakan Jakarta Pusat",
     "localArea": "Kali Baru, dekat Pasar Senen, Jakarta Pusat",
     "serviceAreaLabel": "Jabodetabek",
     "serviceAreas": ["Jakarta", "Bogor", "Depok", "Tangerang", "Bekasi"],
@@ -44,20 +44,20 @@
     ],
     "boxQuestions": [
       {
-        "question": "Apakah melayani pemesanan box di seluruh Jabodetabek?",
-        "answer": "Kami melayani kebutuhan box custom untuk Jakarta, Bogor, Depok, Tangerang, dan Bekasi dari lokasi usaha di Bungur, Senen, Jakarta Pusat. Sampaikan alamat tujuan saat konsultasi agar pilihan pengiriman, biaya, dan waktunya dapat dikonfirmasi sesuai pesanan."
+        "question": "Apakah melayani pemesanan di Jabodetabek?",
+        "answer": "Kami melayani kebutuhan cetak di Jakarta, Bogor, Depok, Tangerang, dan Bekasi dari Bungur, Senen, Jakarta Pusat. Sampaikan alamat tujuan untuk membahas pilihan dan biaya pengiriman."
       },
       {
-        "question": "Apa yang menentukan harga box custom?",
-        "answer": "Ukuran, bahan, model, finishing, bagian dalam, dan jumlah pesanan memengaruhi penawaran. Sertakan ukuran atau foto isi, referensi desain, dan jumlah yang dibutuhkan agar perhitungannya sesuai kebutuhanmu."
+        "question": "Apa yang menentukan harga cetak?",
+        "answer": "Jenis produk, ukuran, bahan, finishing, dan jumlah pesanan memengaruhi penawaran. Sampaikan detail dan referensi desain saat konsultasi."
       },
       {
-        "question": "Berapa minimum pemesanan box?",
-        "answer": "Sampaikan jumlah yang kamu butuhkan saat konsultasi. Minimum pemesanan perlu dikonfirmasi sesuai model, bahan, dan detail pengerjaan sebelum pesanan disepakati."
+        "question": "Berapa minimum pemesanan?",
+        "answer": "Sampaikan jumlah yang kamu butuhkan saat konsultasi. Minimum pemesanan dikonfirmasi sesuai produk dan detail pengerjaan."
       },
       {
-        "question": "Berapa lama pengerjaan box custom?",
-        "answer": "Jadwal mengikuti spesifikasi, jumlah, ketersediaan bahan, persetujuan desain, dan antrean produksi. Beri tahu tanggal kebutuhan sejak awal, termasuk tujuan pengiriman, agar jadwal penyelesaian dapat dibahas bersama tim."
+        "question": "Berapa lama pengerjaan pesanan?",
+        "answer": "Jadwal mengikuti jenis produk, jumlah, bahan, persetujuan desain, dan antrean produksi. Beri tahu tanggal kebutuhanmu sejak awal."
       }
     ],
     "calendarTitle": ["Setahun penuh,", "ada brand kamu."],
@@ -127,13 +127,13 @@
         }
       ],
       "serviceTitle": "Layanan Percetakan Kami",
-      "serviceDescription": "Kami melayani kebutuhan packaging Jakarta, cetak digital, dan kalender custom. Bahas spesifikasi serta jumlah pesanan bersama tim.",
+      "serviceDescription": "Kami melayani cetak digital, cetak offset, kalender, dan packaging custom. Bahas spesifikasi serta jumlah pesanan bersama tim.",
       "services": [
         "Packaging & Hardbox Custom",
         "Cetak Digital (Banner, Spanduk, Backdrop)",
         "Kalender Perusahaan"
       ],
-      "consultDescription": "Kirim foto isi, perkiraan jumlah, dan tanggal kebutuhanmu. Konsultasikan bentuk, desain, serta ukuran box bersama tim melalui WhatsApp.",
+      "consultDescription": "Ceritakan jenis cetakan, jumlah, dan tanggal kebutuhanmu. Bahas desain serta detail pesanan bersama tim.",
       "categories": [
         {
           "name": "Box Packaging",
@@ -1625,7 +1625,7 @@
     }
   ],
   "about": {
-    "intro": "Sejak 2015, LINE · Art media membantu kebutuhan packaging, percetakan, dan alat tulis kantor dari Bungur, Senen, Jakarta Pusat.",
+    "intro": "Sejak 2015, LINE · Art media melayani kebutuhan percetakan, packaging, dan alat tulis kantor dari Bungur, Senen, Jakarta Pusat.",
     "storyTitle": "Berawal pada 2015.",
     "vision": "Memenuhi kebutuhan cetak dengan pelayanan unggul, tim profesional, dan hasil yang berkualitas.",
     "missions": [

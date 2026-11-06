@@ -4,9 +4,9 @@ import Articles from '@/features/articles';
 export const Route = createFileRoute('/artikel/')({
   head: () =>
     seoHead({
-      title: 'Artikel dan Panduan Packaging Custom',
+      title: 'Artikel dan Panduan Percetakan',
       description:
-        'Panduan memilih bahan, finishing, desain siap cetak, dan proses produksi packaging custom.',
+        'Panduan memilih bahan, finishing, desain siap cetak, dan proses percetakan serta packaging.',
       path: '/artikel',
       schemas: [breadcrumbSchema([{ label: 'Artikel', path: '/artikel' }])],
     }),

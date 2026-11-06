@@ -6,9 +6,9 @@ export const Route = createFileRoute('/tentang-kami')({
     seoHead({
       title: 'Tentang Kami, Percetakan di Kali Baru Jakarta',
       description:
-        'Kenali LINE · Art media dan layanan packaging custom di Kalibaru Timur V, Bungur, Senen, dekat Pasar Senen, Jakarta Pusat.',
+        'Kenali LINE · Art media, percetakan untuk kebutuhan cetak digital, offset, dan packaging di Bungur, Senen, dekat Pasar Senen, Jakarta Pusat.',
       path: '/tentang-kami',
-      image: '/media/home-reference/packaging.jpg',
+      image: '/media/home-reference/products.png',
       schemas: [
         businessSchema(),
         breadcrumbSchema([{ label: 'Tentang kami', path: '/tentang-kami' }]),

@@ -4,9 +4,9 @@ import Home from '@/features/home';
 export const Route = createFileRoute('/')({
   head: () =>
     seoHead({
-      title: 'Percetakan Umum & Packaging Custom Jakarta',
+      title: 'Percetakan Umum di Jakarta Pusat',
       description:
-        'Layanan percetakan dan packaging Jakarta: box custom, cetak digital, banner, spanduk, serta kalender. Konsultasikan kebutuhan cetak bersama LINE · Art media.',
+        'Percetakan di Jakarta Pusat untuk cetak digital, offset, banner, kalender, buku, dan packaging custom. Konsultasikan kebutuhan Anda bersama LINE · Art media.',
       path: '/',
       image: '/media/home-reference/hero.jpg',
       schemas: [businessSchema()],

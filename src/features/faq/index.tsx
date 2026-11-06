@@ -13,7 +13,7 @@ export default function Faq() {
         <h1>Pertanyaan umum.</h1>
         <div>
           <p>
-            Panduan pemesanan box packaging, kalender, banner, dan spanduk. Temukan informasi
+            Panduan pemesanan cetak digital, kalender, banner, dan packaging. Temukan informasi
             tentang pilihan produk, desain, penawaran, produksi, dan pengiriman.
           </p>
           <a className="text-link" href="/kontak">

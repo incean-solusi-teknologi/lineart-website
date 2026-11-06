@@ -3,14 +3,14 @@ import { WhatsAppIcon } from '@/shared/Icons';
 
 export function BrandDetails() {
   return (
-    <section className="consult-band print-consult" aria-labelledby="box-consult-title">
+    <section className="consult-band print-consult" aria-labelledby="print-consult-title">
       <div>
-        <p className="print-consult-eyebrow">Konsultasi box custom</p>
-        <h2 id="box-consult-title">Sudah punya isi, belum punya box?</h2>
+        <p className="print-consult-eyebrow">Konsultasi percetakan</p>
+        <h2 id="print-consult-title">Ada kebutuhan cetak?</h2>
         <p>{masterData.home.printing.consultDescription}</p>
       </div>
       <a className="button print-whatsapp" href="/kontak">
-        <WhatsAppIcon /> Konsultasi via WhatsApp <span aria-hidden="true">→</span>
+        <WhatsAppIcon /> Konsultasi sekarang <span aria-hidden="true">→</span>
       </a>
     </section>
   );

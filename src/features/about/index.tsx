@@ -79,7 +79,7 @@ export default function About() {
       <section className="company-location" id="lokasi" aria-labelledby="location-title">
         <div className="location-copy">
           <h2 id="location-title">
-            Packaging Jakarta,
+            Percetakan Jakarta,
             <br />
             dekat Pasar Senen.
           </h2>

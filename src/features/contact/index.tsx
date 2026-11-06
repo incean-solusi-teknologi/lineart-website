@@ -7,7 +7,7 @@ export function productReturnPath(slug: string) {
 export default function Contact({ message, returnSlug }: { message: string; returnSlug: string }) {
   const textarea = useRef<HTMLTextAreaElement>(null);
   const [status, setStatus] = useState('');
-  const text = message || `Halo ${business.name}, saya ingin konsultasi packaging custom.`;
+  const text = message || `Halo ${business.name}, saya ingin konsultasi kebutuhan cetak.`;
   const whatsapp = /^[1-9]\d{7,14}$/.test(business.whatsapp)
     ? `https://wa.me/${business.whatsapp}?text=${encodeURIComponent(text)}`
     : null;
@@ -25,11 +25,8 @@ export default function Contact({ message, returnSlug }: { message: string; retu
     <main className="container">
       <Breadcrumbs items={[{ label: 'Konsultasi pesanan' }]} />
       <section className="preview-contact">
-        <h1>Pesananmu sudah dirangkum.</h1>
-        <p>
-          Produk dan warna pilihanmu ikut dalam pesan WhatsApp. Detail pesanan dan harga dibahas
-          bersama tim.
-        </p>
+        <h1>{message ? 'Pesananmu sudah dirangkum.' : 'Konsultasi kebutuhan cetak.'}</h1>
+        <p>Periksa pesan di bawah, lalu bahas detail pesanan dan harga bersama tim.</p>
         <label className="sr-only" htmlFor="wa-message">
           Pesan untuk WhatsApp
         </label>

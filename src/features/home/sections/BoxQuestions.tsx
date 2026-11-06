@@ -5,7 +5,7 @@ export function BoxQuestions() {
     <section className="section box-questions" aria-labelledby="box-questions-title">
       <div className="section-head">
         <div>
-          <h2 id="box-questions-title">Sebelum memesan box custom</h2>
+          <h2 id="box-questions-title">Sebelum memesan</h2>
           <p>Bahas biaya, jumlah, dan jadwal sejak awal agar rencana pesananmu lebih jelas.</p>
         </div>
         <a className="text-link" href="/faq">
