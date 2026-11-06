@@ -2,6 +2,26 @@ import { useLocation } from '@tanstack/react-router';
 import { business, categories, whatsappLink } from '@/data';
 import { WhatsAppIcon } from './Icons';
 
+function SearchForm({ id }: { id: string }) {
+  return (
+    <search className="search-form print-search-form">
+      <form className="contents" action="/katalog">
+        <label className="sr-only" htmlFor={id}>
+          Cari produk
+        </label>
+        <input
+          id={id}
+          name="q"
+          type="search"
+          maxLength={120}
+          placeholder="Cari box, banner, spanduk, kalender…"
+        />
+        <button type="submit">Cari</button>
+      </form>
+    </search>
+  );
+}
+
 export function SiteHeader() {
   const pathname = useLocation({ select: (location) => location.pathname });
   return (
@@ -29,26 +49,24 @@ export function SiteHeader() {
             Tentang Kami
           </a>
         </nav>
-        <a className="print-search" href="/katalog" aria-label="Cari produk">
-          <svg
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            aria-hidden="true"
-          >
-            <circle cx="10" cy="10" r="6" />
-            <path d="m15 15 5 5" />
-          </svg>
-        </a>
-        <a
-          className="button print-outline-blue print-quote"
-          href={whatsappLink()}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Minta Penawaran
-        </a>
+        <div className="print-desktop-search">
+          <SearchForm id="global-search" />
+        </div>
+        <details className="print-mobile-search">
+          <summary className="print-search" aria-label="Buka pencarian produk">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              aria-hidden="true"
+            >
+              <circle cx="10" cy="10" r="6" />
+              <path d="m15 15 5 5" />
+            </svg>
+          </summary>
+          <SearchForm id="mobile-search" />
+        </details>
         <a
           className="button print-whatsapp"
           href={whatsappLink()}
