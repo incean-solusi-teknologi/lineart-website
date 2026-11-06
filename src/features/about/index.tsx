@@ -6,101 +6,36 @@ export default function About() {
     <main className="container">
       <Breadcrumbs items={[{ label: 'Tentang kami' }]} />
       <section className="company-intro" aria-labelledby="about-title">
-        <h1 id="about-title">Tentang kami.</h1>
-        <div className="company-identity">
-          <h2>
-            LINE <span>·</span> Art media
-          </h2>
-          <p>{content.intro}</p>
+        <div className="company-headline">
+          <p className="company-eyebrow">Tentang LINE · Art media</p>
+          <h1 id="about-title">
+            Cetak yang baik,
+            <br />
+            dimulai dari <span>memahami kebutuhanmu.</span>
+          </h1>
         </div>
-        <figure className="company-cover">
-          <img
-            src="/media/mesin-lipat-transparan.png"
-            alt="Mesin lipat kertas Horizon PF40L untuk finishing hasil cetak"
-            width="1600"
-            height="1200"
-            fetchPriority="high"
-          />
-          <figcaption>
-            <span>
-              Di balik setiap <br />
-              hasil cetak.
-            </span>
-            <p>Mesin lipat kertas Horizon PF40L</p>
-          </figcaption>
-        </figure>
-      </section>
-      <section className="company-story" aria-labelledby="story-title">
-        <h2 id="story-title">{content.storyTitle}</h2>
-        <div>
-          {content.story.map((paragraph) => (
-            <p key={paragraph}>{paragraph}</p>
-          ))}
+        <div className="company-vision">
+          <h2>Visi kami</h2>
+          <p>{content.vision}</p>
+          <span className="vision-signature" aria-hidden="true">
+            LINE · Art media
+          </span>
         </div>
       </section>
       <section className="company-purpose" aria-labelledby="purpose-title">
-        <h2 id="purpose-title">Visi &amp; misi</h2>
-        <div className="company-vision">
-          <h3>Visi kami</h3>
-          <p>{content.vision}</p>
-        </div>
-        <div className="company-mission">
-          <h3>Misi kami</h3>
-          <div className="mission-columns">
-            {content.missions.map((mission) => (
-              <section key={mission.title}>
-                <h4>{mission.title}</h4>
-                <ul>
-                  {mission.items.map((item) => (
-                    <li key={item}>{item}</li>
-                  ))}
-                </ul>
-              </section>
-            ))}
-          </div>
-        </div>
-      </section>
-      <section className="company-production" aria-labelledby="production-title">
-        <figure>
-          <img
-            src="/media/cutting-plotter-transparan.png"
-            alt="Cutting plotter untuk memotong pola dan stiker"
-            width="600"
-            height="600"
-            loading="lazy"
-          />
-          <figcaption>Cutting plotter</figcaption>
-        </figure>
-        <div className="production-copy">
-          <h2 id="production-title">
-            Dari konsultasi
-            <br />
-            hingga finishing.
-          </h2>
-          <p>
-            Setiap pekerjaan punya kebutuhan berbeda. Kami membantu membahas pilihannya sebelum
-            masuk ke proses cetak.
-          </p>
-          <dl>
-            {content.production.map((item) => (
-              <div key={item.title}>
-                <dt>{item.title}</dt>
-                <dd>{item.description}</dd>
-              </div>
-            ))}
-          </dl>
-        </div>
-      </section>
-      <section className="company-principles" aria-labelledby="principles-title">
-        <h2 id="principles-title">Komitmen dalam bekerja</h2>
-        <div className="principle-list">
-          {content.principles.map((item) => (
-            <article key={item.title}>
-              <h3>{item.title}</h3>
-              <p>{item.description}</p>
+        <h2 id="purpose-title">Misi kami</h2>
+        <div className="mission-columns">
+          {content.missions.map((mission) => (
+            <article key={mission.title}>
+              <h3>{mission.title}</h3>
+              <p>{mission.description}</p>
             </article>
           ))}
         </div>
+      </section>
+      <section className="company-identity" aria-labelledby="identity-title">
+        <h2 id="identity-title">{content.storyTitle}</h2>
+        <p>{content.intro}</p>
       </section>
       <section className="company-scope" aria-labelledby="scope-title">
         <h2 id="scope-title">Lingkup layanan</h2>
@@ -111,6 +46,34 @@ export default function About() {
               <p>{item.description}</p>
             </article>
           ))}
+        </div>
+      </section>
+      <section className="company-gallery" aria-labelledby="gallery-title">
+        <div className="gallery-heading">
+          <h2 id="gallery-title">Di balik hasil cetak.</h2>
+          <p>Peralatan yang mendukung setiap detail.</p>
+        </div>
+        <div className="machine-grid">
+          <figure>
+            <img
+              src="/media/mesin-lipat-transparan.png"
+              alt="Mesin lipat kertas Horizon PF40L"
+              width="1600"
+              height="1200"
+              loading="lazy"
+            />
+            <figcaption>Mesin lipat Horizon PF40L</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="/media/cutting-plotter-transparan.png"
+              alt="Cutting plotter untuk memotong pola dan stiker"
+              width="600"
+              height="600"
+              loading="lazy"
+            />
+            <figcaption>Cutting plotter</figcaption>
+          </figure>
         </div>
       </section>
       <section className="company-location" id="lokasi" aria-labelledby="location-title">
@@ -143,11 +106,11 @@ export default function About() {
       </section>
       <section className="company-contact" aria-labelledby="contact-title">
         <div>
-          <h2 id="contact-title">Mari bicara langsung.</h2>
-          <p>Bahas kebutuhan cetakmu bersama LINE · Art media.</p>
+          <h2 id="contact-title">Ada yang ingin dicetak?</h2>
+          <p>Yuk, ceritakan kebutuhanmu.</p>
         </div>
         <a className="button" href="/kontak">
-          Hubungi kami
+          Konsultasi dulu
         </a>
       </section>
     </main>

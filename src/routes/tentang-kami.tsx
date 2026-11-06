@@ -8,7 +8,7 @@ export const Route = createFileRoute('/tentang-kami')({
       description:
         'Kenali LINE · Art media dan layanan packaging custom di Kalibaru Timur V, Bungur, Senen, dekat Pasar Senen, Jakarta Pusat.',
       path: '/tentang-kami',
-      image: '/media/mesin-lipat.jpg',
+      image: '/media/home-reference/packaging.jpg',
       schemas: [
         businessSchema(),
         breadcrumbSchema([{ label: 'Tentang kami', path: '/tentang-kami' }]),
