@@ -1,15 +1,15 @@
 import { useState, type CSSProperties } from 'react';
-import { Link } from '@tanstack/react-router';
-import type { Product } from '@/data';
+import { whatsappLink, type Product } from '@/data';
 import { WhatsAppIcon } from '@/shared/Icons';
 export function ProductConfiguration({ product }: { product: Product }) {
   const [color, setColor] = useState(product.colors[0]?.label ?? '');
   const isCalendar = product.kind === 'calendar';
   const isBox = product.kind === 'packaging';
   const message = [
-    'Halo LINE Art media, saya ingin konsultasi ' + product.name + '.',
-    ...(isBox && color ? ['Warna: ' + color] : []),
-    'Saya ingin membahas kebutuhan pesanan, negosiasi harga, dan jadwal produksi.',
+    `Halo LINE · Art media, saya tertarik dengan ${product.name}.`,
+    ...(isBox && color ? [`Warna pilihan: ${color}`] : []),
+    '',
+    'Boleh minta informasi harga, minimum pemesanan, dan estimasi waktu produksinya? Terima kasih.',
   ].join('\n');
   return (
     <div className="configuration">
@@ -41,10 +41,15 @@ export function ProductConfiguration({ product }: { product: Product }) {
           </div>
         </fieldset>
       )}
-      <Link className="button wide" to="/kontak" search={{ pesan: message, kembali: product.slug }}>
+      <a
+        className="button wide"
+        href={whatsappLink(message)}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <WhatsAppIcon />
         Konsultasi produk via WhatsApp
-      </Link>
+      </a>
       <p className="quote-notice">Harga dinegosiasikan bersama tim sesuai kebutuhan pesanan.</p>
     </div>
   );

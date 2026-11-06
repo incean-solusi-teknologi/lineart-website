@@ -1,4 +1,4 @@
-import { productsInCategory } from '@/data';
+import { productsInCategory, whatsappLink } from '@/data';
 
 export function BoxNeeds() {
   return (
@@ -31,7 +31,12 @@ export function BoxNeeds() {
             </div>
           </a>
         ))}
-        <a className="box-custom-card" href="/kontak">
+        <a
+          className="box-custom-card"
+          href={whatsappLink()}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <span className="box-custom-eyebrow">Kebutuhan lainnya</span>
           <h3>Isi box kamu berbeda?</h3>
           <p>

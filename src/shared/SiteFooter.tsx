@@ -1,4 +1,4 @@
-import { business, categories } from '@/data';
+import { business, categories, whatsappLink } from '@/data';
 export function SiteFooter() {
   return (
     <footer className="site-footer">
@@ -26,7 +26,9 @@ export function SiteFooter() {
           <h3>Hubungi kami</h3>
           <a href="/tentang-kami">Tentang kami</a>
           <a href="/artikel">Artikel</a>
-          <a href="/kontak">Konsultasi via WhatsApp</a>
+          <a href={whatsappLink()} target="_blank" rel="noopener noreferrer">
+            Konsultasi via WhatsApp
+          </a>
           <a href="/faq">Cara pemesanan</a>
           <a href="/faq">Pertanyaan umum</a>
         </div>

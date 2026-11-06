@@ -1,4 +1,4 @@
-import { masterData } from '@/data';
+import { masterData, whatsappLink } from '@/data';
 import { WhatsAppIcon } from '@/shared/Icons';
 
 export function Hero() {
@@ -19,7 +19,12 @@ export function Hero() {
             <a className="button print-primary" href="#kategori-produk">
               Lihat Kategori Produk <span aria-hidden="true">→</span>
             </a>
-            <a className="button print-outline" href="/kontak">
+            <a
+              className="button print-outline"
+              href={whatsappLink()}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <WhatsAppIcon />
               Konsultasi Sekarang
             </a>

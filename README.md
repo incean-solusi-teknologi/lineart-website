@@ -27,7 +27,7 @@ Edit [src/constants/data.json](src/constants/data.json) untuk mengubah profil bi
 
 `src/data/index.ts` menyediakan akses dan type yang diturunkan dari JSON. `src/data/paths.ts` menggunakan dataset yang sama untuk daftar halaman, prerender, sitemap, dan pemetaan URL lama. Konten tidak diambil dari API; Hey API, API generator, dan TanStack Form ditunda.
 
-Harga dan MOQ belum merupakan penawaran final. Nomor WhatsApp belum diisi: konsultasi menghasilkan pratinjau yang bisa disalin, tanpa mengirim pesan. Setelah nomor bisnis tersedia, isi `business.whatsapp` menggunakan angka internasional tanpa `+`, spasi, atau tanda baca, misalnya format `62…`.
+Harga dan MOQ belum merupakan penawaran final. Nomor WhatsApp diatur melalui `business.whatsapp` menggunakan angka internasional tanpa `+`, spasi, atau tanda baca.
 
 ## Struktur dan aset
 
