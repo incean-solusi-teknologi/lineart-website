@@ -22,7 +22,7 @@ export default function About() {
           <h2>Visi kami</h2>
           <p>{content.vision}</p>
           <span className="vision-signature" aria-hidden="true">
-            LINE · Art media
+            {/* LINE · Art media */}
           </span>
         </div>
       </section>
@@ -55,7 +55,7 @@ export default function About() {
       <section className="company-gallery" aria-labelledby="gallery-title">
         <div className="gallery-heading">
           <div>
-            <h2 id="gallery-title">Di balik hasil cetak.</h2>
+            <h2 id="gallery-title">Mesin Kami</h2>
             <p>Peralatan yang mendukung setiap detail.</p>
           </div>
           <div className="gallery-controls" aria-label="Navigasi galeri mesin">

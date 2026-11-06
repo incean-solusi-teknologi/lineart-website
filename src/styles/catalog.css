@@ -810,6 +810,8 @@ details p {
   gap: 20px;
 }
 .product-card {
+  display: flex;
+  flex-direction: column;
   border: 1px solid var(--line);
   border-radius: 12px;
   overflow: hidden;
@@ -833,6 +835,9 @@ details p {
   transform: scale(1.04);
 }
 .card-info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   padding: 16px;
 }
 .card-info h3 {
@@ -842,8 +847,9 @@ details p {
 }
 .card-info .card-size {
   font-size: 11px;
+  line-height: 1.5;
   color: var(--muted);
-  margin-top: 3px;
+  margin: 3px 0 14px;
 }
 .card-price {
   font-size: 12px;
@@ -867,6 +873,7 @@ details p {
   color: var(--muted);
 }
 .card-info .button {
+  margin-top: auto;
   font-size: 12px;
   min-height: 37px;
   padding: 8px 10px;
@@ -1353,6 +1360,9 @@ details p {
   margin: 0;
   text-align: right;
   overflow-wrap: anywhere;
+}
+.product-facts p:last-child {
+  margin-bottom: 0;
 }
 .price-table {
   width: 100%;

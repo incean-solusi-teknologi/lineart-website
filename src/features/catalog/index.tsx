@@ -64,9 +64,6 @@ export default function Catalog({
           {visibleProducts.length === 0 && (
             <p>Tidak ada produk yang cocok. Coba kata lain atau pilih kategori lain.</p>
           )}
-          <p className="prototype-note">
-            Harga dinegosiasikan bersama tim sesuai kebutuhan pesanan.
-          </p>
         </section>
       </div>
     </main>

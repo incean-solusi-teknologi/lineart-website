@@ -7,7 +7,6 @@ export function SiteFooter() {
           <a className="footer-brand" href="/">
             LINE <span>·</span> Art media
           </a>
-          <p>Percetakan di Jakarta Pusat untuk kebutuhan usaha, promosi, dan kemasan.</p>
           <a className="footer-address" href="/tentang-kami#lokasi">
             {business.address}
           </a>

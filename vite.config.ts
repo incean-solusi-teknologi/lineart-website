@@ -10,8 +10,6 @@ import { prerenderPaths } from './src/data/paths.ts';
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), 'VITE_');
   return {
-    server: { host: '127.0.0.1', port: 3000 },
-    preview: { host: '127.0.0.1' },
     define: {
       'import.meta.env.VITE_DEPLOYMENT_ENV': JSON.stringify(
         process.env.VERCEL_ENV ??

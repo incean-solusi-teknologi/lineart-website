@@ -129,17 +129,8 @@ export function ProductGallery({ product }: { product: Product }) {
               </button>
             ))}
           </div>
-          <p className="gallery-hint">
-            Geser foto atau gunakan tombol panah untuk melihat sudut lainnya.
-          </p>
         </>
       )}
-      <div className="gallery-caption">
-        <span>
-          <i />
-          Custom desain &amp; logo
-        </span>
-      </div>
     </section>
   );
 }
