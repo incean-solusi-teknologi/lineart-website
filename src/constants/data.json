@@ -1989,20 +1989,20 @@
     ],
     "machines": [
       {
-        "name": "Print digital Konica C1060",
-        "image": "/media/mesin-web/konica-c1060.webp"
+        "name": "Mesin cetak SM 74",
+        "image": "/media/mesin-web/sm-74.webp"
       },
       {
         "name": "Mesin cetak SM 52",
         "image": "/media/mesin-web/sm-52.webp"
       },
       {
-        "name": "Mesin cetak SM 74",
-        "image": "/media/mesin-web/sm-74.webp"
-      },
-      {
         "name": "Mesin cetak indoor",
         "image": "/media/mesin-web/mesin-indoor.webp"
+      },
+      {
+        "name": "Print digital Konica C1060",
+        "image": "/media/mesin-web/konica-c1060.webp"
       },
       {
         "name": "Cutting plotter Jinka",
