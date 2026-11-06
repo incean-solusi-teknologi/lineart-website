@@ -42,6 +42,90 @@
   --print-orange: #ed650b;
   --print-navy: #111d36;
   color: var(--print-navy);
+  position: relative;
+  isolation: isolate;
+  background: linear-gradient(180deg, #edf4ff 0, #f8fbff 380px, #fff 740px);
+}
+.print-waves {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  overflow: clip;
+  pointer-events: none;
+}
+.print-waves > svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.print-wave-layer {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+.print-wave-flow {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: print-wave-flow 8s ease-in-out infinite alternate;
+}
+.print-wave-flow-blue {
+  animation-duration: 11s;
+  animation-delay: -4s;
+}
+.print-wave-flow-magenta {
+  animation-name: print-wave-flow-reverse;
+  animation-duration: 9s;
+  animation-delay: -2s;
+}
+.print-wave-flow-yellow {
+  animation-name: print-wave-flow-reverse;
+  animation-duration: 11s;
+  animation-delay: -5s;
+}
+@keyframes print-wave-flow {
+  from {
+    transform: translate(-18px, 10px) rotate(-1.5deg);
+  }
+  to {
+    transform: translate(35px, -18px) rotate(1.5deg);
+  }
+}
+@keyframes print-wave-flow-reverse {
+  from {
+    transform: translate(25px, -12px) rotate(1.5deg);
+  }
+  to {
+    transform: translate(-35px, 20px) rotate(-1.5deg);
+  }
+}
+.print-wave-cyan {
+  transform: translate3d(
+      calc(var(--wave-progress, 0) * 55px),
+      calc(var(--wave-progress, 0) * -90px),
+      0
+    )
+    rotate(calc(var(--wave-progress, 0) * -2deg));
+}
+.print-wave-blue {
+  transform: translate3d(
+    calc(var(--wave-progress, 0) * 30px),
+    calc(var(--wave-progress, 0) * -45px),
+    0
+  );
+}
+.print-wave-magenta {
+  transform: translate3d(
+      calc(var(--wave-progress, 0) * -70px),
+      calc(var(--wave-progress, 0) * -120px),
+      0
+    )
+    rotate(calc(var(--wave-progress, 0) * 2deg));
+}
+.print-wave-yellow {
+  transform: translate3d(
+    calc(var(--wave-progress, 0) * -45px),
+    calc(var(--wave-progress, 0) * -65px),
+    0
+  );
 }
 .print-home .container,
 .print-header .container {
@@ -234,7 +318,6 @@
   display: none;
 }
 .print-hero {
-  background: #f1f6ff url('/media/home-reference/background.jpg') center / 100% 100% no-repeat;
   overflow: hidden;
 }
 .print-hero-inner {
@@ -293,14 +376,19 @@
   margin-left: -12px;
   margin-right: -30px;
 }
-.print-hero-products > img {
+.print-product-depth,
+.print-product-sheet {
+  width: 100%;
+  height: 100%;
+}
+.print-product-sheet > img {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
 .print-benefits {
   border-bottom: 1px solid #e8ecf2;
-  background: #fff;
+  background: #ffffff70;
 }
 .print-benefits-grid {
   display: grid;
@@ -340,14 +428,6 @@
   position: relative;
   isolation: isolate;
   padding-bottom: 32px;
-}
-.print-overview::after {
-  content: '';
-  position: absolute;
-  inset: auto 0 0;
-  height: 125px;
-  z-index: -1;
-  background: url('/media/print-footer-waves.svg') bottom / 100% 100% no-repeat;
 }
 .print-categories {
   padding-block: 26px 34px;
@@ -490,6 +570,24 @@
 }
 .print-home .box-questions .section-head p {
   max-width: 620px;
+}
+@supports (interpolate-size: allow-keywords) and (transition-behavior: allow-discrete) {
+  .print-home .box-questions .faq-answer {
+    interpolate-size: allow-keywords;
+  }
+  .print-home .box-questions .faq-answer::details-content {
+    height: 0;
+    overflow: clip;
+    opacity: 0;
+    transition:
+      height 500ms var(--motion-ease),
+      opacity 400ms ease,
+      content-visibility 500ms allow-discrete;
+  }
+  .print-home .box-questions .faq-answer[open]::details-content {
+    height: auto;
+    opacity: 1;
+  }
 }
 .print-home .print-consult {
   position: relative;
@@ -715,9 +813,8 @@
     right: 16px;
     top: 65px;
   }
-  .print-hero {
-    background-size: 100% 260px;
-    background-position: center bottom;
+  .print-waves {
+    opacity: 0.6;
   }
   .print-hero-inner {
     grid-template-columns: 1fr;
@@ -857,7 +954,185 @@
   }
 }
 @media (prefers-reduced-motion: reduce) {
+  .print-wave-layer,
+  .print-wave-flow {
+    transform: none;
+  }
   .print-category-card {
     transition: none;
+  }
+}
+
+/* The product sheet follows the rhythm of a printing press. */
+.print-hero {
+  position: relative;
+  isolation: isolate;
+  view-timeline-name: --print-hero;
+  view-timeline-axis: block;
+}
+.print-hero-copy > * {
+  animation: print-copy-arrive 1100ms var(--motion-ease) both;
+}
+.print-hero-copy > :nth-child(2) {
+  animation-delay: 120ms;
+}
+.print-hero-copy > :nth-child(3) {
+  animation-delay: 300ms;
+}
+.print-hero-copy > :nth-child(4) {
+  animation-delay: 480ms;
+}
+.print-product-sheet {
+  position: relative;
+  display: grid;
+  align-items: center;
+  transform: perspective(1000px) rotateX(calc(var(--pointer-y, 0) * -5deg))
+    rotateY(calc(var(--pointer-x, 0) * 6deg))
+    translate3d(calc(var(--pointer-x, 0) * 14px), calc(var(--pointer-y, 0) * 10px), 0);
+  transition: transform 700ms var(--motion-ease);
+}
+.print-product-sheet > img {
+  animation: print-sheet-feed 1800ms 150ms var(--motion-ease) both;
+}
+.print-crop-marks {
+  position: absolute;
+  inset: 12% 5%;
+  pointer-events: none;
+  background:
+    linear-gradient(var(--print-blue), var(--print-blue)) left top / 16px 1px,
+    linear-gradient(var(--print-blue), var(--print-blue)) left top / 1px 16px,
+    linear-gradient(var(--print-blue), var(--print-blue)) right bottom / 16px 1px,
+    linear-gradient(var(--print-blue), var(--print-blue)) right bottom / 1px 16px;
+  background-repeat: no-repeat;
+  opacity: 0.25;
+  animation: print-crop-register 1800ms var(--motion-ease) both;
+}
+.print-category-card {
+  position: relative;
+  transform-origin: center bottom;
+  transition:
+    transform 550ms var(--motion-ease),
+    box-shadow 550ms,
+    border-color 550ms;
+}
+.print-category-card > img {
+  transition: transform 850ms var(--motion-ease);
+}
+.print-category-card > div {
+  position: relative;
+  background: white;
+}
+.print-category-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  background: linear-gradient(225deg, #edf4ff 48%, #c8d8ec 50%, white 54%);
+  clip-path: polygon(100% 0, 100% 0, 100% 0);
+  transition: clip-path 500ms var(--motion-ease);
+  pointer-events: none;
+}
+.print-category-card span {
+  transition:
+    transform 500ms var(--motion-ease),
+    background 400ms,
+    color 400ms;
+}
+.print-category-card:focus-visible {
+  outline: 2px solid var(--print-blue);
+  outline-offset: 4px;
+}
+.print-category-card:is(:hover, :focus-visible)::after {
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+.print-category-card:is(:hover, :focus-visible) span {
+  background: var(--print-orange);
+  color: white;
+  transform: rotate(-35deg);
+}
+.print-actions .button > span,
+.print-consult .button > span {
+  transition: translate 400ms var(--motion-ease);
+}
+.print-actions .button:is(:hover, :focus-visible) > span,
+.print-consult .button:is(:hover, :focus-visible) > span {
+  translate: 3px 0;
+}
+@keyframes print-sheet-feed {
+  from {
+    clip-path: inset(0 0 0 100%);
+    transform: translate3d(45px, 14px, 0) rotate(-3deg);
+  }
+  to {
+    clip-path: inset(0);
+    transform: none;
+  }
+}
+@keyframes print-copy-arrive {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes print-crop-register {
+  from {
+    opacity: 0;
+    transform: scale(1.12);
+  }
+  to {
+    opacity: 0.25;
+    transform: scale(1);
+  }
+}
+@keyframes print-scroll-depth {
+  to {
+    transform: translateY(70px) rotate(2deg);
+  }
+}
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) and (min-width: 601px) {
+    .print-product-depth {
+      animation: print-scroll-depth linear both;
+      animation-timeline: --print-hero;
+      animation-range: exit 0% exit 100%;
+    }
+  }
+}
+@media (hover: hover) and (pointer: fine) {
+  .print-category-card:hover {
+    transform: translateY(-8px) rotate(-1.5deg);
+    border-color: #b9cfe8;
+    box-shadow:
+      3px 6px 0 -1px #f2f6fd,
+      3px 6px 0 0 #d7e3f1,
+      0 16px 28px #143e6918;
+  }
+  .print-category-card:nth-child(even):hover {
+    transform: translateY(-8px) rotate(1.5deg);
+  }
+  .print-category-card:hover > img {
+    transform: scale(1.07) translateY(-2px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .print-home .box-questions .faq-answer::details-content {
+    transition: none;
+  }
+  .print-product-depth,
+  .print-product-sheet,
+  .print-category-card:is(:hover, :focus-visible),
+  .print-category-card:nth-child(even):hover,
+  .print-category-card:hover > img {
+    transform: none;
+  }
+  .print-actions .button > span,
+  .print-consult .button > span {
+    translate: none;
   }
 }

@@ -1,5 +1,4 @@
-import { masterData, whatsappLink } from '@/data';
-import { WhatsAppIcon } from '@/shared/Icons';
+import { masterData } from '@/data';
 
 export function Hero() {
   return (
@@ -19,25 +18,21 @@ export function Hero() {
             <a className="button print-primary" href="#kategori-produk">
               Lihat Kategori Produk <span aria-hidden="true">→</span>
             </a>
-            <a
-              className="button print-outline"
-              href={whatsappLink()}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <WhatsAppIcon />
-              Konsultasi Sekarang
-            </a>
           </div>
         </div>
         <div className="print-hero-products">
-          <img
-            src="/media/home-reference/products.png"
-            alt="Ilustrasi produk LINE-Art: paper bag, box packaging, kalender, company profile, majalah, dan stationery"
-            width="1949"
-            height="807"
-            fetchPriority="high"
-          />
+          <div className="print-product-depth">
+            <div className="print-product-sheet">
+              <span className="print-crop-marks" aria-hidden="true" />
+              <img
+                src="/media/home-reference/products.png"
+                alt="Ilustrasi produk LINE-Art: paper bag, box packaging, kalender, company profile, majalah, dan stationery"
+                width="1949"
+                height="807"
+                fetchPriority="high"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
