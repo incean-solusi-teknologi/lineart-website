@@ -7,7 +7,6 @@ export function BoxQuestions() {
       <div className="section-head">
         <div>
           <h2 id="box-questions-title">Sebelum memesan</h2>
-          <p>Bahas biaya, jumlah, dan jadwal sejak awal agar rencana pesananmu lebih jelas.</p>
         </div>
         <a className="text-link" href="/faq">
           Panduan pemesanan lengkap
