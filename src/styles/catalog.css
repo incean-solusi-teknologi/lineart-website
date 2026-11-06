@@ -1188,11 +1188,16 @@ details p {
 }
 .color-choices {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   align-items: center;
 }
 .color-choice {
   position: relative;
+  display: grid;
+  place-items: center;
+  min-width: 44px;
+  min-height: 44px;
 }
 .color-choice input {
   position: absolute;
@@ -1219,9 +1224,17 @@ details p {
   outline: 3px solid var(--blue);
   outline-offset: 3px;
 }
+.color-choice-custom span {
+  width: auto;
+  height: auto;
+  padding: 8px 12px;
+  border-radius: 7px;
+  background: white;
+  font-size: 12px;
+}
 .color-name {
   font-size: 12px;
-  margin-left: 4px;
+  margin: 8px 0 0;
 }
 .quantity-line {
   display: flex;

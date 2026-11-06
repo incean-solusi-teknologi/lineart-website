@@ -268,16 +268,36 @@
       ],
       "colors": [
         {
-          "label": "Hitam",
-          "hex": "#202020"
-        },
-        {
           "label": "Putih",
           "hex": "#ffffff"
         },
         {
-          "label": "Navy",
-          "hex": "#172a50"
+          "label": "Hitam",
+          "hex": "#202020"
+        },
+        {
+          "label": "Merah",
+          "hex": "#e53935"
+        },
+        {
+          "label": "Biru",
+          "hex": "#1565c0"
+        },
+        {
+          "label": "Kuning",
+          "hex": "#fdd835"
+        },
+        {
+          "label": "Hijau",
+          "hex": "#2e7d32"
+        },
+        {
+          "label": "Cokelat",
+          "hex": "#795548"
+        },
+        {
+          "label": "Abu-abu",
+          "hex": "#9e9e9e"
         }
       ],
       "gallery": [
@@ -369,16 +389,36 @@
       ],
       "colors": [
         {
-          "label": "Toska",
-          "hex": "#18a6a6"
+          "label": "Putih",
+          "hex": "#ffffff"
         },
         {
           "label": "Hitam",
           "hex": "#202020"
         },
         {
-          "label": "Putih",
-          "hex": "#ffffff"
+          "label": "Merah",
+          "hex": "#e53935"
+        },
+        {
+          "label": "Biru",
+          "hex": "#1565c0"
+        },
+        {
+          "label": "Kuning",
+          "hex": "#fdd835"
+        },
+        {
+          "label": "Hijau",
+          "hex": "#2e7d32"
+        },
+        {
+          "label": "Cokelat",
+          "hex": "#795548"
+        },
+        {
+          "label": "Abu-abu",
+          "hex": "#9e9e9e"
         }
       ],
       "gallery": ["/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.31%20(1).jpeg"],
@@ -467,16 +507,36 @@
       ],
       "colors": [
         {
-          "label": "Kraft",
-          "hex": "#bf976d"
+          "label": "Putih",
+          "hex": "#ffffff"
         },
         {
           "label": "Hitam",
           "hex": "#202020"
         },
         {
-          "label": "Putih",
-          "hex": "#ffffff"
+          "label": "Merah",
+          "hex": "#e53935"
+        },
+        {
+          "label": "Biru",
+          "hex": "#1565c0"
+        },
+        {
+          "label": "Kuning",
+          "hex": "#fdd835"
+        },
+        {
+          "label": "Hijau",
+          "hex": "#2e7d32"
+        },
+        {
+          "label": "Cokelat",
+          "hex": "#795548"
+        },
+        {
+          "label": "Abu-abu",
+          "hex": "#9e9e9e"
         }
       ],
       "gallery": [
@@ -568,16 +628,36 @@
       ],
       "colors": [
         {
-          "label": "Navy",
-          "hex": "#172a50"
+          "label": "Putih",
+          "hex": "#ffffff"
         },
         {
           "label": "Hitam",
           "hex": "#202020"
         },
         {
-          "label": "Putih",
-          "hex": "#ffffff"
+          "label": "Merah",
+          "hex": "#e53935"
+        },
+        {
+          "label": "Biru",
+          "hex": "#1565c0"
+        },
+        {
+          "label": "Kuning",
+          "hex": "#fdd835"
+        },
+        {
+          "label": "Hijau",
+          "hex": "#2e7d32"
+        },
+        {
+          "label": "Cokelat",
+          "hex": "#795548"
+        },
+        {
+          "label": "Abu-abu",
+          "hex": "#9e9e9e"
         }
       ],
       "gallery": [
@@ -669,16 +749,36 @@
       ],
       "colors": [
         {
-          "label": "Merah",
-          "hex": "#a51e2c"
-        },
-        {
-          "label": "Navy",
-          "hex": "#172a50"
-        },
-        {
           "label": "Putih",
           "hex": "#ffffff"
+        },
+        {
+          "label": "Hitam",
+          "hex": "#202020"
+        },
+        {
+          "label": "Merah",
+          "hex": "#e53935"
+        },
+        {
+          "label": "Biru",
+          "hex": "#1565c0"
+        },
+        {
+          "label": "Kuning",
+          "hex": "#fdd835"
+        },
+        {
+          "label": "Hijau",
+          "hex": "#2e7d32"
+        },
+        {
+          "label": "Cokelat",
+          "hex": "#795548"
+        },
+        {
+          "label": "Abu-abu",
+          "hex": "#9e9e9e"
         }
       ],
       "gallery": [
@@ -770,16 +870,36 @@
       ],
       "colors": [
         {
+          "label": "Putih",
+          "hex": "#ffffff"
+        },
+        {
           "label": "Hitam",
           "hex": "#202020"
         },
         {
-          "label": "Navy",
-          "hex": "#172a50"
+          "label": "Merah",
+          "hex": "#e53935"
         },
         {
-          "label": "Putih",
-          "hex": "#ffffff"
+          "label": "Biru",
+          "hex": "#1565c0"
+        },
+        {
+          "label": "Kuning",
+          "hex": "#fdd835"
+        },
+        {
+          "label": "Hijau",
+          "hex": "#2e7d32"
+        },
+        {
+          "label": "Cokelat",
+          "hex": "#795548"
+        },
+        {
+          "label": "Abu-abu",
+          "hex": "#9e9e9e"
         }
       ],
       "gallery": [
@@ -871,16 +991,36 @@
       ],
       "colors": [
         {
-          "label": "Burgundy",
-          "hex": "#762e42"
+          "label": "Putih",
+          "hex": "#ffffff"
         },
         {
           "label": "Hitam",
           "hex": "#202020"
         },
         {
-          "label": "Putih",
-          "hex": "#ffffff"
+          "label": "Merah",
+          "hex": "#e53935"
+        },
+        {
+          "label": "Biru",
+          "hex": "#1565c0"
+        },
+        {
+          "label": "Kuning",
+          "hex": "#fdd835"
+        },
+        {
+          "label": "Hijau",
+          "hex": "#2e7d32"
+        },
+        {
+          "label": "Cokelat",
+          "hex": "#795548"
+        },
+        {
+          "label": "Abu-abu",
+          "hex": "#9e9e9e"
         }
       ],
       "gallery": [
@@ -944,16 +1084,36 @@
       ],
       "colors": [
         {
-          "label": "Biru",
-          "hex": "#16477e"
+          "label": "Putih",
+          "hex": "#ffffff"
+        },
+        {
+          "label": "Hitam",
+          "hex": "#202020"
         },
         {
           "label": "Merah",
-          "hex": "#cf2933"
+          "hex": "#e53935"
         },
         {
-          "label": "Putih",
-          "hex": "#ffffff"
+          "label": "Biru",
+          "hex": "#1565c0"
+        },
+        {
+          "label": "Kuning",
+          "hex": "#fdd835"
+        },
+        {
+          "label": "Hijau",
+          "hex": "#2e7d32"
+        },
+        {
+          "label": "Cokelat",
+          "hex": "#795548"
+        },
+        {
+          "label": "Abu-abu",
+          "hex": "#9e9e9e"
         }
       ],
       "gallery": [
