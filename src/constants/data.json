@@ -17,7 +17,7 @@
     "addressRegion": "DKI Jakarta",
     "postalCode": "10460",
     "country": "ID",
-    "whatsapp": "",
+    "whatsapp": "6282387641006",
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Line%20Art%20Media%20New%2C%20RRJX%2B7QR%2C%20Jl.%20Kalibaru%20Timur%20V%2C%20RT.7%2FRW.2%2C%20Bungur%2C%20Kec.%20Senen%2C%20Kota%20Jakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2010460",
     "mapsEmbed": "https://maps.google.com/maps?q=Line%20Art%20Media%20New%2C%20RRJX%2B7QR%2C%20Jl.%20Kalibaru%20Timur%20V%2C%20RT.7%2FRW.2%2C%20Bungur%2C%20Kec.%20Senen%2C%20Kota%20Jakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2010460&output=embed&z=16",
     "logo": "/media/logo.jpg"
@@ -1825,6 +1825,48 @@
       {
         "title": "Tumbuh bersama",
         "description": "Membangun kerja sama untuk kebutuhan cetak dan promosi."
+      }
+    ],
+    "machines": [
+      {
+        "name": "Print digital Konica C1060",
+        "image": "/media/mesin-web/konica-c1060.webp"
+      },
+      {
+        "name": "Mesin cetak SM 52",
+        "image": "/media/mesin-web/sm-52.webp"
+      },
+      {
+        "name": "Mesin cetak SM 74",
+        "image": "/media/mesin-web/sm-74.webp"
+      },
+      {
+        "name": "Mesin cetak indoor",
+        "image": "/media/mesin-web/mesin-indoor.webp"
+      },
+      {
+        "name": "Cutting plotter Jinka",
+        "image": "/media/mesin-web/cutting-jinka.webp"
+      },
+      {
+        "name": "Mesin lipat",
+        "image": "/media/mesin-web/mesin-lipat.webp"
+      },
+      {
+        "name": "Mesin potong",
+        "image": "/media/mesin-web/mesin-potong.webp"
+      },
+      {
+        "name": "Mesin laminating",
+        "image": "/media/mesin-web/mesin-laminating.webp"
+      },
+      {
+        "name": "Mesin spiral",
+        "image": "/media/mesin-web/mesin-spiral.webp"
+      },
+      {
+        "name": "Mesin jilid buku otomatis 40C",
+        "image": "/media/mesin-web/mesin-jilid.webp"
       }
     ],
     "services": [

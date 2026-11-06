@@ -11,3 +11,7 @@ export const getArticle = (slug: string) => articles.find((article) => article.s
 export function productsInCategory(slug?: string) {
   return products.filter((product) => !slug || product.category === slug);
 }
+
+export const whatsappLink = (
+  message = `Halo ${business.name}, saya ingin konsultasi kebutuhan cetak.`,
+) => `https://wa.me/${business.whatsapp}?text=${encodeURIComponent(message)}`;

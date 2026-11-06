@@ -1,4 +1,4 @@
-import { faq } from '@/data';
+import { faq, whatsappLink } from '@/data';
 import { Breadcrumbs } from '@/shared/Breadcrumbs';
 const categoryLinks: Record<string, { label: string; href: string }> = {
   packaging: { label: 'Lihat pilihan box packaging', href: '/kategori/hard-box' },
@@ -16,7 +16,7 @@ export default function Faq() {
             Panduan pemesanan cetak digital, kalender, banner, dan packaging. Temukan informasi
             tentang pilihan produk, desain, penawaran, produksi, dan pengiriman.
           </p>
-          <a className="text-link" href="/kontak">
+          <a className="text-link" href={whatsappLink()} target="_blank" rel="noopener noreferrer">
             Tanyakan langsung ke tim kami
           </a>
         </div>
@@ -33,7 +33,12 @@ export default function Faq() {
           <div className="faq-help">
             <h2>Butuh bahas yang lebih spesifik?</h2>
             <p>Siapkan ukuran, jumlah, dan referensi. Kita bahas pilihannya bersama.</p>
-            <a className="button blue" href="/kontak">
+            <a
+              className="button blue"
+              href={whatsappLink()}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Bahas kebutuhan pesanan
             </a>
           </div>

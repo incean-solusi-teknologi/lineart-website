@@ -1,7 +1,14 @@
-import { business, masterData } from '@/data';
+import { business, masterData, whatsappLink } from '@/data';
 import { Breadcrumbs } from '@/shared/Breadcrumbs';
+import { useRef } from 'react';
 export default function About() {
   const content = masterData.about;
+  const galleryRef = useRef<HTMLDivElement>(null);
+  function scrollGallery(direction: number) {
+    const gallery = galleryRef.current;
+    const card = gallery?.querySelector('figure');
+    if (gallery && card) gallery.scrollBy({ left: direction * (card.offsetWidth + 16) });
+  }
   return (
     <main className="container">
       <Breadcrumbs items={[{ label: 'Tentang kami' }]} />
@@ -50,30 +57,43 @@ export default function About() {
       </section>
       <section className="company-gallery" aria-labelledby="gallery-title">
         <div className="gallery-heading">
-          <h2 id="gallery-title">Di balik hasil cetak.</h2>
-          <p>Peralatan yang mendukung setiap detail.</p>
+          <div>
+            <h2 id="gallery-title">Di balik hasil cetak.</h2>
+            <p>Peralatan yang mendukung setiap detail.</p>
+          </div>
+          <div className="gallery-controls" aria-label="Navigasi galeri mesin">
+            <button
+              type="button"
+              aria-label="Mesin sebelumnya"
+              aria-controls="machine-gallery"
+              onClick={() => scrollGallery(-1)}
+            >
+              <span aria-hidden="true">←</span>
+            </button>
+            <button
+              type="button"
+              aria-label="Mesin berikutnya"
+              aria-controls="machine-gallery"
+              onClick={() => scrollGallery(1)}
+            >
+              <span aria-hidden="true">→</span>
+            </button>
+          </div>
         </div>
-        <div className="machine-grid">
-          <figure>
-            <img
-              src="/media/mesin-lipat-transparan.png"
-              alt="Mesin lipat kertas Horizon PF40L"
-              width="1600"
-              height="1200"
-              loading="lazy"
-            />
-            <figcaption>Mesin lipat Horizon PF40L</figcaption>
-          </figure>
-          <figure>
-            <img
-              src="/media/cutting-plotter-transparan.png"
-              alt="Cutting plotter untuk memotong pola dan stiker"
-              width="600"
-              height="600"
-              loading="lazy"
-            />
-            <figcaption>Cutting plotter</figcaption>
-          </figure>
+        <div className="machine-grid" id="machine-gallery" ref={galleryRef}>
+          {content.machines.map((machine) => (
+            <figure key={machine.image}>
+              <img
+                src={machine.image}
+                alt={machine.name}
+                width="1200"
+                height="900"
+                loading="lazy"
+                decoding="async"
+              />
+              <figcaption>{machine.name}</figcaption>
+            </figure>
+          ))}
         </div>
       </section>
       <section className="company-location" id="lokasi" aria-labelledby="location-title">
@@ -109,7 +129,7 @@ export default function About() {
           <h2 id="contact-title">Ada yang ingin dicetak?</h2>
           <p>Yuk, ceritakan kebutuhanmu.</p>
         </div>
-        <a className="button" href="/kontak">
+        <a className="button" href={whatsappLink()} target="_blank" rel="noopener noreferrer">
           Konsultasi dulu
         </a>
       </section>

@@ -139,46 +139,96 @@
 }
 .gallery-heading {
   display: flex;
-  align-items: baseline;
+  align-items: end;
   justify-content: space-between;
   gap: 20px;
   margin-bottom: 24px;
 }
+.gallery-heading p {
+  margin-top: 6px;
+}
+.gallery-controls {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+.gallery-controls button {
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  border: 1px solid #bdc9d4;
+  border-radius: 50%;
+  background: white;
+  color: var(--blue);
+  font-size: 22px;
+  cursor: pointer;
+}
+.gallery-controls button:hover {
+  color: white;
+  border-color: var(--blue);
+  background: var(--blue);
+}
+.gallery-controls button:focus-visible {
+  outline: 3px solid var(--pink);
+  outline-offset: 3px;
+}
 .machine-grid {
   display: grid;
-  grid-template-columns: 1.2fr 1fr;
-  gap: 24px;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% - 32px) / 3);
+  gap: 16px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  padding-bottom: 12px;
+  scrollbar-color: #8ca7c0 #e8edf1;
+  scrollbar-width: thin;
 }
 .machine-grid figure {
+  display: flex;
+  flex-direction: column;
   position: relative;
   margin: 0;
   min-width: 0;
-  padding: 20px 24px;
+  padding: 22px;
   border-radius: 12px;
   background: var(--cloud);
+  scroll-snap-align: start;
 }
-.machine-grid figure:nth-child(2) {
+.machine-grid figure:nth-child(3n + 2) {
   background: var(--ice);
+}
+.machine-grid figure:nth-child(3n) {
+  background: #fce7f1;
 }
 .machine-grid figure::before {
   content: '';
   position: absolute;
-  inset: 20px auto auto 20px;
-  width: 26px;
-  height: 26px;
+  inset: 18px auto auto 18px;
+  width: 20px;
+  height: 20px;
   border-top: 1px solid var(--blue);
   border-left: 1px solid var(--blue);
 }
 .machine-grid img {
   display: block;
   width: 100%;
-  height: 260px;
+  height: 210px;
   object-fit: contain;
 }
 .machine-grid figcaption {
-  font-size: 13px;
-  color: #565b63;
-  padding-top: 12px;
+  margin-top: auto;
+  padding-top: 18px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--profile-ink);
+}
+@media (prefers-reduced-motion: reduce) {
+  .machine-grid {
+    scroll-behavior: auto;
+  }
 }
 .company-contact {
   display: flex;
@@ -269,16 +319,11 @@
   .company-gallery {
     padding-bottom: 38px;
   }
-  .gallery-heading {
-    flex-direction: column;
-    gap: 8px;
-  }
   .machine-grid {
-    grid-template-columns: 1fr;
-    gap: 16px;
+    grid-auto-columns: min(82%, 340px);
   }
   .machine-grid img {
-    height: 220px;
+    height: 190px;
   }
   .company-contact {
     align-items: start;
