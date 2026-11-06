@@ -107,9 +107,9 @@
     {
       "slug": "hard-box",
       "name": "Box Packaging",
-      "description": "Box custom untuk parfum, skincare, perhiasan, hampers, dan hadiah perusahaan. Bahas ukuran, desain, warna, serta bagian dalam sesuai kebutuhanmu.",
+      "description": "Pilihan hard box, box perhiasan, gift set, dan tas hadiah custom. Lihat contoh model, lalu bahas ukuran, desain, warna, serta bagian dalam sesuai kebutuhanmu.",
       "tone": "rose",
-      "src": "/products/Hard%20Box/box-hampers.png",
+      "src": "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.35.jpeg",
       "alt": "Box packaging custom",
       "heading": "Box custom untuk produk brand dan hadiah",
       "seoTitle": "Pilihan Box Custom Jakarta & Jabodetabek",
@@ -141,14 +141,14 @@
   "products": [
     {
       "slug": "box-parfum",
-      "name": "Box Parfum",
+      "name": "Hard Box Model Buku",
       "price": 0,
       "moq": 1,
       "size": "Sesuai kebutuhan",
       "category": "hard-box",
-      "image": "/products/Hard%20Box/box-produk-brand.png",
+      "image": "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.43.jpeg",
       "kind": "packaging",
-      "description": "Kemas botol parfum dengan box yang mengikuti ukuran dan karakter brand kamu. Bahas penahan botol, ruang untuk kartu atau kemasan pelengkap, warna pelapis, dan desain logo saat konsultasi.",
+      "description": "Hard box hitam dengan tutup menyatu yang dibuka seperti buku. Foto memperlihatkan bagian luar yang simpel dan ruang dalam bersekat. Cocok sebagai referensi kemasan parfum atau gift set; ukuran, susunan isi, dan penahan produk dapat dibahas sesuai kebutuhan.",
       "sizes": [
         {
           "id": "standard",
@@ -203,49 +203,53 @@
       ],
       "colors": [
         {
-          "label": "Navy",
-          "hex": "#172a50"
+          "label": "Hitam",
+          "hex": "#202020"
         },
         {
           "label": "Putih",
-          "hex": "#fff"
+          "hex": "#ffffff"
         },
         {
-          "label": "Hitam",
-          "hex": "#30343c"
-        },
-        {
-          "label": "Pink",
-          "hex": "#e4a9bd"
+          "label": "Navy",
+          "hex": "#172a50"
         }
       ],
       "gallery": [
-        "/products/Hard%20Box/box-produk-brand.png",
         "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.43.jpeg",
         "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.45.jpeg"
       ],
-      "generatedIllustration": true,
-      "useCase": "Kemasan parfum untuk koleksi brand dan gift set",
-      "modelLabel": "Model Buku",
-      "modelReferences": [
+      "generatedIllustration": false,
+      "useCase": "Kemasan parfum, produk brand, dan gift set",
+      "modelLabel": "Tutup menyatu model buku",
+      "modelReferences": [],
+      "seoTitle": "Hard Box Model Buku Custom Jakarta | LINE Art media",
+      "seoDescription": "Hard box hitam dengan tutup menyatu yang dibuka seperti buku. Konsultasikan ukuran, desain, dan jumlah pesanan di LINE Art media, Jakarta Pusat.",
+      "specifications": [
         {
-          "name": "Model Buku",
-          "image": "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.43.jpeg"
+          "label": "Bukaan",
+          "value": "Tutup dibuka ke atas seperti buku"
+        },
+        {
+          "label": "Bagian dalam",
+          "value": "Contoh ruang bersekat untuk memisahkan isi"
+        },
+        {
+          "label": "Tampilan contoh",
+          "value": "Hitam dengan permukaan polos"
         }
-      ],
-      "seoTitle": "Box Parfum Custom Jakarta & Jabodetabek",
-      "seoDescription": "Box parfum custom untuk brand dan gift set di Jabodetabek, dari Jakarta Pusat. Konsultasikan ukuran botol, penahan bagian dalam, warna pelapis, serta desain logo."
+      ]
     },
     {
       "slug": "box-skincare",
-      "name": "Box Skincare",
+      "name": "Hard Box Gift Set Bersekat",
       "price": 0,
       "moq": 1,
       "size": "Sesuai kebutuhan",
       "category": "hard-box",
-      "image": "/products/Hard%20Box/box-skincare.png",
+      "image": "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.31%20(1).jpeg",
       "kind": "packaging",
-      "description": "Satukan serum, cream, dan produk perawatan dalam box dengan ruang yang tertata. Ukuran box dan sekat disesuaikan dengan jumlah serta dimensi wadah. Konsultasikan desain, warna, dan logo untuk rangkaian produk brand kamu.",
+      "description": "Box gift set warna toska dengan tutup menyatu, penahan hitam berkompartemen, dan pita untuk membantu mengangkat isi. Susunan ruang dalam dapat dibahas untuk rangkaian skincare, aksesori, atau paket produk brand.",
       "sizes": [
         {
           "id": "standard",
@@ -300,45 +304,50 @@
       ],
       "colors": [
         {
-          "label": "Navy",
-          "hex": "#172a50"
-        },
-        {
-          "label": "Putih",
-          "hex": "#fff"
+          "label": "Toska",
+          "hex": "#18a6a6"
         },
         {
           "label": "Hitam",
-          "hex": "#30343c"
+          "hex": "#202020"
         },
         {
-          "label": "Pink",
-          "hex": "#e4a9bd"
+          "label": "Putih",
+          "hex": "#ffffff"
         }
       ],
-      "gallery": ["/products/Hard%20Box/box-skincare.png"],
-      "generatedIllustration": true,
-      "useCase": "Serum, cream, dan rangkaian perawatan dalam satu set",
-      "modelLabel": "Tutup Lepas",
-      "modelReferences": [
+      "gallery": ["/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.31%20(1).jpeg"],
+      "generatedIllustration": false,
+      "useCase": "Rangkaian skincare, aksesori, dan paket produk",
+      "modelLabel": "Box bertutup dengan penahan berkompartemen",
+      "modelReferences": [],
+      "seoTitle": "Hard Box Gift Set Bersekat Custom Jakarta | LINE Art media",
+      "seoDescription": "Box gift set warna toska dengan tutup menyatu, penahan hitam berkompartemen, dan pita untuk membantu mengangkat isi. Konsultasikan ukuran, desain, dan jumlah pesanan di LINE Art media, Jakarta Pusat.",
+      "specifications": [
         {
-          "name": "Tutup Lepas",
-          "image": "/products/Hard%20Box/hard-box-tutup-lepas.png"
+          "label": "Bagian dalam",
+          "value": "Penahan hitam dengan beberapa ruang produk"
+        },
+        {
+          "label": "Detail contoh",
+          "value": "Pita kuning untuk membantu mengambil isi"
+        },
+        {
+          "label": "Tampilan contoh",
+          "value": "Pelapis luar dan dalam warna toska"
         }
-      ],
-      "seoTitle": "Box Skincare Custom Jakarta & Jabodetabek",
-      "seoDescription": "Satukan serum, cream, dan produk perawatan dalam box dengan ruang yang tertata. Ukuran box dan sekat disesuaikan dengan jumlah serta dimensi wadah. Konsultasikan desain, warna, dan logo untuk rangkaian produk brand kamu."
+      ]
     },
     {
       "slug": "box-perhiasan",
-      "name": "Box Perhiasan",
+      "name": "Box Perhiasan Model Amplop",
       "price": 0,
       "moq": 1,
       "size": "Sesuai kebutuhan",
       "category": "hard-box",
-      "image": "/products/Hard%20Box/box-perhiasan.png",
+      "image": "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.31%20(2).jpeg",
       "kind": "packaging",
-      "description": "Box ringkas untuk menampilkan perhiasan saat diberikan atau dibuka pelanggan. Bahas bantalan bagian dalam, penempatan kalung atau anting, dimensi box, dan identitas brand bersama tim.",
+      "description": "Box perhiasan dengan tutup berbentuk amplop, perpaduan warna kraft dan hitam, serta dudukan cincin di bagian dalam. Dua foto memperlihatkan tampilan terbuka dan tertutup untuk referensi kemasan koleksi perhiasan atau hadiah.",
       "sizes": [
         {
           "id": "standard",
@@ -393,45 +402,53 @@
       ],
       "colors": [
         {
-          "label": "Navy",
-          "hex": "#172a50"
-        },
-        {
-          "label": "Putih",
-          "hex": "#fff"
+          "label": "Kraft",
+          "hex": "#bf976d"
         },
         {
           "label": "Hitam",
-          "hex": "#30343c"
+          "hex": "#202020"
         },
         {
-          "label": "Pink",
-          "hex": "#e4a9bd"
+          "label": "Putih",
+          "hex": "#ffffff"
         }
       ],
-      "gallery": ["/products/Hard%20Box/box-perhiasan.png"],
-      "generatedIllustration": true,
-      "useCase": "Kalung, anting, dan hadiah perhiasan",
-      "modelLabel": "Laci",
-      "modelReferences": [
+      "gallery": [
+        "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.31%20(2).jpeg",
+        "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.34.jpeg"
+      ],
+      "generatedIllustration": false,
+      "useCase": "Kemasan cincin, perhiasan, dan hadiah personal",
+      "modelLabel": "Tutup lipat berbentuk amplop",
+      "modelReferences": [],
+      "seoTitle": "Box Perhiasan Model Amplop Custom Jakarta | LINE Art media",
+      "seoDescription": "Box perhiasan dengan tutup berbentuk amplop, perpaduan warna kraft dan hitam, serta dudukan cincin di bagian dalam. Konsultasikan ukuran, desain, dan jumlah pesanan di LINE Art media, Jakarta Pusat.",
+      "specifications": [
         {
-          "name": "Laci",
-          "image": "/products/Hard%20Box/hard-box-laci.png"
+          "label": "Bukaan",
+          "value": "Tutup lipat dengan ujung berbentuk amplop"
+        },
+        {
+          "label": "Bagian dalam",
+          "value": "Contoh dudukan untuk cincin"
+        },
+        {
+          "label": "Tampilan contoh",
+          "value": "Warna kraft dengan dasar hitam"
         }
-      ],
-      "seoTitle": "Box Perhiasan Custom Jakarta & Jabodetabek",
-      "seoDescription": "Box ringkas untuk menampilkan perhiasan saat diberikan atau dibuka pelanggan. Bahas bantalan bagian dalam, penempatan kalung atau anting, dimensi box, dan identitas brand bersama tim."
+      ]
     },
     {
       "slug": "box-hampers",
-      "name": "Box Hampers",
+      "name": "Hard Box Double Door",
       "price": 0,
       "moq": 1,
       "size": "Sesuai kebutuhan",
       "category": "hard-box",
-      "image": "/products/Hard%20Box/box-hampers.png",
+      "image": "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.35.jpeg",
       "kind": "packaging",
-      "description": "Satukan rangkaian bingkisan dalam box yang tertata. Bahas ukuran, pembagian ruang, desain, dan warna agar sesuai dengan isi hampers serta momen pemberiannya.",
+      "description": "Hard box biru navy dengan dua daun tutup yang dibuka ke samping. Foto terbuka dan tertutup memperlihatkan ruang dalam yang lapang serta pengait di tengah. Jadikan referensi untuk hampers, bingkisan, atau paket hadiah custom.",
       "sizes": [
         {
           "id": "standard",
@@ -490,45 +507,49 @@
           "hex": "#172a50"
         },
         {
-          "label": "Putih",
-          "hex": "#fff"
-        },
-        {
           "label": "Hitam",
-          "hex": "#30343c"
+          "hex": "#202020"
         },
         {
-          "label": "Pink",
-          "hex": "#e4a9bd"
+          "label": "Putih",
+          "hex": "#ffffff"
         }
       ],
       "gallery": [
-        "/products/Hard%20Box/box-hampers.png",
         "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.35.jpeg",
         "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.36%20(1).jpeg"
       ],
-      "generatedIllustration": true,
-      "useCase": "Bingkisan hari raya, acara, dan hadiah personal",
-      "modelLabel": "Double Door",
-      "modelReferences": [
+      "generatedIllustration": false,
+      "useCase": "Hampers, bingkisan, dan paket hadiah",
+      "modelLabel": "Double door / dua daun tutup",
+      "modelReferences": [],
+      "seoTitle": "Hard Box Double Door Custom Jakarta | LINE Art media",
+      "seoDescription": "Hard box biru navy dengan dua daun tutup yang dibuka ke samping. Konsultasikan ukuran, desain, dan jumlah pesanan di LINE Art media, Jakarta Pusat.",
+      "specifications": [
         {
-          "name": "Double Door",
-          "image": "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.35.jpeg"
+          "label": "Bukaan",
+          "value": "Dua daun tutup dibuka ke kiri dan kanan"
+        },
+        {
+          "label": "Bagian dalam",
+          "value": "Ruang utama tanpa sekat pada contoh"
+        },
+        {
+          "label": "Tampilan contoh",
+          "value": "Biru navy dengan pengait tengah"
         }
-      ],
-      "seoTitle": "Box Hampers Custom Jakarta & Jabodetabek",
-      "seoDescription": "Satukan rangkaian bingkisan dalam box yang tertata. Konsultasikan ukuran, pembagian ruang, desain, dan warna agar sesuai dengan isi hampers serta momen pemberiannya."
+      ]
     },
     {
       "slug": "box-hadiah-perusahaan",
-      "name": "Box Hadiah Perusahaan",
+      "name": "Hard Box Gift Set Merah",
       "price": 0,
       "moq": 1,
       "size": "Sesuai kebutuhan",
       "category": "hard-box",
-      "image": "/products/Hard%20Box/box-hadiah-perusahaan.png",
+      "image": "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.24%20(1).jpeg",
       "kind": "packaging",
-      "description": "Kemas notebook, tumbler, atau merchandise menjadi satu paket hadiah yang membawa identitas perusahaan. Desain, logo, ukuran, dan susunan bagian dalam disesuaikan melalui konsultasi.",
+      "description": "Hard box merah dengan tutup menyatu, cetakan pada sisi dalam tutup, dan kompartemen untuk menata isi hadiah. Dua sudut foto menampilkan bentuk box dan detail ruang dalamnya. Desain logo, pesan pada tutup, dan susunan kompartemen dapat dikonsultasikan untuk kebutuhan perusahaan atau acara.",
       "sizes": [
         {
           "id": "standard",
@@ -583,41 +604,317 @@
       ],
       "colors": [
         {
+          "label": "Merah",
+          "hex": "#a51e2c"
+        },
+        {
           "label": "Navy",
           "hex": "#172a50"
         },
         {
           "label": "Putih",
-          "hex": "#fff"
-        },
-        {
-          "label": "Hitam",
-          "hex": "#30343c"
-        },
-        {
-          "label": "Pink",
-          "hex": "#e4a9bd"
+          "hex": "#ffffff"
         }
       ],
       "gallery": [
-        "/products/Hard%20Box/box-hadiah-perusahaan.png",
-        "/products/Hard%20Box/hard-box-tutup-lepas.png"
+        "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.24%20(1).jpeg",
+        "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.24%20(2).jpeg"
       ],
-      "generatedIllustration": true,
-      "useCase": "Welcome kit, apresiasi pelanggan, dan souvenir acara",
-      "modelLabel": "Tutup Lepas atau Tutup Bertingkat",
-      "modelReferences": [
+      "generatedIllustration": false,
+      "useCase": "Hadiah perusahaan, suvenir acara, dan gift set",
+      "modelLabel": "Tutup menyatu dengan kompartemen custom",
+      "modelReferences": [],
+      "seoTitle": "Hard Box Gift Set Merah Custom Jakarta | LINE Art media",
+      "seoDescription": "Hard box merah dengan tutup menyatu, cetakan pada sisi dalam tutup, dan kompartemen untuk menata isi hadiah. Konsultasikan ukuran, desain, dan jumlah pesanan di LINE Art media, Jakarta Pusat.",
+      "specifications": [
         {
-          "name": "Tutup Lepas",
-          "image": "/products/Hard%20Box/hard-box-tutup-lepas.png"
+          "label": "Bukaan",
+          "value": "Tutup menyatu yang dibuka ke atas"
         },
         {
-          "name": "Tutup Bertingkat",
-          "image": "/products/Hard%20Box/hard-box-shoulder.png"
+          "label": "Bagian dalam",
+          "value": "Kompartemen dan ruang untuk kartu pelengkap"
+        },
+        {
+          "label": "Tampilan contoh",
+          "value": "Merah dengan logo dan tulisan warna emas"
+        }
+      ]
+    },
+    {
+      "slug": "hard-box-lapis-satin",
+      "name": "Hard Box Lapis Satin",
+      "price": 0,
+      "moq": 1,
+      "size": "Sesuai kebutuhan",
+      "category": "hard-box",
+      "image": "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.38.jpeg",
+      "kind": "packaging",
+      "description": "Box hadiah hitam dengan lapisan kain berkilau pada bagian dalam dan pengunci kecil di depan. Galeri menampilkan referensi tampilan terbuka dan tertutup. Cocok untuk presentasi hadiah atau suvenir; jenis kain dan penataan isi dibahas sebelum produksi.",
+      "sizes": [
+        {
+          "id": "standard",
+          "label": "Sesuai kebutuhan"
         }
       ],
-      "seoTitle": "Box Hadiah Perusahaan Custom Jabodetabek",
-      "seoDescription": "Kemas notebook, tumbler, atau merchandise menjadi satu paket hadiah yang membawa identitas perusahaan. Desain, logo, ukuran, dan susunan bagian dalam disesuaikan melalui konsultasi."
+      "materials": [
+        {
+          "label": "Greyboard 2 mm + art paper",
+          "price": 0
+        },
+        {
+          "label": "Greyboard 2,5 mm + art paper",
+          "price": 3500
+        },
+        {
+          "label": "Greyboard 2 mm + kertas fancy",
+          "price": 6000
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Doff",
+          "price": 0
+        },
+        {
+          "label": "Glossy",
+          "price": 0
+        },
+        {
+          "label": "Hot foil",
+          "price": 5000
+        },
+        {
+          "label": "Emboss",
+          "price": 7000
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Tanpa insert",
+          "price": 0
+        },
+        {
+          "label": "Busa foam",
+          "price": 5000
+        },
+        {
+          "label": "EVA custom",
+          "price": 8000
+        }
+      ],
+      "colors": [
+        {
+          "label": "Hitam",
+          "hex": "#202020"
+        },
+        {
+          "label": "Navy",
+          "hex": "#172a50"
+        },
+        {
+          "label": "Putih",
+          "hex": "#ffffff"
+        }
+      ],
+      "gallery": [
+        "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.38.jpeg",
+        "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.41.jpeg"
+      ],
+      "generatedIllustration": false,
+      "useCase": "Presentasi hadiah, suvenir, dan koleksi khusus",
+      "modelLabel": "Box hadiah dengan lapisan kain",
+      "modelReferences": [],
+      "seoTitle": "Hard Box Lapis Satin Custom Jakarta | LINE Art media",
+      "seoDescription": "Box hadiah hitam dengan lapisan kain berkilau pada bagian dalam dan pengunci kecil di depan. Konsultasikan ukuran, desain, dan jumlah pesanan di LINE Art media, Jakarta Pusat.",
+      "specifications": [
+        {
+          "label": "Bagian dalam",
+          "value": "Lapisan kain hitam berkilau pada contoh"
+        },
+        {
+          "label": "Penutup",
+          "value": "Tutup menyatu dengan pengunci depan"
+        },
+        {
+          "label": "Tampilan contoh",
+          "value": "Hitam dengan tekstur pada sisi luar"
+        }
+      ]
+    },
+    {
+      "slug": "hard-box-tutup-lepas",
+      "name": "Hard Box Tutup Lepas Burgundy",
+      "price": 0,
+      "moq": 1,
+      "size": "Sesuai kebutuhan",
+      "category": "hard-box",
+      "image": "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.47%20(1).jpeg",
+      "kind": "packaging",
+      "description": "Hard box persegi panjang warna burgundy dengan tutup yang dapat diangkat seluruhnya. Foto memperlihatkan kondisi tertutup serta bagian dalam berwarna krem. Model sederhana ini dapat menjadi kemasan produk, dokumen hadiah, atau bingkisan custom.",
+      "sizes": [
+        {
+          "id": "standard",
+          "label": "Sesuai kebutuhan"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Greyboard 2 mm + art paper",
+          "price": 0
+        },
+        {
+          "label": "Greyboard 2,5 mm + art paper",
+          "price": 3500
+        },
+        {
+          "label": "Greyboard 2 mm + kertas fancy",
+          "price": 6000
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Doff",
+          "price": 0
+        },
+        {
+          "label": "Glossy",
+          "price": 0
+        },
+        {
+          "label": "Hot foil",
+          "price": 5000
+        },
+        {
+          "label": "Emboss",
+          "price": 7000
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Tanpa insert",
+          "price": 0
+        },
+        {
+          "label": "Busa foam",
+          "price": 5000
+        },
+        {
+          "label": "EVA custom",
+          "price": 8000
+        }
+      ],
+      "colors": [
+        {
+          "label": "Burgundy",
+          "hex": "#762e42"
+        },
+        {
+          "label": "Hitam",
+          "hex": "#202020"
+        },
+        {
+          "label": "Putih",
+          "hex": "#ffffff"
+        }
+      ],
+      "gallery": [
+        "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.47%20(1).jpeg",
+        "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.47%20(2).jpeg"
+      ],
+      "generatedIllustration": false,
+      "useCase": "Kemasan produk, dokumen hadiah, dan bingkisan",
+      "modelLabel": "Tutup lepas / lid and base",
+      "modelReferences": [],
+      "seoTitle": "Hard Box Tutup Lepas Burgundy Custom Jakarta | LINE Art media",
+      "seoDescription": "Hard box persegi panjang warna burgundy dengan tutup yang dapat diangkat seluruhnya. Konsultasikan ukuran, desain, dan jumlah pesanan di LINE Art media, Jakarta Pusat.",
+      "specifications": [
+        {
+          "label": "Bukaan",
+          "value": "Tutup terpisah dan diangkat dari badan box"
+        },
+        {
+          "label": "Bagian dalam",
+          "value": "Pelapis krem tanpa sekat pada contoh"
+        },
+        {
+          "label": "Tampilan contoh",
+          "value": "Burgundy dengan bentuk persegi panjang"
+        }
+      ]
+    },
+    {
+      "slug": "tas-hadiah-custom",
+      "name": "Tas Hadiah Custom Bertali",
+      "price": 0,
+      "moq": 1,
+      "size": "Sesuai kebutuhan",
+      "category": "hard-box",
+      "image": "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.48%20(1).jpeg",
+      "kind": "packaging",
+      "description": "Kemasan hadiah berbentuk tas dengan pegangan pita merah dan ilustrasi bertema balap. Dua foto memperlihatkan model yang sama dari sudut berbeda. Desain dan tema dapat disesuaikan untuk suvenir ulang tahun, acara anak, atau paket promosi.",
+      "sizes": [
+        {
+          "id": "standard",
+          "label": "Sesuai kebutuhan"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Kertas kemasan sesuai kebutuhan",
+          "price": 0
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Finishing sesuai desain",
+          "price": 0
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Tanpa insert",
+          "price": 0
+        }
+      ],
+      "colors": [
+        {
+          "label": "Biru",
+          "hex": "#16477e"
+        },
+        {
+          "label": "Merah",
+          "hex": "#cf2933"
+        },
+        {
+          "label": "Putih",
+          "hex": "#ffffff"
+        }
+      ],
+      "gallery": [
+        "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.48%20(1).jpeg",
+        "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.48%20(2).jpeg"
+      ],
+      "generatedIllustration": false,
+      "useCase": "Suvenir ulang tahun, acara anak, dan paket promosi",
+      "modelLabel": "Tas hadiah dengan pegangan pita",
+      "modelReferences": [],
+      "seoTitle": "Tas Hadiah Custom Bertali Custom Jakarta | LINE Art media",
+      "seoDescription": "Kemasan hadiah berbentuk tas dengan pegangan pita merah dan ilustrasi bertema balap. Konsultasikan ukuran, desain, dan jumlah pesanan di LINE Art media, Jakarta Pusat.",
+      "specifications": [
+        {
+          "label": "Bentuk",
+          "value": "Kemasan tas dengan bagian atas terlipat"
+        },
+        {
+          "label": "Pegangan",
+          "value": "Dua pegangan pita merah pada contoh"
+        },
+        {
+          "label": "Tampilan contoh",
+          "value": "Biru dengan ilustrasi tema balap"
+        }
+      ]
     },
     {
       "slug": "portable-backdrop",
@@ -628,7 +925,7 @@
       "category": "digital",
       "image": "/products/Digital/Portable%20Backdrop.png",
       "kind": "digital",
-      "description": "Portable Backdrop untuk kebutuhan promosi, acara, dan komunikasi visual. Desain, ukuran, bahan, serta kebutuhan cetak dapat dikonsultasikan bersama tim.",
+      "description": "Backdrop promosi dengan rangka bongkar pasang, cetakan lebar, dan tas penyimpanan seperti pada foto. Cocok untuk latar stan pameran, area foto, atau identitas acara. Ukuran cetak, bahan, dan kelengkapan rangka dikonfirmasi saat konsultasi.",
       "sizes": [
         {
           "id": "standard",
@@ -637,58 +934,44 @@
       ],
       "materials": [
         {
-          "label": "Greyboard 2 mm + art paper",
+          "label": "Media cetak backdrop sesuai kebutuhan",
           "price": 0
-        },
-        {
-          "label": "Greyboard 2,5 mm + art paper",
-          "price": 3500
-        },
-        {
-          "label": "Greyboard 2 mm + kertas fancy",
-          "price": 6000
         }
       ],
       "finishes": [
         {
-          "label": "Doff",
+          "label": "Pemasangan media pada rangka",
           "price": 0
-        },
-        {
-          "label": "Glossy",
-          "price": 0
-        },
-        {
-          "label": "Hot foil",
-          "price": 5000
-        },
-        {
-          "label": "Emboss",
-          "price": 7000
         }
       ],
       "inserts": [
         {
           "label": "Tanpa insert",
           "price": 0
-        },
-        {
-          "label": "Busa foam",
-          "price": 5000
-        },
-        {
-          "label": "EVA custom",
-          "price": 8000
         }
       ],
       "colors": [],
       "gallery": ["/products/Digital/Portable%20Backdrop.png"],
       "generatedIllustration": false,
-      "useCase": "",
-      "modelLabel": "Portable Backdrop",
+      "useCase": "Latar acara, stan pameran, dan area foto",
+      "modelLabel": "Backdrop berdiri dengan rangka bongkar pasang",
       "modelReferences": [],
-      "seoTitle": "Cetak Portable Backdrop Custom Jakarta",
-      "seoDescription": "Portable Backdrop untuk kebutuhan promosi, acara, dan komunikasi visual. Desain, ukuran, bahan, serta kebutuhan cetak dapat dikonsultasikan bersama tim."
+      "seoTitle": "Portable Backdrop Custom Jakarta | LINE Art media",
+      "seoDescription": "Portable Backdrop untuk latar acara, stan pameran, dan area foto. Konsultasikan desain, ukuran, dan jumlah pesanan di LINE Art media, Jakarta Pusat.",
+      "specifications": [
+        {
+          "label": "Model",
+          "value": "Backdrop berdiri dengan rangka bongkar pasang"
+        },
+        {
+          "label": "Kelengkapan contoh",
+          "value": "Rangka, kaki penyangga, dan tas penyimpanan"
+        },
+        {
+          "label": "Kustomisasi",
+          "value": "Visual brand, logo, dan ukuran cetak"
+        }
+      ]
     },
     {
       "slug": "roll-banner",
@@ -699,7 +982,7 @@
       "category": "digital",
       "image": "/products/Digital/Roll%20Banner.png",
       "kind": "digital",
-      "description": "Roll Banner untuk kebutuhan promosi, acara, dan komunikasi visual. Desain, ukuran, bahan, serta kebutuhan cetak dapat dikonsultasikan bersama tim.",
+      "description": "Banner vertikal dengan media cetak yang dapat digulung ke dalam dudukan. Foto memperlihatkan tampilan depan, tiang penyangga, dan tas pembawa. Praktis untuk presentasi, promosi toko, dan pameran; ukuran serta kelengkapan dibahas saat konsultasi.",
       "sizes": [
         {
           "id": "standard",
@@ -708,58 +991,44 @@
       ],
       "materials": [
         {
-          "label": "Greyboard 2 mm + art paper",
+          "label": "Media cetak roll banner sesuai kebutuhan",
           "price": 0
-        },
-        {
-          "label": "Greyboard 2,5 mm + art paper",
-          "price": 3500
-        },
-        {
-          "label": "Greyboard 2 mm + kertas fancy",
-          "price": 6000
         }
       ],
       "finishes": [
         {
-          "label": "Doff",
+          "label": "Pemasangan pada dudukan roll",
           "price": 0
-        },
-        {
-          "label": "Glossy",
-          "price": 0
-        },
-        {
-          "label": "Hot foil",
-          "price": 5000
-        },
-        {
-          "label": "Emboss",
-          "price": 7000
         }
       ],
       "inserts": [
         {
           "label": "Tanpa insert",
           "price": 0
-        },
-        {
-          "label": "Busa foam",
-          "price": 5000
-        },
-        {
-          "label": "EVA custom",
-          "price": 8000
         }
       ],
       "colors": [],
       "gallery": ["/products/Digital/Roll%20Banner.png"],
       "generatedIllustration": false,
-      "useCase": "",
-      "modelLabel": "Roll Banner",
+      "useCase": "Promosi toko, presentasi, dan pameran",
+      "modelLabel": "Banner tarik dengan dudukan gulung",
       "modelReferences": [],
-      "seoTitle": "Cetak Roll Banner Custom Jakarta",
-      "seoDescription": "Roll Banner untuk kebutuhan promosi, acara, dan komunikasi visual. Desain, ukuran, bahan, serta kebutuhan cetak dapat dikonsultasikan bersama tim."
+      "seoTitle": "Roll Banner Custom Jakarta | LINE Art media",
+      "seoDescription": "Roll Banner untuk promosi toko, presentasi, dan pameran. Konsultasikan desain, ukuran, dan jumlah pesanan di LINE Art media, Jakarta Pusat.",
+      "specifications": [
+        {
+          "label": "Model",
+          "value": "Banner tarik dengan dudukan gulung"
+        },
+        {
+          "label": "Penyangga",
+          "value": "Tiang vertikal dan dudukan di bagian bawah"
+        },
+        {
+          "label": "Kelengkapan contoh",
+          "value": "Tas pembawa dan komponen penyangga"
+        }
+      ]
     },
     {
       "slug": "spanduk",
@@ -770,7 +1039,7 @@
       "category": "digital",
       "image": "/products/Digital/Spanduk.png",
       "kind": "digital",
-      "description": "Spanduk untuk kebutuhan promosi, acara, dan komunikasi visual. Desain, ukuran, bahan, serta kebutuhan cetak dapat dikonsultasikan bersama tim.",
+      "description": "Spanduk horizontal untuk menyampaikan informasi, promosi, atau pengumuman acara. Foto menunjukkan contoh pemasangan spanduk di area luar. Desain, ukuran, pilihan bahan, dan kebutuhan pengikat dapat disesuaikan dengan lokasi pemasangan.",
       "sizes": [
         {
           "id": "standard",
@@ -779,58 +1048,44 @@
       ],
       "materials": [
         {
-          "label": "Greyboard 2 mm + art paper",
+          "label": "Bahan spanduk sesuai lokasi pemasangan",
           "price": 0
-        },
-        {
-          "label": "Greyboard 2,5 mm + art paper",
-          "price": 3500
-        },
-        {
-          "label": "Greyboard 2 mm + kertas fancy",
-          "price": 6000
         }
       ],
       "finishes": [
         {
-          "label": "Doff",
+          "label": "Tepi dan pengikat sesuai kebutuhan",
           "price": 0
-        },
-        {
-          "label": "Glossy",
-          "price": 0
-        },
-        {
-          "label": "Hot foil",
-          "price": 5000
-        },
-        {
-          "label": "Emboss",
-          "price": 7000
         }
       ],
       "inserts": [
         {
           "label": "Tanpa insert",
           "price": 0
-        },
-        {
-          "label": "Busa foam",
-          "price": 5000
-        },
-        {
-          "label": "EVA custom",
-          "price": 8000
         }
       ],
       "colors": [],
       "gallery": ["/products/Digital/Spanduk.png"],
       "generatedIllustration": false,
-      "useCase": "",
-      "modelLabel": "Spanduk",
+      "useCase": "Promosi usaha, pengumuman, dan informasi acara",
+      "modelLabel": "Cetakan horizontal / memanjang",
       "modelReferences": [],
-      "seoTitle": "Cetak Spanduk Custom Jakarta",
-      "seoDescription": "Spanduk untuk kebutuhan promosi, acara, dan komunikasi visual. Desain, ukuran, bahan, serta kebutuhan cetak dapat dikonsultasikan bersama tim."
+      "seoTitle": "Spanduk Custom Jakarta | LINE Art media",
+      "seoDescription": "Spanduk untuk promosi usaha, pengumuman, dan informasi acara. Konsultasikan desain, ukuran, dan jumlah pesanan di LINE Art media, Jakarta Pusat.",
+      "specifications": [
+        {
+          "label": "Format",
+          "value": "Cetakan horizontal / memanjang"
+        },
+        {
+          "label": "Pemasangan",
+          "value": "Digantung atau diikat sesuai lokasi"
+        },
+        {
+          "label": "Kustomisasi",
+          "value": "Teks, logo, warna, dan ukuran desain"
+        }
+      ]
     },
     {
       "slug": "tripod-banner",
@@ -841,7 +1096,7 @@
       "category": "digital",
       "image": "/products/Digital/Tripod%20Banner.png",
       "kind": "digital",
-      "description": "Tripod Banner untuk kebutuhan promosi, acara, dan komunikasi visual. Desain, ukuran, bahan, serta kebutuhan cetak dapat dikonsultasikan bersama tim.",
+      "description": "Banner vertikal dengan penyangga tripod untuk menampilkan promosi di pintu masuk, stan, atau area presentasi. Foto memperlihatkan beberapa contoh desain pada kaki tiga. Ukuran media dan kesesuaian penyangga dikonfirmasi sebelum pemesanan.",
       "sizes": [
         {
           "id": "standard",
@@ -850,69 +1105,55 @@
       ],
       "materials": [
         {
-          "label": "Greyboard 2 mm + art paper",
+          "label": "Media cetak display sesuai kebutuhan",
           "price": 0
-        },
-        {
-          "label": "Greyboard 2,5 mm + art paper",
-          "price": 3500
-        },
-        {
-          "label": "Greyboard 2 mm + kertas fancy",
-          "price": 6000
         }
       ],
       "finishes": [
         {
-          "label": "Doff",
+          "label": "Pemasangan media pada tripod",
           "price": 0
-        },
-        {
-          "label": "Glossy",
-          "price": 0
-        },
-        {
-          "label": "Hot foil",
-          "price": 5000
-        },
-        {
-          "label": "Emboss",
-          "price": 7000
         }
       ],
       "inserts": [
         {
           "label": "Tanpa insert",
           "price": 0
-        },
-        {
-          "label": "Busa foam",
-          "price": 5000
-        },
-        {
-          "label": "EVA custom",
-          "price": 8000
         }
       ],
       "colors": [],
       "gallery": ["/products/Digital/Tripod%20Banner.png"],
       "generatedIllustration": false,
-      "useCase": "",
-      "modelLabel": "Tripod Banner",
+      "useCase": "Display promosi, pintu masuk, dan stan acara",
+      "modelLabel": "Display vertikal dengan kaki tiga",
       "modelReferences": [],
-      "seoTitle": "Cetak Tripod Banner Custom Jakarta",
-      "seoDescription": "Tripod Banner untuk kebutuhan promosi, acara, dan komunikasi visual. Desain, ukuran, bahan, serta kebutuhan cetak dapat dikonsultasikan bersama tim."
+      "seoTitle": "Tripod Banner Custom Jakarta | LINE Art media",
+      "seoDescription": "Tripod Banner untuk display promosi, pintu masuk, dan stan acara. Konsultasikan desain, ukuran, dan jumlah pesanan di LINE Art media, Jakarta Pusat.",
+      "specifications": [
+        {
+          "label": "Model",
+          "value": "Display vertikal dengan kaki tiga"
+        },
+        {
+          "label": "Penyangga",
+          "value": "Tripod di bagian belakang media"
+        },
+        {
+          "label": "Kustomisasi",
+          "value": "Desain promosi dan ukuran media cetak"
+        }
+      ]
     },
     {
       "slug": "kalender-meja-spiral",
-      "name": "Kalender Meja Spiral",
+      "name": "Kalender Meja Spiral Potret",
       "price": 0,
       "moq": 1,
       "size": "Sesuai kebutuhan",
       "category": "kalender",
       "image": "/products/Kalender/WhatsApp%20Image%202026-10-07%20at%2013.03.29.jpeg",
       "kind": "calendar",
-      "description": "Kalender meja dengan dudukan segitiga dan jilid spiral di bagian atas. Cocok untuk meja kerja, promosi brand, dan hadiah perusahaan. Desain, logo, dan susunan halaman dibahas saat konsultasi.",
+      "description": "Kalender meja berformat potret dengan dudukan berdiri dan jilid spiral di bagian atas. Sampul pada foto memadukan logo, ilustrasi, dan identitas perusahaan. Desain halaman, tahun kalender, bahan, serta ukuran dapat dibahas saat konsultasi.",
       "sizes": [
         {
           "id": "standard",
@@ -921,58 +1162,44 @@
       ],
       "materials": [
         {
-          "label": "Greyboard 2 mm + art paper",
+          "label": "Kertas dan dudukan sesuai kebutuhan",
           "price": 0
-        },
-        {
-          "label": "Greyboard 2,5 mm + art paper",
-          "price": 3500
-        },
-        {
-          "label": "Greyboard 2 mm + kertas fancy",
-          "price": 6000
         }
       ],
       "finishes": [
         {
-          "label": "Doff",
+          "label": "Cetak dan jilid sesuai model kalender",
           "price": 0
-        },
-        {
-          "label": "Glossy",
-          "price": 0
-        },
-        {
-          "label": "Hot foil",
-          "price": 5000
-        },
-        {
-          "label": "Emboss",
-          "price": 7000
         }
       ],
       "inserts": [
         {
-          "label": "Tanpa insert",
+          "label": "Susunan halaman sesuai desain",
           "price": 0
-        },
-        {
-          "label": "Busa foam",
-          "price": 5000
-        },
-        {
-          "label": "EVA custom",
-          "price": 8000
         }
       ],
       "colors": [],
       "gallery": ["/products/Kalender/WhatsApp%20Image%202026-10-07%20at%2013.03.29.jpeg"],
       "generatedIllustration": false,
-      "useCase": "",
-      "modelLabel": "Kalender meja dengan jilid spiral",
+      "useCase": "Meja kerja, promosi brand, dan hadiah perusahaan",
+      "modelLabel": "Potret / vertikal",
       "modelReferences": [],
-      "seoTitle": "Cetak Kalender Meja Spiral Custom Jakarta",
-      "seoDescription": "Kalender meja dengan dudukan segitiga dan jilid spiral di bagian atas. Cocok untuk meja kerja, promosi brand, dan hadiah perusahaan. Desain, logo, dan susunan halaman dibahas saat konsultasi."
+      "seoTitle": "Kalender Meja Spiral Potret Custom Jakarta | LINE Art media",
+      "seoDescription": "Kalender Meja Spiral Potret untuk meja kerja, promosi brand, dan hadiah perusahaan. Konsultasikan desain, ukuran, dan jumlah pesanan di LINE Art media, Jakarta Pusat.",
+      "specifications": [
+        {
+          "label": "Orientasi",
+          "value": "Potret / vertikal"
+        },
+        {
+          "label": "Jilid",
+          "value": "Spiral di bagian atas"
+        },
+        {
+          "label": "Dudukan",
+          "value": "Dudukan kalender meja berdiri"
+        }
+      ]
     },
     {
       "slug": "kalender-dinding",
@@ -983,7 +1210,7 @@
       "category": "kalender",
       "image": "/products/Kalender/WhatsApp%20Image%202026-10-07%20at%2013.03.26%20(1).jpeg",
       "kind": "calendar",
-      "description": "Kalender gantung untuk dipasang di dinding kantor, toko, atau rumah. Desain dapat memuat identitas brand dan foto pilihan. Ukuran, susunan halaman, serta kebutuhan cetak dibahas saat konsultasi.",
+      "description": "Kalender dinding dengan area visual perusahaan di bagian atas dan susunan tanggal di bawahnya. Cocok untuk kantor, toko, atau hadiah promosi. Logo, foto, tahun kalender, jumlah lembar, dan ukuran cetak dibahas sesuai kebutuhan pesanan.",
       "sizes": [
         {
           "id": "standard",
@@ -992,69 +1219,55 @@
       ],
       "materials": [
         {
-          "label": "Greyboard 2 mm + art paper",
+          "label": "Kertas dan dudukan sesuai kebutuhan",
           "price": 0
-        },
-        {
-          "label": "Greyboard 2,5 mm + art paper",
-          "price": 3500
-        },
-        {
-          "label": "Greyboard 2 mm + kertas fancy",
-          "price": 6000
         }
       ],
       "finishes": [
         {
-          "label": "Doff",
+          "label": "Cetak dan jilid sesuai model kalender",
           "price": 0
-        },
-        {
-          "label": "Glossy",
-          "price": 0
-        },
-        {
-          "label": "Hot foil",
-          "price": 5000
-        },
-        {
-          "label": "Emboss",
-          "price": 7000
         }
       ],
       "inserts": [
         {
-          "label": "Tanpa insert",
+          "label": "Susunan halaman sesuai desain",
           "price": 0
-        },
-        {
-          "label": "Busa foam",
-          "price": 5000
-        },
-        {
-          "label": "EVA custom",
-          "price": 8000
         }
       ],
       "colors": [],
       "gallery": ["/products/Kalender/WhatsApp%20Image%202026-10-07%20at%2013.03.26%20(1).jpeg"],
       "generatedIllustration": false,
-      "useCase": "",
-      "modelLabel": "Kalender dinding gantung",
+      "useCase": "Dinding kantor, toko, dan hadiah promosi",
+      "modelLabel": "Kalender gantung vertikal",
       "modelReferences": [],
-      "seoTitle": "Cetak Kalender Dinding Custom Jakarta",
-      "seoDescription": "Kalender gantung untuk dipasang di dinding kantor, toko, atau rumah. Desain dapat memuat identitas brand dan foto pilihan. Ukuran, susunan halaman, serta kebutuhan cetak dibahas saat konsultasi."
+      "seoTitle": "Kalender Dinding Custom Jakarta | LINE Art media",
+      "seoDescription": "Kalender Dinding untuk dinding kantor, toko, dan hadiah promosi. Konsultasikan desain, ukuran, dan jumlah pesanan di LINE Art media, Jakarta Pusat.",
+      "specifications": [
+        {
+          "label": "Format",
+          "value": "Kalender gantung vertikal"
+        },
+        {
+          "label": "Layout contoh",
+          "value": "Foto perusahaan di atas dan tanggal di bawah"
+        },
+        {
+          "label": "Kustomisasi",
+          "value": "Tahun, foto, logo, dan susunan tanggal"
+        }
+      ]
     },
     {
-      "slug": "kalender-meja-custom",
-      "name": "Kalender Meja Custom",
+      "slug": "kalender-meja-catatan",
+      "name": "Kalender Meja Catatan Custom",
       "price": 0,
       "moq": 1,
       "size": "Sesuai kebutuhan",
       "category": "kalender",
       "image": "/products/Kalender/WhatsApp%20Image%202026-10-29%20at%2012.32.51.jpeg",
       "kind": "calendar",
-      "description": "Kalender Meja Custom untuk kebutuhan kantor, promosi, dan hadiah perusahaan. Desain, logo, susunan halaman, dan kebutuhan cetak dapat dibahas saat konsultasi.",
+      "description": "Kalender meja dengan area tanggal, foto pilihan, dan kolom catatan bergaris dalam satu halaman. Foto memperlihatkan dudukan berdiri dan jilid ring. Cocok untuk mencatat agenda sambil menampilkan identitas brand di meja kerja.",
       "sizes": [
         {
           "id": "standard",
@@ -1063,69 +1276,55 @@
       ],
       "materials": [
         {
-          "label": "Greyboard 2 mm + art paper",
+          "label": "Kertas dan dudukan sesuai kebutuhan",
           "price": 0
-        },
-        {
-          "label": "Greyboard 2,5 mm + art paper",
-          "price": 3500
-        },
-        {
-          "label": "Greyboard 2 mm + kertas fancy",
-          "price": 6000
         }
       ],
       "finishes": [
         {
-          "label": "Doff",
+          "label": "Cetak dan jilid sesuai model kalender",
           "price": 0
-        },
-        {
-          "label": "Glossy",
-          "price": 0
-        },
-        {
-          "label": "Hot foil",
-          "price": 5000
-        },
-        {
-          "label": "Emboss",
-          "price": 7000
         }
       ],
       "inserts": [
         {
-          "label": "Tanpa insert",
+          "label": "Susunan halaman sesuai desain",
           "price": 0
-        },
-        {
-          "label": "Busa foam",
-          "price": 5000
-        },
-        {
-          "label": "EVA custom",
-          "price": 8000
         }
       ],
       "colors": [],
       "gallery": ["/products/Kalender/WhatsApp%20Image%202026-10-29%20at%2012.32.51.jpeg"],
       "generatedIllustration": false,
-      "useCase": "",
-      "modelLabel": "Kalender Meja Custom",
+      "useCase": "Agenda kerja, catatan harian, dan promosi brand",
+      "modelLabel": "Tanggal, foto, dan kolom catatan bergaris",
       "modelReferences": [],
-      "seoTitle": "Cetak Kalender Meja Custom Jakarta",
-      "seoDescription": "Kalender Meja Custom untuk kebutuhan kantor, promosi, dan hadiah perusahaan. Desain, logo, susunan halaman, dan kebutuhan cetak dapat dibahas saat konsultasi."
+      "seoTitle": "Kalender Meja Catatan Custom Custom Jakarta | LINE Art media",
+      "seoDescription": "Kalender Meja Catatan Custom untuk agenda kerja, catatan harian, dan promosi brand. Konsultasikan desain, ukuran, dan jumlah pesanan di LINE Art media, Jakarta Pusat.",
+      "specifications": [
+        {
+          "label": "Layout",
+          "value": "Tanggal, foto, dan kolom catatan bergaris"
+        },
+        {
+          "label": "Jilid",
+          "value": "Ring pada bagian tengah halaman"
+        },
+        {
+          "label": "Dudukan",
+          "value": "Model berdiri untuk meja kerja"
+        }
+      ]
     },
     {
-      "slug": "kalender-meja-catatan",
-      "name": "Kalender Meja dengan Catatan",
+      "slug": "kalender-meja-custom",
+      "name": "Kalender Meja Landscape",
       "price": 0,
       "moq": 1,
       "size": "Sesuai kebutuhan",
       "category": "kalender",
       "image": "/products/Kalender/photoshoot_produk_3%20(1).png",
       "kind": "calendar",
-      "description": "Kalender Meja dengan Catatan untuk kebutuhan kantor, promosi, dan hadiah perusahaan. Desain, logo, susunan halaman, dan kebutuhan cetak dapat dibahas saat konsultasi.",
+      "description": "Kalender meja berformat landscape dengan dudukan biru dan tanggal yang mudah dilihat. Foto menampilkan kalender di meja kerja sebagai referensi penggunaan. Tahun, susunan tanggal, logo, dan desain halaman dapat disesuaikan saat konsultasi.",
       "sizes": [
         {
           "id": "standard",
@@ -1134,58 +1333,44 @@
       ],
       "materials": [
         {
-          "label": "Greyboard 2 mm + art paper",
+          "label": "Kertas dan dudukan sesuai kebutuhan",
           "price": 0
-        },
-        {
-          "label": "Greyboard 2,5 mm + art paper",
-          "price": 3500
-        },
-        {
-          "label": "Greyboard 2 mm + kertas fancy",
-          "price": 6000
         }
       ],
       "finishes": [
         {
-          "label": "Doff",
+          "label": "Cetak dan jilid sesuai model kalender",
           "price": 0
-        },
-        {
-          "label": "Glossy",
-          "price": 0
-        },
-        {
-          "label": "Hot foil",
-          "price": 5000
-        },
-        {
-          "label": "Emboss",
-          "price": 7000
         }
       ],
       "inserts": [
         {
-          "label": "Tanpa insert",
+          "label": "Susunan halaman sesuai desain",
           "price": 0
-        },
-        {
-          "label": "Busa foam",
-          "price": 5000
-        },
-        {
-          "label": "EVA custom",
-          "price": 8000
         }
       ],
       "colors": [],
       "gallery": ["/products/Kalender/photoshoot_produk_3%20(1).png"],
       "generatedIllustration": false,
-      "useCase": "",
-      "modelLabel": "Kalender Meja dengan Catatan",
+      "useCase": "Meja kantor, meja layanan, dan hadiah promosi",
+      "modelLabel": "Landscape / horizontal",
       "modelReferences": [],
-      "seoTitle": "Cetak Kalender Meja dengan Catatan Jakarta",
-      "seoDescription": "Kalender Meja dengan Catatan untuk kebutuhan kantor, promosi, dan hadiah perusahaan. Desain, logo, susunan halaman, dan kebutuhan cetak dapat dibahas saat konsultasi."
+      "seoTitle": "Kalender Meja Landscape Custom Jakarta | LINE Art media",
+      "seoDescription": "Kalender Meja Landscape untuk meja kantor, meja layanan, dan hadiah promosi. Konsultasikan desain, ukuran, dan jumlah pesanan di LINE Art media, Jakarta Pusat.",
+      "specifications": [
+        {
+          "label": "Orientasi",
+          "value": "Landscape / horizontal"
+        },
+        {
+          "label": "Layout",
+          "value": "Tanggal bulanan dengan area identitas brand"
+        },
+        {
+          "label": "Tampilan contoh",
+          "value": "Dudukan biru untuk meja kerja"
+        }
+      ]
     }
   ],
   "articles": [

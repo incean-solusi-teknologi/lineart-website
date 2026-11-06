@@ -16,13 +16,7 @@ export function BoxNeeds() {
         {productsInCategory('hard-box').map((product) => (
           <a className="box-need-card" key={product.slug} href={`/produk/${product.slug}`}>
             <div className="box-need-photo">
-              <img
-                src={product.image}
-                alt={product.name + ' — ilustrasi contoh penggunaan'}
-                width="600"
-                height="600"
-                loading="lazy"
-              />
+              <img src={product.image} alt={product.name} width="600" height="600" loading="lazy" />
             </div>
             <div className="box-need-copy">
               <h3>{product.name}</h3>
@@ -42,7 +36,7 @@ export function BoxNeeds() {
         </a>
       </div>
       <p className="prototype-note">
-        Ilustrasi konsep; isi box hanya contoh penggunaan. Spesifikasi dan isi pesanan dibahas saat
+        Foto menampilkan contoh model dan desain. Spesifikasi, warna, serta isi pesanan dibahas saat
         konsultasi.
       </p>
     </section>

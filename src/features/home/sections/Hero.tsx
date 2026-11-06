@@ -20,12 +20,12 @@ export function Hero() {
           <a href="/kategori/hard-box">
             <img
               src={getProduct('box-hadiah-perusahaan')!.image}
-              alt="Ilustrasi box hadiah perusahaan berisi tumbler, notebook, dan pena"
+              alt={getProduct('box-hadiah-perusahaan')!.name}
               width="500"
               height="600"
               fetchPriority="high"
             />
-            <figcaption>Inspirasi hadiah perusahaan (ilustrasi konsep)</figcaption>
+            <figcaption>Hard box gift set custom untuk hadiah perusahaan</figcaption>
           </a>
         </figure>
       </div>

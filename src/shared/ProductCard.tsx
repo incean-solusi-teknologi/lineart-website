@@ -6,6 +6,9 @@ export function ProductCard({ product }: { product: Product }) {
       <a href={href}>
         <div className="card-photo">
           <img src={product.image} alt={product.name} loading="lazy" width="400" height="400" />
+          {product.gallery.length > 1 && (
+            <span className="card-photo-count">{product.gallery.length} foto</span>
+          )}
         </div>
       </a>
       <div className="card-info">

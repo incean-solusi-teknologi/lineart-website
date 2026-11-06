@@ -24,7 +24,7 @@ export function productHead(product?: Product) {
         '@type': 'Product',
         name: product.name,
         description: product.description,
-        image: absoluteUrl(product.image),
+        image: product.gallery.map((src) => absoluteUrl(src)),
         url: absoluteUrl(path),
         brand: { '@type': 'Brand', name: masterData.business.name },
         ...(masterData.status.pricingApproved && !masterData.status.dummy

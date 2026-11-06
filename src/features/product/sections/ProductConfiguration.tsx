@@ -9,16 +9,30 @@ export function ProductConfiguration({ product }: { product: Product }) {
   const message = [
     'Halo LINE Art media, saya ingin konsultasi ' + product.name + '.',
     ...(isBox && color ? ['Warna: ' + color] : []),
-    'Saya ingin membahas ukuran, desain, bagian dalam, jumlah, dan penawarannya.',
+    isBox
+      ? 'Saya ingin membahas ukuran, desain, bagian dalam, jumlah, dan penawarannya.'
+      : isCalendar
+        ? 'Saya ingin membahas tahun kalender, ukuran, desain halaman, jumlah, dan penawarannya.'
+        : 'Saya ingin membahas ukuran cetak, desain, bahan, kelengkapan penyangga, jumlah, dan penawarannya.',
   ].join('\n');
   return (
     <div className="configuration">
-      <h2>{isBox ? 'Warna untuk box kamu' : isCalendar ? 'Tentang kalender' : 'Tentang produk'}</h2>
+      <h2>
+        {isBox
+          ? 'Warna kemasan kamu'
+          : isCalendar
+            ? 'Custom kalender kamu'
+            : 'Custom kebutuhan cetak'}
+      </h2>
       {!isBox ? (
-        <p className="product-description">{product.description}</p>
+        <p className="product-description">
+          {isCalendar
+            ? 'Konsultasikan tahun, desain halaman, logo, ukuran, dan jumlah kalender yang dibutuhkan.'
+            : 'Konsultasikan desain, ukuran, lokasi pemasangan, dan kelengkapan display yang dibutuhkan.'}
+        </p>
       ) : (
         <fieldset className="option-group">
-          <legend>Warna pelapis</legend>
+          <legend>Warna kemasan</legend>
           <div className="color-choices">
             {product.colors.map((item) => (
               <label
