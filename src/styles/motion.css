@@ -2,6 +2,89 @@
 :root {
   --motion-ease: cubic-bezier(0.22, 1, 0.36, 1);
 }
+.catalog-page .category-banner,
+.catalog-page .catalog-sidebar,
+.catalog-page .catalog-toolbar,
+.catalog-page .catalog-grid > .product-card {
+  animation: catalog-fade-in 800ms ease-out backwards;
+}
+.catalog-page .catalog-sidebar,
+.catalog-page .catalog-toolbar {
+  animation-delay: 100ms;
+}
+.catalog-page .catalog-grid > .product-card:nth-child(4n + 2) {
+  animation-delay: 100ms;
+}
+.catalog-page .catalog-grid > .product-card:nth-child(4n + 3) {
+  animation-delay: 200ms;
+}
+.catalog-page .catalog-grid > .product-card:nth-child(4n) {
+  animation-delay: 300ms;
+}
+@keyframes catalog-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.brand {
+  position: relative;
+}
+.brand > .intro-brand {
+  display: none;
+}
+html[data-site-intro='playing'] .brand > img {
+  visibility: hidden;
+}
+html[data-site-intro='playing'] .brand > .intro-brand {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+.intro-brand-ring {
+  transform-origin: 714px 219px;
+  animation: intro-brand-spin 2000ms var(--motion-ease) both;
+}
+.intro-brand-letter {
+  paint-order: stroke fill;
+  stroke: white;
+  stroke-width: 5px;
+  stroke-linejoin: round;
+  animation: intro-letter-wave 1200ms ease-in-out both;
+}
+@keyframes intro-brand-spin {
+  from {
+    opacity: 0.5;
+    transform: rotate(-150deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotate(0);
+  }
+}
+@keyframes intro-letter-wave {
+  0%,
+  65%,
+  100% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-18px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html[data-site-intro='playing'] .brand > img {
+    visibility: visible;
+  }
+  html[data-site-intro='playing'] .brand > .intro-brand {
+    display: none;
+  }
+}
 .button {
   transition:
     background 0.2s,

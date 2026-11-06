@@ -11,7 +11,7 @@ export default function Catalog({
 }) {
   const { query, setQuery, visibleProducts } = useCatalog(category?.slug, initialQuery);
   return (
-    <main className="container">
+    <main className="container catalog-page">
       <Breadcrumbs items={[{ label: category?.name ?? 'Semua produk' }]} />
       <section className={`category-banner ${category?.tone ?? 'ice'}`}>
         <div>

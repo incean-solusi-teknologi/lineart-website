@@ -1,6 +1,7 @@
 import { useLocation } from '@tanstack/react-router';
 import { business, categories, whatsappLink } from '@/data';
 import { WhatsAppIcon } from './Icons';
+import { AnimatedBrandMark } from './AnimatedBrandMark';
 
 function SearchForm({ id }: { id: string }) {
   return (
@@ -29,6 +30,7 @@ export function SiteHeader() {
       <div className="container print-header-inner">
         <a className="brand" href="/" aria-label={`${business.name}, beranda`}>
           <img src={business.logo} alt={business.name} width="172" height="84" />
+          <AnimatedBrandMark />
         </a>
         <nav className="print-desktop-nav" aria-label="Navigasi utama">
           <a href="/" aria-current={pathname === '/' ? 'page' : undefined}>

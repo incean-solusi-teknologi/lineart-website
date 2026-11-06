@@ -1,5 +1,6 @@
 import { lazy, Suspense } from 'react';
 import { SiteLayout } from '@/layout/SiteLayout';
+import { siteIntroBootstrap } from '@/shared/AnimatedBrandMark';
 import styles from '@/styles/app.css?url';
 import type { QueryClient } from '@tanstack/react-query';
 import { createRootRouteWithContext, HeadContent, Outlet, Scripts } from '@tanstack/react-router';
@@ -28,9 +29,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 });
 function Root() {
   return (
-    <html lang="id">
+    <html lang="id" suppressHydrationWarning>
       <head>
         <HeadContent />
+        <script dangerouslySetInnerHTML={{ __html: siteIntroBootstrap }} />
       </head>
       <body>
         <SiteLayout>

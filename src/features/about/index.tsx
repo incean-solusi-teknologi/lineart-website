@@ -1,16 +1,13 @@
 import { business, masterData, whatsappLink } from '@/data';
 import { Breadcrumbs } from '@/shared/Breadcrumbs';
-import { useRef } from 'react';
+import { useScrollReveal } from '@/hooks/useScrollReveal';
+import { useAboutGallery } from './hooks/useAboutGallery';
 export default function About() {
   const content = masterData.about;
-  const galleryRef = useRef<HTMLDivElement>(null);
-  function scrollGallery(direction: number) {
-    const gallery = galleryRef.current;
-    const card = gallery?.querySelector('figure');
-    if (gallery && card) gallery.scrollBy({ left: direction * (card.offsetWidth + 16) });
-  }
+  const pageRef = useScrollReveal<HTMLElement>('section');
+  const { galleryRef, scrollGallery } = useAboutGallery();
   return (
-    <main className="container">
+    <main className="container" ref={pageRef}>
       <Breadcrumbs items={[{ label: 'Tentang kami' }]} />
       <section className="company-intro" aria-labelledby="about-title">
         <div className="company-headline">
