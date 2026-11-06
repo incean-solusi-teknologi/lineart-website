@@ -148,14 +148,15 @@
   object-fit: contain;
 }
 .print-desktop-search {
-  flex: 1 1 250px;
+  flex: 1 1 400px;
   min-width: 180px;
-  max-width: 320px;
+  max-width: 400px;
   margin-left: auto;
 }
 .print-search-form {
   width: 100%;
-  border-color: #e7edf4;
+  min-height: 48px;
+  border-color: #cbd5e1;
   border-radius: 7px;
   background: #f6f9ff;
 }
@@ -165,12 +166,14 @@
 }
 .print-search-form button {
   color: var(--blue);
+  min-height: 38px;
+  font-size: 14px;
 }
 .print-desktop-nav {
   display: flex;
   align-items: center;
-  gap: clamp(18px, 2.3vw, 36px);
-  margin-inline: 24px;
+  gap: clamp(14px, 1.6vw, 24px);
+  margin-inline: 12px;
   font-weight: 600;
   font-size: 14px;
 }

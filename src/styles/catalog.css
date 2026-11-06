@@ -794,16 +794,6 @@ details p {
   color: var(--muted);
   margin-bottom: 17px;
 }
-.catalog-toolbar input,
-.catalog-toolbar select {
-  border: 1px solid #d9dce0;
-  border-radius: 6px;
-  background: white;
-  padding: 9px 11px;
-  font-size: 12px;
-  width: 180px;
-  max-width: 100%;
-}
 .catalog-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1903,9 +1893,6 @@ details p {
   }
   .category-banner h1 {
     font-size: 26px;
-  }
-  .catalog-toolbar input {
-    width: 150px;
   }
   .card-info {
     padding: 12px;
