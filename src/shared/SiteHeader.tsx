@@ -28,9 +28,6 @@ export function SiteHeader() {
           <a href="/tentang-kami" aria-current={pathname === '/tentang-kami' ? 'page' : undefined}>
             Tentang Kami
           </a>
-          <a href="/artikel" aria-current={pathname === '/artikel' ? 'page' : undefined}>
-            Artikel
-          </a>
         </nav>
         <a className="print-search" href="/katalog" aria-label="Cari produk">
           <svg
@@ -88,9 +85,6 @@ export function SiteHeader() {
               aria-current={pathname === '/tentang-kami' ? 'page' : undefined}
             >
               Tentang Kami
-            </a>
-            <a href="/artikel" aria-current={pathname === '/artikel' ? 'page' : undefined}>
-              Artikel
             </a>
             <a href="/faq">Panduan Pemesanan</a>
             <a href={whatsappLink()} target="_blank" rel="noopener noreferrer">
