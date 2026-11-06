@@ -25,7 +25,6 @@ export function SiteHeader() {
               <a href="/katalog">Semua produk</a>
             </div>
           </details>
-          <a href="/#layanan">Layanan</a>
           <a href="/tentang-kami" aria-current={pathname === '/tentang-kami' ? 'page' : undefined}>
             Tentang Kami
           </a>
