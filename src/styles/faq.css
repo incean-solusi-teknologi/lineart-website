@@ -86,6 +86,9 @@
 .faq-group .faq-answer {
   border-bottom: 1px solid var(--line);
 }
+.faq-answer-content {
+  overflow: hidden;
+}
 .faq-answer summary {
   padding: 21px 45px 21px 0;
   font-size: 17px;

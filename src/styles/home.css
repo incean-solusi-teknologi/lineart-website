@@ -666,24 +666,6 @@
 .print-home .box-questions .section-head p {
   max-width: 620px;
 }
-@supports (interpolate-size: allow-keywords) and (transition-behavior: allow-discrete) {
-  .print-home .box-questions .faq-answer {
-    interpolate-size: allow-keywords;
-  }
-  .print-home .box-questions .faq-answer::details-content {
-    height: 0;
-    overflow: clip;
-    opacity: 0;
-    transition:
-      height 500ms var(--motion-ease),
-      opacity 400ms ease,
-      content-visibility 500ms allow-discrete;
-  }
-  .print-home .box-questions .faq-answer[open]::details-content {
-    height: auto;
-    opacity: 1;
-  }
-}
 .print-home .print-consult {
   position: relative;
   overflow: hidden;
@@ -1195,9 +1177,6 @@
   }
 }
 @media (prefers-reduced-motion: reduce) {
-  .print-home .box-questions .faq-answer::details-content {
-    transition: none;
-  }
   .print-product-depth,
   .print-product-sheet,
   .print-category-card:is(:hover, :focus-visible),

@@ -1,3 +1,4 @@
+import { FaqAnswer } from '@/shared/FaqAnswer';
 import { masterData } from '@/data';
 
 export function BoxQuestions() {
@@ -14,10 +15,7 @@ export function BoxQuestions() {
       </div>
       <div className="faq-group">
         {masterData.home.boxQuestions.map((item) => (
-          <details className="faq-answer" key={item.question}>
-            <summary>{item.question}</summary>
-            <p>{item.answer}</p>
-          </details>
+          <FaqAnswer key={item.question} question={item.question} answer={item.answer} />
         ))}
       </div>
     </section>

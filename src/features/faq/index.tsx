@@ -1,3 +1,4 @@
+import { FaqAnswer } from '@/shared/FaqAnswer';
 import { faq, whatsappLink } from '@/data';
 import { Breadcrumbs } from '@/shared/Breadcrumbs';
 const categoryLinks: Record<string, { label: string; href: string }> = {
@@ -53,10 +54,7 @@ export default function Faq() {
             >
               <h2 id={`${group.id}-title`}>{group.title}</h2>
               {group.items.map((item) => (
-                <details className="faq-answer" key={item.question}>
-                  <summary>{item.question}</summary>
-                  <p>{item.answer}</p>
-                </details>
+                <FaqAnswer key={item.question} question={item.question} answer={item.answer} />
               ))}
               {categoryLinks[group.id] && (
                 <a className="text-link faq-category-link" href={categoryLinks[group.id].href}>
