@@ -166,14 +166,6 @@
 .print-search-form button {
   color: var(--blue);
 }
-.print-mobile-search {
-  display: none;
-  border: 0;
-}
-.print-mobile-search > summary::after,
-.print-mobile-search[open] > summary::after {
-  content: none;
-}
 .print-desktop-nav {
   display: flex;
   align-items: center;
@@ -222,15 +214,7 @@
   content: '';
   transform: rotate(225deg);
 }
-.print-mobile-menu > summary::after,
-.print-mobile-menu[open] > summary::after {
-  content: none;
-}
-.print-mobile-menu {
-  border: 0;
-}
-.print-catalog-menu > div,
-.print-mobile-menu nav {
+.print-catalog-menu > div {
   position: absolute;
   z-index: 25;
   padding: 10px;
@@ -240,13 +224,11 @@
   box-shadow: 0 12px 30px #12335c15;
   min-width: 200px;
 }
-.print-catalog-menu a,
-.print-mobile-menu nav a {
+.print-catalog-menu a {
   display: block;
   padding: 10px 14px;
 }
-.print-catalog-menu a:hover,
-.print-mobile-menu nav a:hover {
+.print-catalog-menu a:hover {
   background: #edf5ff;
   color: var(--blue);
 }
@@ -292,30 +274,143 @@
 .print-header .print-outline-blue:hover {
   background: #fff4e9;
 }
-.print-search {
+/* One shared mobile navigation for every public page. */
+.print-mobile-navigation {
+  display: none;
+}
+.print-mobile-control {
   display: grid;
   place-items: center;
-  width: 40px;
-  height: 40px;
-  padding: 0;
+  width: 44px;
+  height: 44px;
   flex-shrink: 0;
-  border: 1px solid #e7edf4;
-  border-radius: 7px;
-  background: #f6f9ff;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
   color: var(--blue);
+  background: white;
   cursor: pointer;
-  list-style: none;
 }
-.print-search::-webkit-details-marker {
-  display: none;
+.print-mobile-control svg {
+  width: 24px;
+  height: 24px;
 }
-.print-search svg,
-.print-mobile-menu svg {
-  width: 23px;
-  height: 23px;
+.print-menu-trigger {
+  background: var(--blue);
+  border-color: var(--blue);
+  color: white;
 }
-.print-mobile-menu {
-  display: none;
+.print-mobile-control:focus-visible,
+.print-navigation-panel a:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 4px;
+}
+.print-navigation-panel {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  max-width: none;
+  height: 100dvh;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: white;
+  color: var(--ink);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  opacity: 0;
+  transform: translateY(-18px);
+  transition:
+    opacity 320ms ease,
+    transform 420ms cubic-bezier(0.22, 1, 0.36, 1),
+    display 420ms allow-discrete,
+    overlay 420ms allow-discrete;
+}
+.print-navigation-panel[open] {
+  opacity: 1;
+  transform: translateY(0);
+}
+@starting-style {
+  .print-navigation-panel[open] {
+    opacity: 0;
+    transform: translateY(-18px);
+  }
+}
+.print-navigation-panel::backdrop {
+  background: #111d3640;
+}
+.print-panel-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: max(16px, env(safe-area-inset-top)) 24px 16px;
+  border-bottom: 1px solid var(--line);
+}
+.print-panel-heading h2 {
+  font-size: 18px;
+  margin: 0;
+  color: var(--blue);
+}
+.print-panel-content {
+  width: min(560px, 100%);
+  margin-inline: auto;
+  padding: 24px 24px max(24px, env(safe-area-inset-bottom));
+}
+.print-panel-content .print-search-form {
+  max-width: none;
+  margin-bottom: 20px;
+}
+.print-panel-content nav > a,
+.print-panel-categories a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 48px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.print-panel-content nav a:hover,
+.print-panel-content nav a[aria-current='page'] {
+  background: #edf4ff;
+  color: var(--blue);
+}
+.print-panel-content nav a[aria-current='page'] {
+  box-shadow: inset 3px 0 var(--blue);
+}
+.print-panel-categories {
+  margin-block: 12px;
+  padding-block: 16px;
+  border-block: 1px solid var(--line);
+}
+.print-panel-categories p {
+  margin: 0 14px 8px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.print-panel-categories a span {
+  color: var(--blue);
+}
+.print-header .print-panel-content > .print-whatsapp {
+  display: flex;
+  width: 100%;
+  min-height: 50px;
+  margin-top: 24px;
+  font-size: 14px;
+  white-space: normal;
+}
+@media (prefers-reduced-motion: reduce) {
+  .print-navigation-panel {
+    transition: none;
+    transform: none;
+  }
 }
 .print-hero {
   overflow: hidden;
@@ -677,6 +772,20 @@
   }
 }
 @media (max-width: 1000px) {
+  .print-header-inner > .print-whatsapp {
+    min-height: 44px;
+    padding-inline: 14px;
+    font-size: 12px;
+  }
+  .print-header-inner > .print-whatsapp span {
+    max-width: 125px;
+    white-space: normal;
+    line-height: 1.2;
+  }
+  .print-mobile-navigation {
+    display: flex;
+    gap: 8px;
+  }
   .print-category-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -688,35 +797,8 @@
   .print-desktop-search {
     display: none;
   }
-  .print-mobile-search {
-    display: block;
-  }
   .print-header .brand {
     margin-right: auto;
-  }
-  .print-mobile-search .print-search-form {
-    position: absolute;
-    top: calc(100% + 8px);
-    right: 24px;
-    width: min(360px, calc(100vw - 48px));
-    max-width: none;
-    box-shadow: 0 12px 30px #12335c15;
-  }
-  .print-mobile-menu {
-    display: block;
-  }
-  .print-mobile-menu summary {
-    cursor: pointer;
-    list-style: none;
-    padding: 10px;
-    color: var(--blue);
-  }
-  .print-mobile-menu summary::-webkit-details-marker {
-    display: none;
-  }
-  .print-mobile-menu nav {
-    right: 24px;
-    top: 74px;
   }
   .print-header-inner {
     height: 76px;
@@ -788,30 +870,13 @@
   .print-header .brand img {
     height: 60px;
   }
-  .print-header .print-whatsapp {
-    padding: 10px;
+  .print-header-inner > .print-whatsapp {
+    padding-inline: 12px;
+    gap: 8px;
     font-size: 11px;
-    gap: 6px;
   }
-  .print-header .print-whatsapp span {
-    max-width: 112px;
-    white-space: normal;
-    line-height: 1.25;
-  }
-  .print-search {
-    width: 34px;
-    height: 36px;
-  }
-  .print-mobile-search .print-search-form {
-    right: 16px;
-    width: calc(100vw - 32px);
-  }
-  .print-mobile-menu summary {
-    padding: 7px;
-  }
-  .print-mobile-menu nav {
-    right: 16px;
-    top: 65px;
+  .print-header-inner > .print-whatsapp span {
+    max-width: 86px;
   }
   .print-waves {
     opacity: 0.6;
@@ -951,6 +1016,15 @@
   .print-home .print-consult .button {
     width: 100%;
     font-size: 12px;
+  }
+}
+@media (max-width: 360px) {
+  .print-header .brand {
+    width: 80px;
+  }
+  .print-header-inner,
+  .print-mobile-navigation {
+    gap: 4px;
   }
 }
 @media (prefers-reduced-motion: reduce) {
