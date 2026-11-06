@@ -97,7 +97,7 @@ export function SiteHeader() {
             <a href="/tentang-kami">Tentang kami</a>
             <a href="/artikel">Artikel</a>
             <a
-              href="/#cara-pesan"
+              href="/faq"
               onClick={() => {
                 if (mobileMenu.current) mobileMenu.current.open = false;
               }}
@@ -147,7 +147,7 @@ export function SiteHeader() {
         </details>
         <a href="/tentang-kami">Tentang kami</a>
         <a href="/artikel">Artikel</a>
-        <a href="/#cara-pesan">Cara pesan</a>
+        <a href="/faq">Cara pesan</a>
         <a href="/faq">FAQ</a>
         <a className="nav-location" href="/tentang-kami#lokasi">
           <LocationIcon />

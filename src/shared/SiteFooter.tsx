@@ -29,7 +29,7 @@ export function SiteFooter() {
           <a href="/tentang-kami">Tentang kami</a>
           <a href="/artikel">Artikel</a>
           <a href="/kontak">Konsultasi via WhatsApp</a>
-          <a href="/#cara-pesan">Cara pemesanan</a>
+          <a href="/faq">Cara pemesanan</a>
           <a href="/faq">Pertanyaan umum</a>
         </div>
       </div>
