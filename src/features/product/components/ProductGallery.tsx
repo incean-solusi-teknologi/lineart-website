@@ -37,22 +37,24 @@ export function ProductGallery({ product }: { product: Product }) {
           {zoomed ? 'Kecilkan foto' : 'Perbesar foto'}
         </button>
       </div>
-      <div className="gallery-thumbs">
-        {product.gallery.map((src, index) => (
-          <button
-            key={src}
-            type="button"
-            aria-label={`Lihat foto ${index + 1}`}
-            aria-pressed={image === src}
-            onClick={() => {
-              setImage(src);
-              setZoomed(false);
-            }}
-          >
-            <img src={src} alt="" width="70" height="70" />
-          </button>
-        ))}
-      </div>
+      {product.gallery.length > 1 && (
+        <div className="gallery-thumbs">
+          {product.gallery.map((src, index) => (
+            <button
+              key={src}
+              type="button"
+              aria-label={`Lihat foto ${index + 1}`}
+              aria-pressed={image === src}
+              onClick={() => {
+                setImage(src);
+                setZoomed(false);
+              }}
+            >
+              <img src={src} alt="" width="70" height="70" />
+            </button>
+          ))}
+        </div>
+      )}
       <div className="gallery-caption">
         <span>
           <i />

@@ -3,7 +3,6 @@ import { whatsappLink, type Product } from '@/data';
 import { WhatsAppIcon } from '@/shared/Icons';
 export function ProductConfiguration({ product }: { product: Product }) {
   const [color, setColor] = useState(product.colors[0]?.label ?? '');
-  const isCalendar = product.kind === 'calendar';
   const isBox = product.kind === 'packaging';
   const message = [
     `Halo LINE · Art media, saya tertarik dengan ${product.name}.`,
@@ -13,12 +12,9 @@ export function ProductConfiguration({ product }: { product: Product }) {
   ].join('\n');
   return (
     <div className="configuration">
-      <h2>{isBox ? 'Warna untuk box kamu' : isCalendar ? 'Tentang kalender' : 'Tentang produk'}</h2>
-      {!isBox ? (
-        <p className="product-description">{product.description}</p>
-      ) : (
+      {isBox && product.colors.length > 0 && (
         <fieldset className="option-group">
-          <legend>Warna</legend>
+          <legend>Warna untuk box kamu</legend>
           <div className="color-choices">
             {product.colors.map((item) => (
               <label

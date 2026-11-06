@@ -96,6 +96,9 @@
   color: #454b54;
   margin: 0;
 }
+.article-body section p + p {
+  margin-top: 1em;
+}
 .article-cta {
   background: #e1f3f8;
   padding: 32px;

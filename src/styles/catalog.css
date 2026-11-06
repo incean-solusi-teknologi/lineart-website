@@ -979,6 +979,18 @@ details p {
   color: var(--muted);
   line-height: 1.6;
 }
+.product-info > .product-description {
+  margin-bottom: 28px;
+}
+.product-info > .prototype-note {
+  margin-bottom: 12px;
+}
+.configuration .quote-notice {
+  margin-top: 12px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--muted);
+}
 .starting-price {
   padding: 20px 0;
   border-bottom: 1px solid var(--line);
@@ -1022,7 +1034,7 @@ details p {
   min-width: 0;
 }
 .option-group legend {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 600;
   padding: 0;
   margin-bottom: 10px;
@@ -1259,9 +1271,7 @@ details p {
   margin-bottom: 20px;
 }
 .product-facts {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 70px;
+  max-width: 700px;
 }
 .facts {
   margin: 0;
