@@ -45,7 +45,7 @@
     "boxQuestions": [
       {
         "question": "Apakah melayani pemesanan ke seluruh Indonesia?",
-        "answer": "Ya, kami melayani kebutuhan cetak dan pengiriman ke seluruh Indonesia dari Bungur, Senen, Jakarta Pusat. Sampaikan alamat tujuan untuk membahas pilihan dan biaya pengiriman."
+        "answer": "Ya, kami melayani kebutuhan cetak dan pengiriman ke seluruh Indonesia."
       },
       {
         "question": "Apa yang menentukan harga cetak?",
@@ -1948,7 +1948,7 @@
       "items": [
         {
           "question": "Wilayah mana saja yang dilayani?",
-          "answer": "Kami melayani pemesanan dan pengiriman ke seluruh Indonesia dari lokasi usaha di Bungur, Senen, Jakarta Pusat. Sertakan alamat tujuan saat konsultasi agar pilihan pengiriman, biaya, dan estimasi waktu pengiriman dapat dikonfirmasi sesuai pesanan."
+          "answer": "Ya, kami melayani kebutuhan cetak dan pengiriman ke seluruh Indonesia."
         },
         {
           "question": "Bagaimana biaya pengiriman dihitung?",
