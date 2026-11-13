@@ -217,9 +217,6 @@ html[data-site-intro='playing'] .brand > .intro-brand {
     background: var(--ink);
     color: white;
   }
-  .product-card:hover {
-    transform: translateY(-3px);
-  }
   .gallery-thumbs button:hover {
     transform: translateY(-2px);
   }
