@@ -168,7 +168,7 @@
         {
           "name": "Percetakan Umum",
           "image": "/media/home-reference/general-printing.jpg",
-          "href": "/kontak?pesan=Saya%20ingin%20konsultasi%20percetakan%20umum."
+          "href": "/kategori/percetakan-umum"
         }
       ]
     }
@@ -239,6 +239,17 @@
       "heading": "Buku dan agenda custom",
       "seoTitle": "Buku dan Agenda Custom Jakarta",
       "seoDescription": "Buku dan agenda custom untuk kebutuhan kantor, acara, dan informasi. Konsultasikan desain, ukuran, bahan, serta jumlah pesanan di LINE Art media."
+    },
+    {
+      "slug": "percetakan-umum",
+      "name": "Percetakan Umum",
+      "description": "Pilihan company profile, flyer, nota, amplop, kartu nama, dan kop surat. Konsultasikan desain, ukuran, bahan, serta jumlah pesanan.",
+      "tone": "ice",
+      "src": "/products/Percetakan%20Umum/Company%20Profile.jpg",
+      "alt": "Contoh company profile",
+      "heading": "Percetakan umum untuk kebutuhan usaha",
+      "seoTitle": "Percetakan Umum Jakarta | LINE Art media",
+      "seoDescription": "Cetak company profile, flyer, nota, amplop, kartu nama, dan kop surat. Konsultasikan desain, bahan, ukuran, dan jumlah pesanan di LINE Art media."
     }
   ],
   "products": [
@@ -2458,6 +2469,300 @@
         },
         {
           "label": "Ukuran, bahan, dan isi",
+          "value": "Dikonfirmasi saat konsultasi"
+        }
+      ]
+    },
+    {
+      "slug": "company-profile",
+      "name": "Company Profile",
+      "price": 0,
+      "moq": 1,
+      "size": "",
+      "category": "percetakan-umum",
+      "image": "/products/Percetakan%20Umum/Company%20Profile.jpg",
+      "kind": "printing",
+      "description": "Contoh company profile dengan sampul dan halaman informasi perusahaan. Desain, ukuran, bahan, dan jumlah pesanan dikonfirmasi saat konsultasi.",
+      "sizes": [
+        {
+          "id": "standard",
+          "label": "Sesuai kebutuhan"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "colors": [],
+      "gallery": ["/products/Percetakan%20Umum/Company%20Profile.jpg"],
+      "generatedIllustration": false,
+      "useCase": "Profil usaha dan presentasi perusahaan",
+      "modelLabel": "",
+      "modelReferences": [],
+      "seoTitle": "Company Profile Custom Jakarta | LINE Art media",
+      "seoDescription": "Cetak company profile untuk kebutuhan usaha. Konsultasikan desain, ukuran, bahan, dan jumlah pesanan di LINE Art media.",
+      "specifications": [
+        {
+          "label": "Desain, ukuran, dan bahan",
+          "value": "Dikonfirmasi saat konsultasi"
+        }
+      ]
+    },
+    {
+      "slug": "flyer-brosur",
+      "name": "Flyer dan Brosur",
+      "price": 0,
+      "moq": 1,
+      "size": "",
+      "category": "percetakan-umum",
+      "image": "/products/Percetakan%20Umum/Flyer.jpg",
+      "kind": "printing",
+      "description": "Contoh brosur dengan lipatan tiga dan desain promosi. Desain, ukuran, bahan, dan jumlah pesanan dikonfirmasi saat konsultasi.",
+      "sizes": [
+        {
+          "id": "standard",
+          "label": "Sesuai kebutuhan"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "colors": [],
+      "gallery": ["/products/Percetakan%20Umum/Flyer.jpg"],
+      "generatedIllustration": false,
+      "useCase": "Informasi dan promosi usaha",
+      "modelLabel": "",
+      "modelReferences": [],
+      "seoTitle": "Flyer dan Brosur Custom Jakarta | LINE Art media",
+      "seoDescription": "Cetak flyer dan brosur untuk kebutuhan usaha. Konsultasikan desain, ukuran, bahan, dan jumlah pesanan di LINE Art media.",
+      "specifications": [
+        {
+          "label": "Desain, ukuran, dan bahan",
+          "value": "Dikonfirmasi saat konsultasi"
+        }
+      ]
+    },
+    {
+      "slug": "nota-kwitansi",
+      "name": "Nota dan Kwitansi",
+      "price": 0,
+      "moq": 1,
+      "size": "",
+      "category": "percetakan-umum",
+      "image": "/products/Percetakan%20Umum/Nota%20Kwitansi.jpg",
+      "kind": "printing",
+      "description": "Contoh buku nota dengan lembar isian transaksi. Desain, ukuran, bahan, dan jumlah pesanan dikonfirmasi saat konsultasi.",
+      "sizes": [
+        {
+          "id": "standard",
+          "label": "Sesuai kebutuhan"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "colors": [],
+      "gallery": ["/products/Percetakan%20Umum/Nota%20Kwitansi.jpg"],
+      "generatedIllustration": false,
+      "useCase": "Catatan transaksi usaha",
+      "modelLabel": "",
+      "modelReferences": [],
+      "seoTitle": "Nota dan Kwitansi Custom Jakarta | LINE Art media",
+      "seoDescription": "Cetak nota dan kwitansi untuk kebutuhan usaha. Konsultasikan desain, ukuran, bahan, dan jumlah pesanan di LINE Art media.",
+      "specifications": [
+        {
+          "label": "Desain, ukuran, dan bahan",
+          "value": "Dikonfirmasi saat konsultasi"
+        }
+      ]
+    },
+    {
+      "slug": "amplop-custom",
+      "name": "Amplop Custom",
+      "price": 0,
+      "moq": 1,
+      "size": "",
+      "category": "percetakan-umum",
+      "image": "/products/Percetakan%20Umum/Amplop.jpg",
+      "kind": "printing",
+      "description": "Contoh amplop dengan desain identitas usaha pada bagian depan. Desain, ukuran, bahan, dan jumlah pesanan dikonfirmasi saat konsultasi.",
+      "sizes": [
+        {
+          "id": "standard",
+          "label": "Sesuai kebutuhan"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "colors": [],
+      "gallery": ["/products/Percetakan%20Umum/Amplop.jpg"],
+      "generatedIllustration": false,
+      "useCase": "Surat dan dokumen usaha",
+      "modelLabel": "",
+      "modelReferences": [],
+      "seoTitle": "Amplop Custom Custom Jakarta | LINE Art media",
+      "seoDescription": "Cetak amplop custom untuk kebutuhan usaha. Konsultasikan desain, ukuran, bahan, dan jumlah pesanan di LINE Art media.",
+      "specifications": [
+        {
+          "label": "Desain, ukuran, dan bahan",
+          "value": "Dikonfirmasi saat konsultasi"
+        }
+      ]
+    },
+    {
+      "slug": "kartu-nama",
+      "name": "Kartu Nama",
+      "price": 0,
+      "moq": 1,
+      "size": "",
+      "category": "percetakan-umum",
+      "image": "/products/Percetakan%20Umum/Kartu-Nama-scaled.jpg",
+      "kind": "printing",
+      "description": "Contoh kartu nama dengan identitas dan informasi kontak. Desain, ukuran, bahan, dan jumlah pesanan dikonfirmasi saat konsultasi.",
+      "sizes": [
+        {
+          "id": "standard",
+          "label": "Sesuai kebutuhan"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "colors": [],
+      "gallery": ["/products/Percetakan%20Umum/Kartu-Nama-scaled.jpg"],
+      "generatedIllustration": false,
+      "useCase": "Identitas dan kontak usaha",
+      "modelLabel": "",
+      "modelReferences": [],
+      "seoTitle": "Kartu Nama Custom Jakarta | LINE Art media",
+      "seoDescription": "Cetak kartu nama untuk kebutuhan usaha. Konsultasikan desain, ukuran, bahan, dan jumlah pesanan di LINE Art media.",
+      "specifications": [
+        {
+          "label": "Desain, ukuran, dan bahan",
+          "value": "Dikonfirmasi saat konsultasi"
+        }
+      ]
+    },
+    {
+      "slug": "kop-surat",
+      "name": "Kop Surat",
+      "price": 0,
+      "moq": 1,
+      "size": "",
+      "category": "percetakan-umum",
+      "image": "/products/Percetakan%20Umum/Kop%20Surat.jpg",
+      "kind": "printing",
+      "description": "Contoh lembar surat dengan desain identitas pada bagian atas dan bawah. Desain, ukuran, bahan, dan jumlah pesanan dikonfirmasi saat konsultasi.",
+      "sizes": [
+        {
+          "id": "standard",
+          "label": "Sesuai kebutuhan"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "colors": [],
+      "gallery": ["/products/Percetakan%20Umum/Kop%20Surat.jpg"],
+      "generatedIllustration": false,
+      "useCase": "Surat dan dokumen usaha",
+      "modelLabel": "",
+      "modelReferences": [],
+      "seoTitle": "Kop Surat Custom Jakarta | LINE Art media",
+      "seoDescription": "Cetak kop surat untuk kebutuhan usaha. Konsultasikan desain, ukuran, bahan, dan jumlah pesanan di LINE Art media.",
+      "specifications": [
+        {
+          "label": "Desain, ukuran, dan bahan",
           "value": "Dikonfirmasi saat konsultasi"
         }
       ]
