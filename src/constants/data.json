@@ -136,12 +136,12 @@
       "consultDescription": "Ceritakan jenis cetakan, jumlah, dan tanggal kebutuhanmu. Bahas desain serta detail pesanan bersama tim.",
       "categories": [
         {
-          "name": "Box Packaging",
+          "name": "Packaging",
           "image": "/media/home-reference/packaging.jpg",
           "href": "/kategori/hard-box"
         },
         {
-          "name": "Cetak Digital",
+          "name": "Display Promotion",
           "image": "/media/home-reference/digital.jpg",
           "href": "/kategori/digital"
         },
@@ -166,24 +166,24 @@
   "categories": [
     {
       "slug": "hard-box",
-      "name": "Box Packaging",
+      "name": "Packaging",
       "description": "Pilihan hard box, box perhiasan, gift set, dan tas hadiah custom. Lihat contoh model, lalu bahas ukuran, desain, warna, serta bagian dalam sesuai kebutuhanmu.",
       "tone": "rose",
-      "src": "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.35.jpeg",
+      "src": "/products/Packaging/WhatsApp%20Image%202026-10-07%20at%2013.03.35.jpeg",
       "alt": "Box packaging custom",
-      "heading": "Box custom untuk produk brand dan hadiah",
-      "seoTitle": "Pilihan Box Custom Jakarta & Jabodetabek",
+      "heading": "Packaging custom untuk produk brand dan hadiah",
+      "seoTitle": "Packaging Custom Jakarta & Jabodetabek",
       "seoDescription": "Pilihan box custom untuk parfum, skincare, perhiasan, hampers, dan hadiah perusahaan di Jabodetabek. Berlokasi di Jakarta Pusat; bahas ukuran, logo, dan bahan."
     },
     {
       "slug": "digital",
-      "name": "Cetak Digital",
+      "name": "Display Promotion",
       "description": "Banner, spanduk, dan backdrop untuk promosi, acara, dan kebutuhan usaha. Konsultasikan desain, bahan, ukuran, dan jumlah pesanan.",
       "tone": "ice",
-      "src": "/products/Digital/Portable%20Backdrop.png",
-      "alt": "Digital",
-      "heading": "Cetak banner, spanduk, dan backdrop",
-      "seoTitle": "Cetak Banner, Spanduk & Backdrop Jakarta Pusat",
+      "src": "/products/Display%20Promotion/Portable%20Backdrop.png",
+      "alt": "Display Promotion",
+      "heading": "Display Promotion untuk promosi dan acara",
+      "seoTitle": "Display Promotion Jakarta Pusat",
       "seoDescription": "Layanan cetak roll banner, tripod banner, spanduk, dan portable backdrop di Bungur, Senen, Jakarta Pusat. Bahas desain, ukuran, bahan, dan penawaran."
     },
     {
@@ -217,7 +217,7 @@
       "moq": 1,
       "size": "Sesuai kebutuhan",
       "category": "hard-box",
-      "image": "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.43.jpeg",
+      "image": "/products/Packaging/WhatsApp%20Image%202026-10-07%20at%2013.03.43.jpeg",
       "kind": "packaging",
       "description": "Hard box hitam dengan tutup menyatu yang dibuka seperti buku. Foto memperlihatkan bagian luar yang simpel dan ruang dalam bersekat. Cocok sebagai referensi kemasan parfum atau gift set; ukuran, susunan isi, dan penahan produk dapat dibahas sesuai kebutuhan.",
       "sizes": [
@@ -307,8 +307,8 @@
         }
       ],
       "gallery": [
-        "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.43.jpeg",
-        "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.45.jpeg"
+        "/products/Packaging/WhatsApp%20Image%202026-10-07%20at%2013.03.43.jpeg",
+        "/products/Packaging/WhatsApp%20Image%202026-10-07%20at%2013.03.45.jpeg"
       ],
       "generatedIllustration": false,
       "useCase": "Kemasan parfum, produk brand, dan gift set",
@@ -338,7 +338,7 @@
       "moq": 1,
       "size": "Sesuai kebutuhan",
       "category": "hard-box",
-      "image": "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.31%20(1).jpeg",
+      "image": "/products/Packaging/WhatsApp%20Image%202026-10-07%20at%2013.03.31%20(1).jpeg",
       "kind": "packaging",
       "description": "Box gift set warna toska dengan tutup menyatu, penahan hitam berkompartemen, dan pita untuk membantu mengangkat isi. Susunan ruang dalam dapat dibahas untuk rangkaian skincare, aksesori, atau paket produk brand.",
       "sizes": [
@@ -427,7 +427,7 @@
           "hex": "#9e9e9e"
         }
       ],
-      "gallery": ["/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.31%20(1).jpeg"],
+      "gallery": ["/products/Packaging/WhatsApp%20Image%202026-10-07%20at%2013.03.31%20(1).jpeg"],
       "generatedIllustration": false,
       "useCase": "Rangkaian skincare, aksesori, dan paket produk",
       "modelLabel": "Box bertutup dengan penahan berkompartemen",
@@ -456,7 +456,7 @@
       "moq": 1,
       "size": "Sesuai kebutuhan",
       "category": "hard-box",
-      "image": "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.31%20(2).jpeg",
+      "image": "/products/Packaging/WhatsApp%20Image%202026-10-07%20at%2013.03.31%20(2).jpeg",
       "kind": "packaging",
       "description": "Box perhiasan dengan tutup berbentuk amplop, perpaduan warna kraft dan hitam, serta dudukan cincin di bagian dalam. Dua foto memperlihatkan tampilan terbuka dan tertutup untuk referensi kemasan koleksi perhiasan atau hadiah.",
       "sizes": [
@@ -546,8 +546,8 @@
         }
       ],
       "gallery": [
-        "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.31%20(2).jpeg",
-        "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.34.jpeg"
+        "/products/Packaging/WhatsApp%20Image%202026-10-07%20at%2013.03.31%20(2).jpeg",
+        "/products/Packaging/WhatsApp%20Image%202026-10-07%20at%2013.03.34.jpeg"
       ],
       "generatedIllustration": false,
       "useCase": "Kemasan cincin, perhiasan, dan hadiah personal",
@@ -577,7 +577,7 @@
       "moq": 1,
       "size": "Sesuai kebutuhan",
       "category": "hard-box",
-      "image": "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.35.jpeg",
+      "image": "/products/Packaging/WhatsApp%20Image%202026-10-07%20at%2013.03.35.jpeg",
       "kind": "packaging",
       "description": "Hard box biru navy dengan dua daun tutup yang dibuka ke samping. Foto terbuka dan tertutup memperlihatkan ruang dalam yang lapang serta pengait di tengah. Jadikan referensi untuk hampers, bingkisan, atau paket hadiah custom.",
       "sizes": [
@@ -667,8 +667,8 @@
         }
       ],
       "gallery": [
-        "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.35.jpeg",
-        "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.36%20(1).jpeg"
+        "/products/Packaging/WhatsApp%20Image%202026-10-07%20at%2013.03.35.jpeg",
+        "/products/Packaging/WhatsApp%20Image%202026-10-07%20at%2013.03.36%20(1).jpeg"
       ],
       "generatedIllustration": false,
       "useCase": "Hampers, bingkisan, dan paket hadiah",
@@ -698,7 +698,7 @@
       "moq": 1,
       "size": "Sesuai kebutuhan",
       "category": "hard-box",
-      "image": "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.24%20(1).jpeg",
+      "image": "/products/Packaging/WhatsApp%20Image%202026-10-07%20at%2013.03.24%20(1).jpeg",
       "kind": "packaging",
       "description": "Hard box merah dengan tutup menyatu, cetakan pada sisi dalam tutup, dan kompartemen untuk menata isi hadiah. Dua sudut foto menampilkan bentuk box dan detail ruang dalamnya. Desain logo, pesan pada tutup, dan susunan kompartemen dapat dikonsultasikan untuk kebutuhan perusahaan atau acara.",
       "sizes": [
@@ -788,8 +788,8 @@
         }
       ],
       "gallery": [
-        "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.24%20(1).jpeg",
-        "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.24%20(2).jpeg"
+        "/products/Packaging/WhatsApp%20Image%202026-10-07%20at%2013.03.24%20(1).jpeg",
+        "/products/Packaging/WhatsApp%20Image%202026-10-07%20at%2013.03.24%20(2).jpeg"
       ],
       "generatedIllustration": false,
       "useCase": "Hadiah perusahaan, suvenir acara, dan gift set",
@@ -819,7 +819,7 @@
       "moq": 1,
       "size": "Sesuai kebutuhan",
       "category": "hard-box",
-      "image": "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.38.jpeg",
+      "image": "/products/Packaging/WhatsApp%20Image%202026-10-07%20at%2013.03.38.jpeg",
       "kind": "packaging",
       "description": "Box hadiah hitam dengan lapisan kain berkilau pada bagian dalam dan pengunci kecil di depan. Galeri menampilkan referensi tampilan terbuka dan tertutup. Cocok untuk presentasi hadiah atau suvenir; jenis kain dan penataan isi dibahas sebelum produksi.",
       "sizes": [
@@ -909,8 +909,8 @@
         }
       ],
       "gallery": [
-        "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.38.jpeg",
-        "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.41.jpeg"
+        "/products/Packaging/WhatsApp%20Image%202026-10-07%20at%2013.03.38.jpeg",
+        "/products/Packaging/WhatsApp%20Image%202026-10-07%20at%2013.03.41.jpeg"
       ],
       "generatedIllustration": false,
       "useCase": "Presentasi hadiah, suvenir, dan koleksi khusus",
@@ -940,7 +940,7 @@
       "moq": 1,
       "size": "Sesuai kebutuhan",
       "category": "hard-box",
-      "image": "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.47%20(1).jpeg",
+      "image": "/products/Packaging/WhatsApp%20Image%202026-10-07%20at%2013.03.47%20(1).jpeg",
       "kind": "packaging",
       "description": "Hard box persegi panjang warna burgundy dengan tutup yang dapat diangkat seluruhnya. Foto memperlihatkan kondisi tertutup serta bagian dalam berwarna krem. Model sederhana ini dapat menjadi kemasan produk, dokumen hadiah, atau bingkisan custom.",
       "sizes": [
@@ -1030,8 +1030,8 @@
         }
       ],
       "gallery": [
-        "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.47%20(1).jpeg",
-        "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.47%20(2).jpeg"
+        "/products/Packaging/WhatsApp%20Image%202026-10-07%20at%2013.03.47%20(1).jpeg",
+        "/products/Packaging/WhatsApp%20Image%202026-10-07%20at%2013.03.47%20(2).jpeg"
       ],
       "generatedIllustration": false,
       "useCase": "Kemasan produk, dokumen hadiah, dan bingkisan",
@@ -1061,7 +1061,7 @@
       "moq": 1,
       "size": "Sesuai kebutuhan",
       "category": "hard-box",
-      "image": "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.48%20(1).jpeg",
+      "image": "/products/Packaging/WhatsApp%20Image%202026-10-07%20at%2013.03.48%20(1).jpeg",
       "kind": "packaging",
       "description": "Kemasan hadiah berbentuk tas dengan pegangan pita merah dan ilustrasi bertema balap. Dua foto memperlihatkan model yang sama dari sudut berbeda. Desain dan tema dapat disesuaikan untuk suvenir ulang tahun, acara anak, atau paket promosi.",
       "sizes": [
@@ -1123,8 +1123,8 @@
         }
       ],
       "gallery": [
-        "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.48%20(1).jpeg",
-        "/products/Hard%20Box/WhatsApp%20Image%202026-10-07%20at%2013.03.48%20(2).jpeg"
+        "/products/Packaging/WhatsApp%20Image%202026-10-07%20at%2013.03.48%20(1).jpeg",
+        "/products/Packaging/WhatsApp%20Image%202026-10-07%20at%2013.03.48%20(2).jpeg"
       ],
       "generatedIllustration": false,
       "useCase": "Suvenir ulang tahun, acara anak, dan paket promosi",
@@ -1154,7 +1154,7 @@
       "moq": 1,
       "size": "Sesuai kebutuhan",
       "category": "digital",
-      "image": "/products/Digital/Portable%20Backdrop.png",
+      "image": "/products/Display%20Promotion/Portable%20Backdrop.png",
       "kind": "digital",
       "description": "Backdrop promosi dengan rangka bongkar pasang, cetakan lebar, dan tas penyimpanan seperti pada foto. Cocok untuk latar stan pameran, area foto, atau identitas acara. Ukuran cetak, bahan, dan kelengkapan rangka dikonfirmasi saat konsultasi.",
       "sizes": [
@@ -1182,7 +1182,7 @@
         }
       ],
       "colors": [],
-      "gallery": ["/products/Digital/Portable%20Backdrop.png"],
+      "gallery": ["/products/Display%20Promotion/Portable%20Backdrop.png"],
       "generatedIllustration": false,
       "useCase": "Latar acara, stan pameran, dan area foto",
       "modelLabel": "Backdrop berdiri dengan rangka bongkar pasang",
@@ -1211,7 +1211,7 @@
       "moq": 1,
       "size": "Sesuai kebutuhan",
       "category": "digital",
-      "image": "/products/Digital/Roll%20Banner.png",
+      "image": "/products/Display%20Promotion/Roll%20Banner.png",
       "kind": "digital",
       "description": "Banner vertikal dengan media cetak yang dapat digulung ke dalam dudukan. Foto memperlihatkan tampilan depan, tiang penyangga, dan tas pembawa. Praktis untuk presentasi, promosi toko, dan pameran; ukuran serta kelengkapan dibahas saat konsultasi.",
       "sizes": [
@@ -1239,7 +1239,7 @@
         }
       ],
       "colors": [],
-      "gallery": ["/products/Digital/Roll%20Banner.png"],
+      "gallery": ["/products/Display%20Promotion/Roll%20Banner.png"],
       "generatedIllustration": false,
       "useCase": "Promosi toko, presentasi, dan pameran",
       "modelLabel": "Banner tarik dengan dudukan gulung",
@@ -1268,7 +1268,7 @@
       "moq": 1,
       "size": "Sesuai kebutuhan",
       "category": "digital",
-      "image": "/products/Digital/Spanduk.png",
+      "image": "/products/Display%20Promotion/Spanduk.png",
       "kind": "digital",
       "description": "Spanduk horizontal untuk menyampaikan informasi, promosi, atau pengumuman acara. Foto menunjukkan contoh pemasangan spanduk di area luar. Desain, ukuran, pilihan bahan, dan kebutuhan pengikat dapat disesuaikan dengan lokasi pemasangan.",
       "sizes": [
@@ -1296,7 +1296,7 @@
         }
       ],
       "colors": [],
-      "gallery": ["/products/Digital/Spanduk.png"],
+      "gallery": ["/products/Display%20Promotion/Spanduk.png"],
       "generatedIllustration": false,
       "useCase": "Promosi usaha, pengumuman, dan informasi acara",
       "modelLabel": "Cetakan horizontal / memanjang",
@@ -1325,7 +1325,7 @@
       "moq": 1,
       "size": "Sesuai kebutuhan",
       "category": "digital",
-      "image": "/products/Digital/Tripod%20Banner.png",
+      "image": "/products/Display%20Promotion/Tripod%20Banner.png",
       "kind": "digital",
       "description": "Banner vertikal dengan penyangga tripod untuk menampilkan promosi di pintu masuk, stan, atau area presentasi. Foto memperlihatkan beberapa contoh desain pada kaki tiga. Ukuran media dan kesesuaian penyangga dikonfirmasi sebelum pemesanan.",
       "sizes": [
@@ -1353,7 +1353,7 @@
         }
       ],
       "colors": [],
-      "gallery": ["/products/Digital/Tripod%20Banner.png"],
+      "gallery": ["/products/Display%20Promotion/Tripod%20Banner.png"],
       "generatedIllustration": false,
       "useCase": "Display promosi, pintu masuk, dan stan acara",
       "modelLabel": "Display vertikal dengan kaki tiga",
