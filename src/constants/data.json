@@ -159,11 +159,6 @@
           "name": "Merchandise",
           "image": "/media/home-reference/merchandise.jpg",
           "href": "/kategori/merchandise"
-        },
-        {
-          "name": "Stationery",
-          "image": "/media/home-reference/stationery.jpg",
-          "href": "/kontak?pesan=Saya%20ingin%20konsultasi%20stationery."
         }
       ]
     }
