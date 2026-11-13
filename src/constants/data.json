@@ -159,6 +159,11 @@
           "name": "Merchandise",
           "image": "/media/home-reference/merchandise.jpg",
           "href": "/kategori/merchandise"
+        },
+        {
+          "name": "Percetakan Umum",
+          "image": "/media/home-reference/general-printing.jpg",
+          "href": "/kontak?pesan=Saya%20ingin%20konsultasi%20percetakan%20umum."
         }
       ]
     }
