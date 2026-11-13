@@ -9,7 +9,7 @@ export default function Catalog({
   category?: Category;
   initialQuery?: string;
 }) {
-  const { query, setQuery, visibleProducts } = useCatalog(category?.slug, initialQuery);
+  const { visibleProducts } = useCatalog(category?.slug, initialQuery);
   return (
     <main className="container catalog-page">
       <Breadcrumbs items={[{ label: category?.name ?? 'Semua produk' }]} />
@@ -18,7 +18,7 @@ export default function Catalog({
           <h1>{category?.heading ?? 'Katalog layanan percetakan'}</h1>
           <p>
             {category?.description ??
-              'Temukan cetak banner, spanduk, kalender, dan box custom untuk kebutuhan usaha dan acara di Jakarta Pusat.'}
+              'Pilihan banner, spanduk, kalender, dan box custom untuk kebutuhan usaha maupun acara.'}
           </p>
         </div>
         <img src={category?.src ?? categories[0].src} alt="" width="145" height="112" />
@@ -43,18 +43,10 @@ export default function Catalog({
         </aside>
         <section aria-label="Daftar produk">
           <div className="catalog-toolbar">
-            <output>{visibleProducts.length} produk</output>
-            <label className="sr-only" htmlFor="category-search">
-              Cari di katalog ini
-            </label>
-            <input
-              id="category-search"
-              type="search"
-              maxLength={120}
-              value={query}
-              onChange={(event) => setQuery(event.target.value)}
-              placeholder="Cari di katalog ini"
-            />
+            <output>
+              {visibleProducts.length} produk
+              {initialQuery.trim() && <> untuk “{initialQuery.trim()}”</>}
+            </output>
           </div>
           <div className="catalog-grid">
             {visibleProducts.map((product) => (

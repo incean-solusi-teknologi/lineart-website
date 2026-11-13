@@ -44,8 +44,8 @@
     ],
     "boxQuestions": [
       {
-        "question": "Apakah melayani pemesanan di Jabodetabek?",
-        "answer": "Kami melayani kebutuhan cetak di Jakarta, Bogor, Depok, Tangerang, dan Bekasi dari Bungur, Senen, Jakarta Pusat. Sampaikan alamat tujuan untuk membahas pilihan dan biaya pengiriman."
+        "question": "Apakah melayani pemesanan ke seluruh Indonesia?",
+        "answer": "Ya, kami melayani kebutuhan cetak dan pengiriman ke seluruh Indonesia."
       },
       {
         "question": "Apa yang menentukan harga cetak?",
@@ -2403,7 +2403,7 @@
       "items": [
         {
           "question": "Wilayah mana saja yang dilayani?",
-          "answer": "Kami melayani kebutuhan pelanggan di Jakarta, Bogor, Depok, Tangerang, dan Bekasi dari lokasi usaha di Bungur, Senen, Jakarta Pusat. Sertakan alamat tujuan saat konsultasi agar pilihan pengiriman, biaya, dan waktu perjalanan dapat dikonfirmasi sesuai pesanan."
+          "answer": "Ya, kami melayani kebutuhan cetak dan pengiriman ke seluruh Indonesia."
         },
         {
           "question": "Bagaimana biaya pengiriman dihitung?",
@@ -2444,20 +2444,20 @@
     ],
     "machines": [
       {
-        "name": "Print digital Konica C1060",
-        "image": "/media/mesin-web/konica-c1060.webp"
+        "name": "Mesin cetak SM 74",
+        "image": "/media/mesin-web/sm-74.webp"
       },
       {
         "name": "Mesin cetak SM 52",
         "image": "/media/mesin-web/sm-52.webp"
       },
       {
-        "name": "Mesin cetak SM 74",
-        "image": "/media/mesin-web/sm-74.webp"
-      },
-      {
         "name": "Mesin cetak indoor",
         "image": "/media/mesin-web/mesin-indoor.webp"
+      },
+      {
+        "name": "Print digital Konica C1060",
+        "image": "/media/mesin-web/konica-c1060.webp"
       },
       {
         "name": "Cutting plotter Jinka",

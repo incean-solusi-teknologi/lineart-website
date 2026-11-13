@@ -6,7 +6,7 @@ export const Route = createFileRoute('/faq')({
     seoHead({
       title: 'FAQ Pemesanan Percetakan & Packaging',
       description:
-        'Panduan pemesanan cetak digital, kalender, banner, dan packaging. Informasi desain, harga, produksi, serta pengiriman di Jabodetabek.',
+        'Panduan pemesanan cetak digital, kalender, banner, dan packaging. Informasi desain, harga, produksi, serta pengiriman ke seluruh Indonesia.',
       path: '/faq',
       schemas: [breadcrumbSchema([{ label: 'FAQ', path: '/faq' }])],
     }),

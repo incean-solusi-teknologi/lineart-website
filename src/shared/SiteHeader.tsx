@@ -11,19 +11,27 @@ function SearchForm({
   id: string;
   inputRef?: RefObject<HTMLInputElement | null>;
 }) {
+  const query = useLocation({
+    select: (location) =>
+      location.pathname === '/katalog'
+        ? (new URLSearchParams(location.searchStr).get('q') ?? '')
+        : '',
+  });
   return (
     <search className="search-form print-search-form">
       <form className="contents" action="/katalog">
         <label className="sr-only" htmlFor={id}>
-          Cari produk
+          Cari semua produk
         </label>
         <input
+          key={query}
           id={id}
           ref={inputRef}
           name="q"
           type="search"
           maxLength={120}
-          placeholder="Cari box, banner, spanduk, kalender…"
+          defaultValue={query}
+          placeholder="Cari semua produk…"
         />
         <button type="submit">Cari</button>
       </form>

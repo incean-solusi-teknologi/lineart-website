@@ -25,10 +25,10 @@ export default function ProductDetail({ product }: { product: Product }) {
             </p>
           )}
           <p className="product-description">{product.description}</p>
+          <ProductSpecifications product={product} />
           <ProductConfiguration product={product} />
         </section>
       </div>
-      <ProductSpecifications product={product} />
       <section className="section">
         <div className="section-head">
           <h2>Pilihan lainnya</h2>

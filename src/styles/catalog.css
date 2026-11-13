@@ -794,16 +794,6 @@ details p {
   color: var(--muted);
   margin-bottom: 17px;
 }
-.catalog-toolbar input,
-.catalog-toolbar select {
-  border: 1px solid #d9dce0;
-  border-radius: 6px;
-  background: white;
-  padding: 9px 11px;
-  font-size: 12px;
-  width: 180px;
-  max-width: 100%;
-}
 .catalog-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -885,10 +875,10 @@ details p {
 }
 .detail-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1fr);
   align-items: start;
-  gap: 48px;
-  margin-top: 20px;
+  gap: 40px;
+  margin-top: 16px;
 }
 .product-gallery {
   position: sticky;
@@ -1039,7 +1029,7 @@ details p {
   line-height: 1.6;
 }
 .product-info > .product-description {
-  margin-bottom: 28px;
+  margin-bottom: 24px;
 }
 .product-info > .prototype-note {
   margin-bottom: 12px;
@@ -1333,28 +1323,23 @@ details p {
   line-height: 1.5;
   text-align: center;
 }
-.detail-lower {
-  margin-top: 48px;
+.product-specifications {
+  margin-bottom: 24px;
   border-top: 1px solid var(--line);
-  padding-top: 28px;
+  padding-top: 20px;
 }
-.detail-lower h2 {
-  font-size: 23px;
-  margin-bottom: 20px;
-}
-.product-facts {
-  display: grid;
-  gap: 36px;
-  max-width: 700px;
+.product-specifications h2 {
+  font-size: 18px;
+  margin-bottom: 12px;
 }
 .facts {
   margin: 0;
 }
 .facts > div {
-  display: flex;
-  justify-content: space-between;
-  gap: 25px;
-  padding: 13px 0;
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  gap: 16px;
+  padding: 10px 0;
   border-bottom: 1px solid var(--line);
   font-size: 13px;
 }
@@ -1364,11 +1349,7 @@ details p {
 .facts dd {
   margin: 0;
   text-align: right;
-}
-.product-facts p {
-  font-size: 13px;
-  color: var(--muted);
-  margin-bottom: 13px;
+  overflow-wrap: anywhere;
 }
 .product-facts p:last-child {
   margin-bottom: 0;
@@ -1391,10 +1372,6 @@ details p {
 .price-table td:last-child,
 .price-table th:last-child {
   text-align: right;
-}
-.product-facts .fine {
-  font-size: 11px;
-  margin-top: 10px;
 }
 .related-grid {
   display: grid;
@@ -1553,9 +1530,6 @@ details p {
   }
   .catalog-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-  .product-facts {
-    gap: 36px;
   }
   .header-nav {
     gap: 24px;
@@ -1810,10 +1784,6 @@ details p {
   .choice > span {
     font-size: 12px;
   }
-  .product-facts {
-    grid-template-columns: 1fr;
-    gap: 30px;
-  }
   .related-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 15px;
@@ -1827,9 +1797,6 @@ details p {
   .preview-contact textarea {
     padding: 16px;
     font-size: 12px;
-  }
-  .detail-lower {
-    margin-top: 34px;
   }
 }
 @media (max-width: 430px) {
@@ -1926,9 +1893,6 @@ details p {
   }
   .category-banner h1 {
     font-size: 26px;
-  }
-  .catalog-toolbar input {
-    width: 150px;
   }
   .card-info {
     padding: 12px;
