@@ -153,7 +153,7 @@
         {
           "name": "Buku dan Agenda",
           "image": "/media/home-reference/books.jpg",
-          "href": "/kontak?pesan=Saya%20ingin%20konsultasi%20cetak%20buku%20dan%20agenda."
+          "href": "/kategori/buku-dan-agenda"
         },
         {
           "name": "Shopping Bag",
@@ -228,6 +228,17 @@
       "heading": "Shopping bag custom untuk produk dan acara",
       "seoTitle": "Shopping Bag Custom Jakarta | LINE Art media",
       "seoDescription": "Shopping bag custom dengan pegangan pita atau tali. Konsultasikan ukuran, bahan, desain, serta jumlah pesanan di LINE Art media, Jakarta Pusat."
+    },
+    {
+      "slug": "buku-dan-agenda",
+      "name": "Buku dan Agenda",
+      "description": "Pilihan buku dan agenda custom untuk kebutuhan kantor, acara, dan informasi. Konsultasikan desain, ukuran, bahan, serta jumlah pesanan.",
+      "tone": "ice",
+      "src": "/products/Buku%20dan%20Agenda/Eropa%20Agenda%20Spiral%2BPulpen.png",
+      "alt": "Contoh agenda spiral dengan pulpen",
+      "heading": "Buku dan agenda custom",
+      "seoTitle": "Buku dan Agenda Custom Jakarta",
+      "seoDescription": "Buku dan agenda custom untuk kebutuhan kantor, acara, dan informasi. Konsultasikan desain, ukuran, bahan, serta jumlah pesanan di LINE Art media."
     }
   ],
   "products": [
@@ -2236,6 +2247,218 @@
         {
           "label": "Kustomisasi",
           "value": "Ukuran, bahan, warna, dan desain dikonfirmasi saat konsultasi"
+        }
+      ]
+    },
+    {
+      "slug": "agenda-sampul-kalep",
+      "name": "Agenda Sampul Kalep",
+      "price": 0,
+      "moq": 1,
+      "size": "",
+      "category": "buku-dan-agenda",
+      "image": "/products/Buku%20dan%20Agenda/Agenda%20DKI%20Kalep%20Kulit.png",
+      "kind": "book",
+      "description": "Agenda dengan contoh sampul cokelat bertekstur dan detail jahitan. Foto menampilkan logo dan tahun pada sampul serta pulpen di sampingnya. Ukuran, bahan, jumlah halaman, dan penjilidan dikonfirmasi saat konsultasi.",
+      "sizes": [
+        {
+          "id": "standard",
+          "label": "Sesuai kebutuhan"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "colors": [],
+      "gallery": ["/products/Buku%20dan%20Agenda/Agenda%20DKI%20Kalep%20Kulit.png"],
+      "generatedIllustration": false,
+      "useCase": "Kebutuhan kantor, acara, dan informasi",
+      "modelLabel": "Sampul cokelat bertekstur",
+      "modelReferences": [],
+      "seoTitle": "Agenda Sampul Kalep Custom Jakarta | LINE Art media",
+      "seoDescription": "Agenda Sampul Kalep untuk kebutuhan kantor, acara, dan informasi. Konsultasikan desain, ukuran, bahan, dan jumlah pesanan di LINE Art media.",
+      "specifications": [
+        {
+          "label": "Model contoh",
+          "value": "Sampul cokelat bertekstur"
+        },
+        {
+          "label": "Ukuran, bahan, dan isi",
+          "value": "Dikonfirmasi saat konsultasi"
+        }
+      ]
+    },
+    {
+      "slug": "agenda-spiral-pulpen",
+      "name": "Agenda Spiral dengan Pulpen",
+      "price": 0,
+      "moq": 1,
+      "size": "",
+      "category": "buku-dan-agenda",
+      "image": "/products/Buku%20dan%20Agenda/Eropa%20Agenda%20Spiral%2BPulpen.png",
+      "kind": "book",
+      "description": "Agenda bersampul biru dengan jilid spiral dan contoh pulpen pada sisi sampul. Logo dan desain sampul dapat dibahas saat konsultasi. Ukuran, bahan, jumlah halaman, dan penjilidan dikonfirmasi saat konsultasi.",
+      "sizes": [
+        {
+          "id": "standard",
+          "label": "Sesuai kebutuhan"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "colors": [],
+      "gallery": ["/products/Buku%20dan%20Agenda/Eropa%20Agenda%20Spiral%2BPulpen.png"],
+      "generatedIllustration": false,
+      "useCase": "Kebutuhan kantor, acara, dan informasi",
+      "modelLabel": "Jilid spiral dengan contoh pulpen",
+      "modelReferences": [],
+      "seoTitle": "Agenda Spiral dengan Pulpen Custom Jakarta | LINE Art media",
+      "seoDescription": "Agenda Spiral dengan Pulpen untuk kebutuhan kantor, acara, dan informasi. Konsultasikan desain, ukuran, bahan, dan jumlah pesanan di LINE Art media.",
+      "specifications": [
+        {
+          "label": "Model contoh",
+          "value": "Jilid spiral dengan contoh pulpen"
+        },
+        {
+          "label": "Ukuran, bahan, dan isi",
+          "value": "Dikonfirmasi saat konsultasi"
+        }
+      ]
+    },
+    {
+      "slug": "agenda-sampul-ilustrasi",
+      "name": "Agenda Sampul Ilustrasi",
+      "price": 0,
+      "moq": 1,
+      "size": "",
+      "category": "buku-dan-agenda",
+      "image": "/products/Buku%20dan%20Agenda/Agenda%20Aquarium%20Bending.png",
+      "kind": "book",
+      "description": "Agenda dengan contoh sampul putih berilustrasi satwa dan logo. Desain sampul dan isi dapat dibahas saat konsultasi. Ukuran, bahan, jumlah halaman, dan penjilidan dikonfirmasi saat konsultasi.",
+      "sizes": [
+        {
+          "id": "standard",
+          "label": "Sesuai kebutuhan"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "colors": [],
+      "gallery": ["/products/Buku%20dan%20Agenda/Agenda%20Aquarium%20Bending.png"],
+      "generatedIllustration": false,
+      "useCase": "Kebutuhan kantor, acara, dan informasi",
+      "modelLabel": "Sampul berilustrasi",
+      "modelReferences": [],
+      "seoTitle": "Agenda Sampul Ilustrasi Custom Jakarta | LINE Art media",
+      "seoDescription": "Agenda Sampul Ilustrasi untuk kebutuhan kantor, acara, dan informasi. Konsultasikan desain, ukuran, bahan, dan jumlah pesanan di LINE Art media.",
+      "specifications": [
+        {
+          "label": "Model contoh",
+          "value": "Sampul berilustrasi"
+        },
+        {
+          "label": "Ukuran, bahan, dan isi",
+          "value": "Dikonfirmasi saat konsultasi"
+        }
+      ]
+    },
+    {
+      "slug": "buku-informasi-custom",
+      "name": "Buku Informasi Custom",
+      "price": 0,
+      "moq": 1,
+      "size": "",
+      "category": "buku-dan-agenda",
+      "image": "/products/Buku%20dan%20Agenda/Buku%20KIA%202.png",
+      "kind": "book",
+      "description": "Contoh buku informasi dengan sampul merah muda, ilustrasi keluarga, serta judul dan identitas pada bagian depan. Desain dan isi disesuaikan dengan kebutuhan pesanan. Ukuran, bahan, jumlah halaman, dan penjilidan dikonfirmasi saat konsultasi.",
+      "sizes": [
+        {
+          "id": "standard",
+          "label": "Sesuai kebutuhan"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "colors": [],
+      "gallery": ["/products/Buku%20dan%20Agenda/Buku%20KIA%202.png"],
+      "generatedIllustration": false,
+      "useCase": "Kebutuhan kantor, acara, dan informasi",
+      "modelLabel": "Buku dengan sampul cetak",
+      "modelReferences": [],
+      "seoTitle": "Buku Informasi Custom Custom Jakarta | LINE Art media",
+      "seoDescription": "Buku Informasi Custom untuk kebutuhan kantor, acara, dan informasi. Konsultasikan desain, ukuran, bahan, dan jumlah pesanan di LINE Art media.",
+      "specifications": [
+        {
+          "label": "Model contoh",
+          "value": "Buku dengan sampul cetak"
+        },
+        {
+          "label": "Ukuran, bahan, dan isi",
+          "value": "Dikonfirmasi saat konsultasi"
         }
       ]
     }
