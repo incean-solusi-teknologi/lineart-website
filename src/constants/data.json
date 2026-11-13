@@ -151,9 +151,9 @@
           "href": "/kategori/kalender"
         },
         {
-          "name": "Buku & Majalah",
+          "name": "Buku dan Agenda",
           "image": "/media/home-reference/books.jpg",
-          "href": "/kontak?pesan=Saya%20ingin%20konsultasi%20cetak%20buku%20dan%20majalah."
+          "href": "/kontak?pesan=Saya%20ingin%20konsultasi%20cetak%20buku%20dan%20agenda."
         },
         {
           "name": "Merchandise",
