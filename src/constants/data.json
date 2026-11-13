@@ -156,6 +156,11 @@
           "href": "/kontak?pesan=Saya%20ingin%20konsultasi%20cetak%20buku%20dan%20agenda."
         },
         {
+          "name": "Shopping Bag",
+          "image": "/media/home-reference/merchandise.jpg",
+          "href": "/kategori/shopping-bag"
+        },
+        {
           "name": "Merchandise",
           "image": "/media/home-reference/merchandise-tumblers.jpg",
           "href": "/kategori/merchandise"
@@ -212,6 +217,17 @@
       "heading": "Merchandise custom untuk promosi dan acara",
       "seoTitle": "Merchandise Custom Jakarta | LINE Art media",
       "seoDescription": "Merchandise custom: tumbler, botol minum, mug, payung, pin, dan ID card. Konsultasikan desain serta jumlah pesanan di LINE Art media, Jakarta Pusat."
+    },
+    {
+      "slug": "shopping-bag",
+      "name": "Shopping Bag",
+      "description": "Pilihan shopping bag custom dengan pegangan pita atau tali untuk kemasan produk, souvenir acara, dan kebutuhan brand. Konsultasikan ukuran, bahan, serta desain.",
+      "tone": "rose",
+      "src": "/products/Shopping%20Bag/Bapenas.png",
+      "alt": "Shopping bag biru dengan pegangan tali",
+      "heading": "Shopping bag custom untuk produk dan acara",
+      "seoTitle": "Shopping Bag Custom Jakarta | LINE Art media",
+      "seoDescription": "Shopping bag custom dengan pegangan pita atau tali. Konsultasikan ukuran, bahan, desain, serta jumlah pesanan di LINE Art media, Jakarta Pusat."
     }
   ],
   "products": [
@@ -2049,6 +2065,177 @@
         {
           "label": "Spesifikasi dan kelengkapan",
           "value": "Dikonfirmasi saat konsultasi"
+        }
+      ]
+    },
+    {
+      "slug": "shopping-bag-pita-merah",
+      "name": "Shopping Bag Pita Merah",
+      "price": 0,
+      "moq": 1,
+      "size": "",
+      "category": "shopping-bag",
+      "image": "/products/Shopping%20Bag/Gudang%20Garam.png",
+      "kind": "packaging",
+      "description": "Shopping bag merah dengan motif titik keemasan dan pegangan pita merah. Foto menampilkan contoh desain logo pada bagian depan. Ukuran, bahan, warna, serta desain dikonfirmasi saat konsultasi.",
+      "sizes": [
+        {
+          "id": "standard",
+          "label": "Sesuai kebutuhan"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Kertas kemasan sesuai kebutuhan",
+          "price": 0
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Finishing sesuai desain",
+          "price": 0
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Tanpa insert",
+          "price": 0
+        }
+      ],
+      "colors": [],
+      "gallery": ["/products/Shopping%20Bag/Gudang%20Garam.png"],
+      "generatedIllustration": false,
+      "useCase": "Kemasan produk, souvenir acara, dan tas belanja brand",
+      "modelLabel": "Merah dengan pegangan pita",
+      "modelReferences": [],
+      "seoTitle": "Shopping Bag Pita Merah Custom Jakarta | LINE Art media",
+      "seoDescription": "Shopping Bag Pita Merah custom untuk kemasan produk dan souvenir acara. Konsultasikan ukuran, bahan, desain, serta jumlah pesanan di LINE Art media, Jakarta Pusat.",
+      "specifications": [
+        {
+          "label": "Model",
+          "value": "Shopping bag dengan pegangan"
+        },
+        {
+          "label": "Pegangan contoh",
+          "value": "Pegangan pita merah"
+        },
+        {
+          "label": "Kustomisasi",
+          "value": "Ukuran, bahan, warna, dan desain dikonfirmasi saat konsultasi"
+        }
+      ]
+    },
+    {
+      "slug": "shopping-bag-motif-biru",
+      "name": "Shopping Bag Motif Biru",
+      "price": 0,
+      "moq": 1,
+      "size": "",
+      "category": "shopping-bag",
+      "image": "/products/Shopping%20Bag/Bapenas.png",
+      "kind": "packaging",
+      "description": "Shopping bag biru dengan motif dekoratif, cetakan foto bangunan, dan pegangan tali biru. Desain logo serta gambar dapat dibahas untuk kebutuhan acara dan kemasan produk. Ukuran, bahan, dan kelengkapan dikonfirmasi saat konsultasi.",
+      "sizes": [
+        {
+          "id": "standard",
+          "label": "Sesuai kebutuhan"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Kertas kemasan sesuai kebutuhan",
+          "price": 0
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Finishing sesuai desain",
+          "price": 0
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Tanpa insert",
+          "price": 0
+        }
+      ],
+      "colors": [],
+      "gallery": ["/products/Shopping%20Bag/Bapenas.png"],
+      "generatedIllustration": false,
+      "useCase": "Kemasan produk, souvenir acara, dan tas belanja brand",
+      "modelLabel": "Biru bermotif dengan pegangan tali",
+      "modelReferences": [],
+      "seoTitle": "Shopping Bag Motif Biru Custom Jakarta | LINE Art media",
+      "seoDescription": "Shopping Bag Motif Biru custom untuk kemasan produk dan souvenir acara. Konsultasikan ukuran, bahan, desain, serta jumlah pesanan di LINE Art media, Jakarta Pusat.",
+      "specifications": [
+        {
+          "label": "Model",
+          "value": "Shopping bag dengan pegangan"
+        },
+        {
+          "label": "Pegangan contoh",
+          "value": "Pegangan tali biru"
+        },
+        {
+          "label": "Kustomisasi",
+          "value": "Ukuran, bahan, warna, dan desain dikonfirmasi saat konsultasi"
+        }
+      ]
+    },
+    {
+      "slug": "shopping-bag-putih-hijau",
+      "name": "Shopping Bag Putih Hijau",
+      "price": 0,
+      "moq": 1,
+      "size": "",
+      "category": "shopping-bag",
+      "image": "/products/Shopping%20Bag/ST%20Carolus.png",
+      "kind": "packaging",
+      "description": "Shopping bag putih dengan elemen desain hijau dan pegangan tali berwarna terang. Foto memperlihatkan contoh penempatan logo serta informasi pada bagian depan. Ukuran, bahan, warna, dan desain dikonfirmasi saat konsultasi.",
+      "sizes": [
+        {
+          "id": "standard",
+          "label": "Sesuai kebutuhan"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Kertas kemasan sesuai kebutuhan",
+          "price": 0
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Finishing sesuai desain",
+          "price": 0
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Tanpa insert",
+          "price": 0
+        }
+      ],
+      "colors": [],
+      "gallery": ["/products/Shopping%20Bag/ST%20Carolus.png"],
+      "generatedIllustration": false,
+      "useCase": "Kemasan produk, souvenir acara, dan tas belanja brand",
+      "modelLabel": "Putih dengan elemen hijau dan pegangan tali",
+      "modelReferences": [],
+      "seoTitle": "Shopping Bag Putih Hijau Custom Jakarta | LINE Art media",
+      "seoDescription": "Shopping Bag Putih Hijau custom untuk kemasan produk dan souvenir acara. Konsultasikan ukuran, bahan, desain, serta jumlah pesanan di LINE Art media, Jakarta Pusat.",
+      "specifications": [
+        {
+          "label": "Model",
+          "value": "Shopping bag dengan pegangan"
+        },
+        {
+          "label": "Pegangan contoh",
+          "value": "Pegangan tali berwarna terang"
+        },
+        {
+          "label": "Kustomisasi",
+          "value": "Ukuran, bahan, warna, dan desain dikonfirmasi saat konsultasi"
         }
       ]
     }
