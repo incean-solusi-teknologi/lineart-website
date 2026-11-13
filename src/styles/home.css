@@ -590,8 +590,8 @@
 .print-category-card > img {
   width: 100%;
   height: 110px;
-  object-fit: cover;
-  object-position: center 53%;
+  object-fit: contain;
+  object-position: center;
   background: #f0f1f6;
 }
 .print-category-card > div {
@@ -1191,9 +1191,6 @@
   }
   .print-category-card:nth-child(even):hover {
     transform: translateY(-8px) rotate(1.5deg);
-  }
-  .print-category-card:hover > img {
-    transform: scale(1.07) translateY(-2px);
   }
 }
 @media (prefers-reduced-motion: reduce) {
