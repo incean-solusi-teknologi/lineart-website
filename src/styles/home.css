@@ -589,8 +589,9 @@
 }
 .print-category-card > img {
   width: 100%;
-  height: 110px;
-  object-fit: contain;
+  height: auto;
+  aspect-ratio: 11 / 6;
+  object-fit: cover;
   object-position: center;
   background: #f0f1f6;
 }
@@ -952,9 +953,6 @@
   }
   .print-category-card {
     flex-basis: calc((100% - 12px) / 2);
-  }
-  .print-category-card > img {
-    height: 125px;
   }
   .print-category-card > div {
     padding: 11px 10px;
