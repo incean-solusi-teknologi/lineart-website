@@ -33,7 +33,9 @@ export function ProductSpecifications({ product }: { product: Product }) {
               ? 'Siapkan ukuran panjang, lebar, dan tinggi isi, jumlah barang, serta kebutuhan sekat atau penahan.'
               : product.kind === 'calendar'
                 ? 'Siapkan tahun kalender, ukuran, jumlah lembar, logo, serta foto dan susunan halaman yang diinginkan.'
-                : 'Siapkan ukuran cetak, lokasi pemasangan, file desain, serta kebutuhan rangka atau penyangga.'}
+                : product.kind === 'merchandise'
+                  ? 'Siapkan referensi model, warna, serta logo atau file desain. Sebutkan ukuran, kapasitas, dan kelengkapan yang dibutuhkan sesuai jenis merchandise.'
+                  : 'Siapkan ukuran cetak, lokasi pemasangan, file desain, serta kebutuhan rangka atau penyangga.'}
           </p>
           <p>
             Sertakan jumlah pesanan dan tanggal kebutuhan. Harga, minimum pemesanan, spesifikasi

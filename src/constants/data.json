@@ -158,7 +158,7 @@
         {
           "name": "Merchandise",
           "image": "/media/home-reference/merchandise.jpg",
-          "href": "/kontak?pesan=Saya%20ingin%20konsultasi%20merchandise."
+          "href": "/kategori/merchandise"
         },
         {
           "name": "Stationery",
@@ -201,6 +201,17 @@
       "heading": "Cetak kalender meja dan dinding custom",
       "seoTitle": "Cetak Kalender Meja & Dinding Custom Jakarta",
       "seoDescription": "Cetak kalender meja dan dinding custom untuk kantor, promosi brand, dan hadiah perusahaan di Jakarta Pusat. Konsultasikan desain, logo, serta jumlah pesanan."
+    },
+    {
+      "slug": "merchandise",
+      "name": "Merchandise",
+      "description": "Pilihan tumbler, botol minum, mug, payung, pin, dan ID card untuk promosi serta kebutuhan acara. Konsultasikan desain dan jumlah pesanan.",
+      "tone": "ice",
+      "src": "/products/Merchandise/Thumbler%201.png",
+      "alt": "Pilihan tumbler merchandise",
+      "heading": "Merchandise custom untuk promosi dan acara",
+      "seoTitle": "Merchandise Custom Jakarta | LINE Art media",
+      "seoDescription": "Merchandise custom: tumbler, botol minum, mug, payung, pin, dan ID card. Konsultasikan desain serta jumlah pesanan di LINE Art media, Jakarta Pusat."
     }
   ],
   "products": [
@@ -1594,6 +1605,450 @@
         {
           "label": "Tampilan contoh",
           "value": "Dudukan biru untuk meja kerja"
+        }
+      ]
+    },
+    {
+      "slug": "id-card-custom",
+      "name": "ID Card Custom",
+      "price": 0,
+      "moq": 1,
+      "size": "",
+      "category": "merchandise",
+      "image": "/products/Merchandise/ID-Card3.jpg",
+      "kind": "merchandise",
+      "description": "Kartu identitas dengan contoh desain dan tali lanyard. Desain, ukuran, bahan, serta kelengkapan tali dikonfirmasi saat konsultasi.",
+      "sizes": [
+        {
+          "id": "standard",
+          "label": "Dikonfirmasi saat konsultasi"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "colors": [],
+      "gallery": ["/products/Merchandise/ID-Card3.jpg"],
+      "generatedIllustration": false,
+      "useCase": "Souvenir acara, promosi brand, dan hadiah perusahaan",
+      "modelLabel": "",
+      "modelReferences": [],
+      "seoTitle": "ID Card Custom Jakarta | LINE Art media",
+      "seoDescription": "ID Card Custom untuk promosi brand, souvenir acara, dan hadiah perusahaan. Konsultasikan desain serta jumlah pesanan di LINE Art media, Jakarta Pusat.",
+      "specifications": [
+        {
+          "label": "Spesifikasi dan kelengkapan",
+          "value": "Dikonfirmasi saat konsultasi"
+        }
+      ]
+    },
+    {
+      "slug": "pin-custom",
+      "name": "Pin Custom",
+      "price": 0,
+      "moq": 1,
+      "size": "",
+      "category": "merchandise",
+      "image": "/products/Merchandise/Pin.jpg",
+      "kind": "merchandise",
+      "description": "Pin bulat dengan contoh beberapa ukuran dan desain. Ukuran, desain, bahan, serta jumlah pesanan dikonfirmasi saat konsultasi.",
+      "sizes": [
+        {
+          "id": "standard",
+          "label": "Dikonfirmasi saat konsultasi"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "colors": [],
+      "gallery": ["/products/Merchandise/Pin.jpg"],
+      "generatedIllustration": false,
+      "useCase": "Souvenir acara, promosi brand, dan hadiah perusahaan",
+      "modelLabel": "",
+      "modelReferences": [],
+      "seoTitle": "Pin Custom Jakarta | LINE Art media",
+      "seoDescription": "Pin Custom untuk promosi brand, souvenir acara, dan hadiah perusahaan. Konsultasikan desain serta jumlah pesanan di LINE Art media, Jakarta Pusat.",
+      "specifications": [
+        {
+          "label": "Spesifikasi dan kelengkapan",
+          "value": "Dikonfirmasi saat konsultasi"
+        }
+      ]
+    },
+    {
+      "slug": "tumbler-silinder",
+      "name": "Tumbler Silinder",
+      "price": 0,
+      "moq": 1,
+      "size": "",
+      "category": "merchandise",
+      "image": "/products/Merchandise/79a0539c88b402dda6bbda9584a0db.jpeg",
+      "kind": "merchandise",
+      "description": "Tumbler berbentuk silinder dengan contoh warna hitam, putih, merah, dan biru. Bahan, kapasitas, warna, serta penempatan logo dikonfirmasi saat konsultasi.",
+      "sizes": [
+        {
+          "id": "standard",
+          "label": "Dikonfirmasi saat konsultasi"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "colors": [],
+      "gallery": ["/products/Merchandise/79a0539c88b402dda6bbda9584a0db.jpeg"],
+      "generatedIllustration": false,
+      "useCase": "Souvenir acara, promosi brand, dan hadiah perusahaan",
+      "modelLabel": "",
+      "modelReferences": [],
+      "seoTitle": "Tumbler Silinder Jakarta | LINE Art media",
+      "seoDescription": "Tumbler Silinder untuk promosi brand, souvenir acara, dan hadiah perusahaan. Konsultasikan desain serta jumlah pesanan di LINE Art media, Jakarta Pusat.",
+      "specifications": [
+        {
+          "label": "Spesifikasi dan kelengkapan",
+          "value": "Dikonfirmasi saat konsultasi"
+        }
+      ]
+    },
+    {
+      "slug": "tumbler-custom",
+      "name": "Tumbler Custom",
+      "price": 0,
+      "moq": 1,
+      "size": "",
+      "category": "merchandise",
+      "image": "/products/Merchandise/Thumbler%201.png",
+      "kind": "merchandise",
+      "description": "Tumbler bertutup dengan contoh warna hitam, hijau, merah muda, putih, dan biru. Bahan, kapasitas, warna, serta penempatan logo dikonfirmasi saat konsultasi.",
+      "sizes": [
+        {
+          "id": "standard",
+          "label": "Dikonfirmasi saat konsultasi"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "colors": [],
+      "gallery": ["/products/Merchandise/Thumbler%201.png"],
+      "generatedIllustration": false,
+      "useCase": "Souvenir acara, promosi brand, dan hadiah perusahaan",
+      "modelLabel": "",
+      "modelReferences": [],
+      "seoTitle": "Tumbler Custom Jakarta | LINE Art media",
+      "seoDescription": "Tumbler Custom untuk promosi brand, souvenir acara, dan hadiah perusahaan. Konsultasikan desain serta jumlah pesanan di LINE Art media, Jakarta Pusat.",
+      "specifications": [
+        {
+          "label": "Spesifikasi dan kelengkapan",
+          "value": "Dikonfirmasi saat konsultasi"
+        }
+      ]
+    },
+    {
+      "slug": "payung-golf",
+      "name": "Payung Golf",
+      "price": 0,
+      "moq": 1,
+      "size": "",
+      "category": "merchandise",
+      "image": "/products/Merchandise/Payung%20Golf.jpg",
+      "kind": "merchandise",
+      "description": "Payung golf dengan contoh beberapa pilihan warna. Model, ukuran, warna, dan penempatan desain dikonfirmasi saat konsultasi.",
+      "sizes": [
+        {
+          "id": "standard",
+          "label": "Dikonfirmasi saat konsultasi"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "colors": [],
+      "gallery": ["/products/Merchandise/Payung%20Golf.jpg"],
+      "generatedIllustration": false,
+      "useCase": "Souvenir acara, promosi brand, dan hadiah perusahaan",
+      "modelLabel": "",
+      "modelReferences": [],
+      "seoTitle": "Payung Golf Jakarta | LINE Art media",
+      "seoDescription": "Payung Golf untuk promosi brand, souvenir acara, dan hadiah perusahaan. Konsultasikan desain serta jumlah pesanan di LINE Art media, Jakarta Pusat.",
+      "specifications": [
+        {
+          "label": "Spesifikasi dan kelengkapan",
+          "value": "Dikonfirmasi saat konsultasi"
+        }
+      ]
+    },
+    {
+      "slug": "mug-custom",
+      "name": "Mug Custom",
+      "price": 0,
+      "moq": 1,
+      "size": "",
+      "category": "merchandise",
+      "image": "/products/Merchandise/Kotak_version_3x.jpg",
+      "kind": "merchandise",
+      "description": "Mug bergagang dengan contoh desain logo. Model, bahan, ukuran, serta desain cetak dikonfirmasi saat konsultasi.",
+      "sizes": [
+        {
+          "id": "standard",
+          "label": "Dikonfirmasi saat konsultasi"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "colors": [],
+      "gallery": [
+        "/products/Merchandise/Kotak_version_3x.jpg",
+        "/products/Merchandise/Kotak_version_3x.png"
+      ],
+      "generatedIllustration": false,
+      "useCase": "Souvenir acara, promosi brand, dan hadiah perusahaan",
+      "modelLabel": "",
+      "modelReferences": [],
+      "seoTitle": "Mug Custom Jakarta | LINE Art media",
+      "seoDescription": "Mug Custom untuk promosi brand, souvenir acara, dan hadiah perusahaan. Konsultasikan desain serta jumlah pesanan di LINE Art media, Jakarta Pusat.",
+      "specifications": [
+        {
+          "label": "Spesifikasi dan kelengkapan",
+          "value": "Dikonfirmasi saat konsultasi"
+        }
+      ]
+    },
+    {
+      "slug": "tumbler-pendek",
+      "name": "Tumbler Pendek",
+      "price": 0,
+      "moq": 1,
+      "size": "",
+      "category": "merchandise",
+      "image": "/products/Merchandise/d60bb110de1b75012dbee55d0d154e2e.jpg_720x720q80.jpg",
+      "kind": "merchandise",
+      "description": "Tumbler pendek bertutup dengan contoh beberapa pilihan warna. Bahan, kapasitas, warna, serta penempatan logo dikonfirmasi saat konsultasi.",
+      "sizes": [
+        {
+          "id": "standard",
+          "label": "Dikonfirmasi saat konsultasi"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "colors": [],
+      "gallery": ["/products/Merchandise/d60bb110de1b75012dbee55d0d154e2e.jpg_720x720q80.jpg"],
+      "generatedIllustration": false,
+      "useCase": "Souvenir acara, promosi brand, dan hadiah perusahaan",
+      "modelLabel": "",
+      "modelReferences": [],
+      "seoTitle": "Tumbler Pendek Jakarta | LINE Art media",
+      "seoDescription": "Tumbler Pendek untuk promosi brand, souvenir acara, dan hadiah perusahaan. Konsultasikan desain serta jumlah pesanan di LINE Art media, Jakarta Pusat.",
+      "specifications": [
+        {
+          "label": "Spesifikasi dan kelengkapan",
+          "value": "Dikonfirmasi saat konsultasi"
+        }
+      ]
+    },
+    {
+      "slug": "botol-minum-custom",
+      "name": "Botol Minum Custom",
+      "price": 0,
+      "moq": 1,
+      "size": "",
+      "category": "merchandise",
+      "image": "/products/Merchandise/id-11134207-7ras9-m5onwrpjfycd9b.jpg",
+      "kind": "merchandise",
+      "description": "Botol minum dengan tutup ulir dan contoh beberapa pilihan warna. Bahan, kapasitas, warna, serta desain logo dikonfirmasi saat konsultasi.",
+      "sizes": [
+        {
+          "id": "standard",
+          "label": "Dikonfirmasi saat konsultasi"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "colors": [],
+      "gallery": ["/products/Merchandise/id-11134207-7ras9-m5onwrpjfycd9b.jpg"],
+      "generatedIllustration": false,
+      "useCase": "Souvenir acara, promosi brand, dan hadiah perusahaan",
+      "modelLabel": "",
+      "modelReferences": [],
+      "seoTitle": "Botol Minum Custom Jakarta | LINE Art media",
+      "seoDescription": "Botol Minum Custom untuk promosi brand, souvenir acara, dan hadiah perusahaan. Konsultasikan desain serta jumlah pesanan di LINE Art media, Jakarta Pusat.",
+      "specifications": [
+        {
+          "label": "Spesifikasi dan kelengkapan",
+          "value": "Dikonfirmasi saat konsultasi"
+        }
+      ]
+    },
+    {
+      "slug": "payung-standar",
+      "name": "Payung Standar",
+      "price": 0,
+      "moq": 1,
+      "size": "",
+      "category": "merchandise",
+      "image": "/products/Merchandise/Payung%20Standar.jpeg",
+      "kind": "merchandise",
+      "description": "Payung dengan contoh beberapa pilihan warna. Model, ukuran, warna, serta penempatan desain dikonfirmasi saat konsultasi.",
+      "sizes": [
+        {
+          "id": "standard",
+          "label": "Dikonfirmasi saat konsultasi"
+        }
+      ],
+      "materials": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "finishes": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "inserts": [
+        {
+          "label": "Dikonfirmasi saat konsultasi",
+          "price": 0
+        }
+      ],
+      "colors": [],
+      "gallery": ["/products/Merchandise/Payung%20Standar.jpeg"],
+      "generatedIllustration": false,
+      "useCase": "Souvenir acara, promosi brand, dan hadiah perusahaan",
+      "modelLabel": "",
+      "modelReferences": [],
+      "seoTitle": "Payung Standar Jakarta | LINE Art media",
+      "seoDescription": "Payung Standar untuk promosi brand, souvenir acara, dan hadiah perusahaan. Konsultasikan desain serta jumlah pesanan di LINE Art media, Jakarta Pusat.",
+      "specifications": [
+        {
+          "label": "Spesifikasi dan kelengkapan",
+          "value": "Dikonfirmasi saat konsultasi"
         }
       ]
     }
