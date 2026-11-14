@@ -25,9 +25,9 @@ export function Hero() {
             <div className="print-product-sheet">
               <span className="print-crop-marks" aria-hidden="true" />
               <img
-                src="/media/home-reference/products.png"
-                alt="Ilustrasi produk LINE-Art: paper bag, box packaging, kalender, company profile, majalah, dan stationery"
-                width="1949"
+                src="/media/home-reference/products-tumblers.png"
+                alt="Ilustrasi produk LINE-Art: paper bag, box packaging, kalender, company profile, stationery, serta tumbler biru dan putih"
+                width="1950"
                 height="807"
                 fetchPriority="high"
               />
