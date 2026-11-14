@@ -11,14 +11,10 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as SplatRouteImport } from './routes/$'
-import { Route as FaqRouteImport } from './routes/faq'
 import { Route as KatalogRouteImport } from './routes/katalog'
-import { Route as KontakRouteImport } from './routes/kontak'
 import { Route as RobotsDottxtRouteImport } from './routes/robots[.]txt'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as TentangKamiRouteImport } from './routes/tentang-kami'
-import { Route as ArtikelIndexRouteImport } from './routes/artikel/index'
-import { Route as ArtikelSlugRouteImport } from './routes/artikel/$slug'
 import { Route as KategoriSlugRouteImport } from './routes/kategori/$slug'
 import { Route as ProdukSlugRouteImport } from './routes/produk/$slug'
 
@@ -32,19 +28,9 @@ const SplatRoute = SplatRouteImport.update({
   path: '/$',
   getParentRoute: () => rootRouteImport,
 } as any)
-const FaqRoute = FaqRouteImport.update({
-  id: '/faq',
-  path: '/faq',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const KatalogRoute = KatalogRouteImport.update({
   id: '/katalog',
   path: '/katalog',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const KontakRoute = KontakRouteImport.update({
-  id: '/kontak',
-  path: '/kontak',
   getParentRoute: () => rootRouteImport,
 } as any)
 const RobotsDottxtRoute = RobotsDottxtRouteImport.update({
@@ -62,16 +48,6 @@ const TentangKamiRoute = TentangKamiRouteImport.update({
   path: '/tentang-kami',
   getParentRoute: () => rootRouteImport,
 } as any)
-const ArtikelIndexRoute = ArtikelIndexRouteImport.update({
-  id: '/artikel/',
-  path: '/artikel/',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const ArtikelSlugRoute = ArtikelSlugRouteImport.update({
-  id: '/artikel/$slug',
-  path: '/artikel/$slug',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const KategoriSlugRoute = KategoriSlugRouteImport.update({
   id: '/kategori/$slug',
   path: '/kategori/$slug',
@@ -86,104 +62,76 @@ const ProdukSlugRoute = ProdukSlugRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/$': typeof SplatRoute
-  '/faq': typeof FaqRoute
   '/katalog': typeof KatalogRoute
-  '/kontak': typeof KontakRoute
   '/robots.txt': typeof RobotsDottxtRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/tentang-kami': typeof TentangKamiRoute
-  '/artikel/$slug': typeof ArtikelSlugRoute
   '/kategori/$slug': typeof KategoriSlugRoute
   '/produk/$slug': typeof ProdukSlugRoute
-  '/artikel/': typeof ArtikelIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/$': typeof SplatRoute
-  '/faq': typeof FaqRoute
   '/katalog': typeof KatalogRoute
-  '/kontak': typeof KontakRoute
   '/robots.txt': typeof RobotsDottxtRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/tentang-kami': typeof TentangKamiRoute
-  '/artikel/$slug': typeof ArtikelSlugRoute
   '/kategori/$slug': typeof KategoriSlugRoute
   '/produk/$slug': typeof ProdukSlugRoute
-  '/artikel': typeof ArtikelIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/$': typeof SplatRoute
-  '/faq': typeof FaqRoute
   '/katalog': typeof KatalogRoute
-  '/kontak': typeof KontakRoute
   '/robots.txt': typeof RobotsDottxtRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/tentang-kami': typeof TentangKamiRoute
-  '/artikel/$slug': typeof ArtikelSlugRoute
   '/kategori/$slug': typeof KategoriSlugRoute
   '/produk/$slug': typeof ProdukSlugRoute
-  '/artikel/': typeof ArtikelIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
     | '/$'
-    | '/faq'
     | '/katalog'
-    | '/kontak'
     | '/robots.txt'
     | '/sitemap.xml'
     | '/tentang-kami'
-    | '/artikel/$slug'
     | '/kategori/$slug'
     | '/produk/$slug'
-    | '/artikel/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/$'
-    | '/faq'
     | '/katalog'
-    | '/kontak'
     | '/robots.txt'
     | '/sitemap.xml'
     | '/tentang-kami'
-    | '/artikel/$slug'
     | '/kategori/$slug'
     | '/produk/$slug'
-    | '/artikel'
   id:
     | '__root__'
     | '/'
     | '/$'
-    | '/faq'
     | '/katalog'
-    | '/kontak'
     | '/robots.txt'
     | '/sitemap.xml'
     | '/tentang-kami'
-    | '/artikel/$slug'
     | '/kategori/$slug'
     | '/produk/$slug'
-    | '/artikel/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   SplatRoute: typeof SplatRoute
-  FaqRoute: typeof FaqRoute
   KatalogRoute: typeof KatalogRoute
-  KontakRoute: typeof KontakRoute
   RobotsDottxtRoute: typeof RobotsDottxtRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   TentangKamiRoute: typeof TentangKamiRoute
-  ArtikelSlugRoute: typeof ArtikelSlugRoute
   KategoriSlugRoute: typeof KategoriSlugRoute
   ProdukSlugRoute: typeof ProdukSlugRoute
-  ArtikelIndexRoute: typeof ArtikelIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -202,25 +150,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SplatRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/faq': {
-      id: '/faq'
-      path: '/faq'
-      fullPath: '/faq'
-      preLoaderRoute: typeof FaqRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/katalog': {
       id: '/katalog'
       path: '/katalog'
       fullPath: '/katalog'
       preLoaderRoute: typeof KatalogRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/kontak': {
-      id: '/kontak'
-      path: '/kontak'
-      fullPath: '/kontak'
-      preLoaderRoute: typeof KontakRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/robots.txt': {
@@ -244,20 +178,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof TentangKamiRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/artikel/': {
-      id: '/artikel/'
-      path: '/artikel'
-      fullPath: '/artikel/'
-      preLoaderRoute: typeof ArtikelIndexRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/artikel/$slug': {
-      id: '/artikel/$slug'
-      path: '/artikel/$slug'
-      fullPath: '/artikel/$slug'
-      preLoaderRoute: typeof ArtikelSlugRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/kategori/$slug': {
       id: '/kategori/$slug'
       path: '/kategori/$slug'
@@ -278,16 +198,12 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   SplatRoute: SplatRoute,
-  FaqRoute: FaqRoute,
   KatalogRoute: KatalogRoute,
-  KontakRoute: KontakRoute,
   RobotsDottxtRoute: RobotsDottxtRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   TentangKamiRoute: TentangKamiRoute,
-  ArtikelSlugRoute: ArtikelSlugRoute,
   KategoriSlugRoute: KategoriSlugRoute,
   ProdukSlugRoute: ProdukSlugRoute,
-  ArtikelIndexRoute: ArtikelIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

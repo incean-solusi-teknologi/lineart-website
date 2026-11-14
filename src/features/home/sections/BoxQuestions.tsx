@@ -8,9 +8,6 @@ export function BoxQuestions() {
         <div>
           <h2 id="box-questions-title">Sebelum memesan</h2>
         </div>
-        <a className="text-link" href="/faq">
-          Panduan pemesanan lengkap
-        </a>
       </div>
       <div className="faq-group">
         {masterData.home.boxQuestions.map((item) => (

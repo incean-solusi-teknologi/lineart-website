@@ -3,14 +3,5 @@
   "framework": "tanstack-start",
   "installCommand": "bun install --frozen-lockfile",
   "buildCommand": "bun run build",
-  "bunVersion": "1.x",
-  "headers": [
-    {
-      "source": "/kontak",
-      "headers": [
-        { "key": "Cache-Control", "value": "private, no-store" },
-        { "key": "X-Robots-Tag", "value": "noindex" }
-      ]
-    }
-  ]
+  "bunVersion": "1.x"
 }

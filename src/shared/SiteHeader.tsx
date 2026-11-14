@@ -204,9 +204,6 @@ function MobileNavigation({ pathname }: { pathname: string }) {
             >
               Tentang Kami
             </a>
-            <a href="/faq" aria-current={pathname === '/faq' ? 'page' : undefined}>
-              Panduan Pemesanan
-            </a>
           </nav>
           <a
             className="button print-whatsapp"

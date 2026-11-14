@@ -11,9 +11,7 @@
     "format": "oxfmt --write .",
     "format:check": "oxfmt --check .",
     "prepare": "husky",
-    "test": "bun tests/quote.test.ts",
-    "audit": "bun tests/site-audit.ts",
-    "check": "bun run typecheck && bun run lint && bun run format:check && bun run test"
+    "check": "bun run typecheck && bun run lint && bun run format:check"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.105.0",

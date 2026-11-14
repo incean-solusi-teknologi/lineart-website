@@ -24,12 +24,9 @@ export function SiteFooter() {
         <div>
           <h3>Hubungi kami</h3>
           <a href="/tentang-kami">Tentang kami</a>
-          <a href="/artikel">Artikel</a>
           <a href={whatsappLink()} target="_blank" rel="noopener noreferrer">
             Konsultasi via WhatsApp
           </a>
-          <a href="/faq">Cara pemesanan</a>
-          <a href="/faq">Pertanyaan umum</a>
         </div>
       </div>
       <div className="container footer-bottom">

@@ -182,17 +182,7 @@ html[data-site-intro='playing'] .brand > .intro-brand {
 .faq-answer[open] summary:after {
   transform: rotate(45deg);
 }
-.faq-sidebar nav a {
-  transition:
-    background 0.2s,
-    color 0.2s;
-}
-.article-card {
-  transition: transform 0.35s var(--motion-ease);
-}
-.article-card img {
-  transition: filter 0.3s;
-}
+
 @keyframes menu-arrive {
   from {
     opacity: 0;
@@ -220,12 +210,6 @@ html[data-site-intro='playing'] .brand > .intro-brand {
   .gallery-thumbs button:hover {
     transform: translateY(-2px);
   }
-  .article-card:hover {
-    transform: translateY(-4px);
-  }
-  .article-card:hover img {
-    filter: brightness(1.04);
-  }
 }
 @media (prefers-reduced-motion: reduce) {
   html {
@@ -241,7 +225,6 @@ html[data-site-intro='playing'] .brand > .intro-brand {
   .button:active,
   .collection:hover,
   .product-card:hover,
-  .article-card:hover,
   .gallery-thumbs button:hover,
   .hero-calendar:hover img {
     transform: none;

@@ -1,4 +1,4 @@
-import { masterData, whatsappLink } from '@/data';
+import { masterData } from '@/data';
 
 function BenefitIcon({ name }: { name: string }) {
   return (
@@ -67,19 +67,7 @@ export function PrintingOverview() {
             </div>
             <div className="print-category-grid">
               {printing.categories.map((category) => (
-                <a
-                  className="print-category-card"
-                  href={
-                    category.href.startsWith('/kontak?pesan=')
-                      ? whatsappLink(decodeURIComponent(category.href.split('=')[1]))
-                      : category.href
-                  }
-                  target={category.href.startsWith('/kontak?pesan=') ? '_blank' : undefined}
-                  rel={
-                    category.href.startsWith('/kontak?pesan=') ? 'noopener noreferrer' : undefined
-                  }
-                  key={category.name}
-                >
+                <a className="print-category-card" href={category.href} key={category.name}>
                   <img
                     src={category.image}
                     alt={`Ilustrasi ${category.name}`}
